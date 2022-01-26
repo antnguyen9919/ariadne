@@ -93,10 +93,12 @@ function NavBar() {
     
                         </li>
                         <div class="dropdown-content"> 
-                                <a href="/ariadne-analytics">Ariadne Analytics     </a>
-                                <a href="/ariadne-mapping">Ariadne Mapping</a>
-                                <a href="/ariadne-navigation">Ariadne Navigation</a>
-                                <a href="/ariadne-engagement">Ariadne Engagement</a>
+                                
+                                <Link to ="/ariadne-analytics">Ariadne Analytics</Link>
+                                <Link to ="/ariadne-mapping">Ariadne Mapping</Link>
+                                <Link to ="/ariadne-navigation">Ariadne Navigation</Link>
+                                <Link to ="/ariadne-engagement">Ariadne Engagement</Link>
+                                
                                                 </div>
                         </div>
                         <div class="dropdown">
@@ -109,12 +111,13 @@ function NavBar() {
     
                         </li>
                         <div class="dropdown-content"> 
-                             <a href="/retail-stores">Retail Stores</a>
-                                <a href="/shopping-centres">Shopping Centres</a>
-                                <a href="/airports">Airports </a>
-                                <a href="/transportation">Transportation</a>
-                                <a href="/cities">Cities</a>
-                                <a href="/hospitality">Hospitalities</a>
+                        <Link to ="/retail-stores">Retail Stores</Link>
+                        <Link to ="/shopping-centres">Shopping Centres</Link>
+                        <Link to ="/airports">Airports </Link>
+                        <Link to ="/transportation">Transportation</Link>
+                        <Link to ="/cities">Cities</Link>
+                        <Link to ="/hospitality">Hospitalities</Link>
+                            
                                                 </div>
                         </div>
                         <li className='nav--item'>
@@ -133,10 +136,11 @@ function NavBar() {
     
                         </li>
                         <div class="dropdown-content-c"> 
-                                <a href="/about-us">About Us</a>
-                                <a href="/careers">Careers</a>
-                                <a href="/blog">Blog</a>
-                                <a href="/contact">Contact</a>
+                        <Link to ="/about-us">About Us</Link>
+                        <Link to ="/careers">Careers</Link>
+                        <Link to ="/blog">Blog</Link>
+                        <Link to ="/contact">Contact</Link>
+                                
                                
                                                 </div>
                         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import  Button from './Button';
+import './NavBar.css';
 import { Link } from 'react-router-dom';
 
 
@@ -54,14 +55,18 @@ function Footer() {
           
           <div class='footer-link-items'>
             <h3>Social Media</h3>
-            <Link to='/'>Instagram <i class='fab fa-instagram' /></Link>
-            <Link to='/'>Facebook <i class='fab fa-facebook-f' /></Link>
-            <Link to='/'>Youtube <i class='fab fa-youtube' /></Link>
-            <Link to='/'>Twitter <i class='fab fa-twitter' /></Link>
-            <Link to='/'>LinkedIn <i class='fab fa-linkedin' /></Link>
+            {/* <Link to='/'>Instagram <i class='fab fa-instagram' /></Link> */}
+            
+            <a href='https://www.facebook.com/ariadnemaps/'>Facebook <i class='fab fa-facebook-f' /></a>
+            <a href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'>Youtube <i class='fab fa-youtube' /></a>
+            <a href='https://twitter.com/ariadne_maps'>Twitter <i class='fab fa-twitter' /></a>
+            <a href='https://www.linkedin.com/company/ariadne-maps'>LinkedIn <i class='fab fa-linkedin' /></a>
+          
+           
+            
           </div>
           <div class='footer-link-items'>
-          <Button buttonStyle='btn--outline'>Contact Us</Button>
+          <button className ='normal-btn-footer' type="button"><Link to ='/contact'>LET'S TALK!</Link></button>
             <p>Ariadne Maps GmbH
 
                 Brecherspitzstraße 8
