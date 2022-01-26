@@ -50,27 +50,27 @@ function App() {
       <NavBar/>
           
           <Routes>
-            <Route path = "/" exact element = {<Home/>}/>
-          <Route path = "/products" element = {<Products/>}/>
-          <Route path = "/industries" element = {<Industries/>}/>
-          <Route path = "/why-ariadne" element = {<WhyAriadne/>}/>
-          <Route path = "/company" element = {<Company/>}/>
-          <Route path = "/ariadne-analytics" element = {<Analytics/>}/>
-          <Route path = "/ariadne-mapping" element = {<Mapping/>}/>
-          <Route path = "/ariadne-navigation" element = {<Navigation/>}/>
-          <Route path = "/ariadne-engagement" element = {<Engagement/>}/>
-          <Route path = "/retail-stores" element = {<Retail/>}/>
+            <Route exact path = "/"  element = {<Home/>}/>
+          <Route exact path = "/products" element = {<Products/>}/>
+          <Route exact path = "/industries" element = {<Industries/>}/>
+          <Route exact path = "/why-ariadne" element = {<WhyAriadne/>}/>
+          <Route exact path = "/company" element = {<Company/>}/>
+          <Route exact path = "/ariadne-analytics" element = {<Analytics/>}/>
+          <Route exact path = "/ariadne-mapping" element = {<Mapping/>}/>
+          <Route exact path = "/ariadne-navigation" element = {<Navigation/>}/>
+          <Route exact path = "/ariadne-engagement" element = {<Engagement/>}/>
+          <Route exact path = "/retail-stores" element = {<Retail/>}/>
 
-          <Route path = "/shopping-centres" element = {<Mall/>}/>
-          <Route path = "/airports" exact element = {<Airport/>}/>
-          <Route path = "/transportation" element = {<Transport/>}/>
-          <Route path = "/cities" element = {<Cities/>}/>
-          <Route path = "/hospitality" element = {<Hospitality/>}/>
+          <Route exact path = "/shopping-centres" element = {<Mall/>}/>
+          <Route exact path = "/airports" exact element = {<Airport/>}/>
+          <Route exact path = "/transportation" element = {<Transport/>}/>
+          <Route exact path = "/cities" element = {<Cities/>}/>
+          <Route exact path = "/hospitality" element = {<Hospitality/>}/>
 
-          <Route path = "/about-us" element = {<About/>}/>
-          <Route path = "/blog" element = {<Blog/>}/>
-          <Route path = "/careers" element = {<Career/>}/>
-          <Route path = "/contact" element = {<Contact/>}/>
+          <Route exact path = "/about-us" element = {<About/>}/>
+          <Route exact path = "/blog" element = {<Blog/>}/>
+          <Route exact path = "/careers" element = {<Career/>}/>
+          <Route exact path = "/contact" element = {<Contact/>}/>
           </Routes>
           <Footer/>
           </ScrollToTop>
