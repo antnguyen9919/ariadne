@@ -61,16 +61,16 @@ function App() {
           <Route exact path = "/ariadne-engagement" element = {<Engagement/>}/>
           <Route exact path = "/retail-stores" element = {<Retail/>}/>
 
-          <Route exact path = "/shopping-centres" element = {<Mall/>}/>
-          <Route exact path = "/airports" exact element = {<Airport/>}/>
-          <Route exact path = "/transportation" element = {<Transport/>}/>
-          <Route exact path = "/cities" element = {<Cities/>}/>
-          <Route exact path = "/hospitality" element = {<Hospitality/>}/>
+          <Route exact  path = "/shopping-centres" element = {<Mall/>}/>
+          <Route exact  path = "/airports" element = {<Airport/>}/>
+          <Route exact  path = "/transportation" element = {<Transport/>}/>
+          <Route exact  path = "/cities" element = {<Cities/>}/>
+          <Route exact  path = "/hospitality" element = {<Hospitality/>}/>
 
-          <Route exact path = "/about-us" element = {<About/>}/>
-          <Route exact path = "/blog" element = {<Blog/>}/>
-          <Route exact path = "/careers" element = {<Career/>}/>
-          <Route exact path = "/contact" element = {<Contact/>}/>
+          <Route exact  path = "/about-us" element = {<About/>}/>
+          <Route exact  path = "/blog" element = {<Blog/>}/>
+          <Route exact  path = "/careers" element = {<Career/>}/>
+          <Route exact  path = "/contact" element = {<Contact/>}/>
           </Routes>
           <Footer/>
           </ScrollToTop>

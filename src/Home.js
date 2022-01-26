@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundvid from './Resources/Videos/backgroundvid.mp4';
+// import backgroundvid from './Resources/Videos/backgroundvid.mp4';
 import home from './Resources/Videos/home.mp4';
 import './Home.css';
 import HeroSection from './Components/HeroSection';

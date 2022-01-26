@@ -1,7 +1,8 @@
 {
-  "homepage":"https://antnguyen9919.github.io/am-test",
+  
   "name": "app",
   "version": "0.1.0",
+  "homepage":"https://antnguyen9919.github.io/ariadne",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
