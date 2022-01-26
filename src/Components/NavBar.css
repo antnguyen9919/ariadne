@@ -104,7 +104,7 @@
   .nav--menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    grid-gap: 9px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -152,6 +152,7 @@
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
+      
       position: relative;
     }
   
@@ -161,14 +162,15 @@
       width: 100%;
       height: 90vh;
       position: absolute;
-      top: 80px;
+      top: 70px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
     }
   
     .nav--menu.active {
-      background: #242222;
+      background: #fff;
+      
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -183,8 +185,8 @@
     }
   
     .nav--links:hover {
-      background-color: #fff;
-      color: #242424;
+      background-color: #242424;
+      color: #fff;
       border-radius: 0;
     }
   
@@ -217,12 +219,12 @@
     .nav-links-mobile {
       display: block;
       text-align: center;
-      margin: 2rem auto;
+      margin: 1rem auto;
       border-radius: 4px;
       width: 80%;
       text-decoration: none;
       font-size: 1.5rem;
-      background-color: transparent;
+      background-color: red;
       color: #fff;
       padding: 14px 20px;
       border: 1px solid #fff;
@@ -245,18 +247,20 @@
     display: none;
     position: absolute;
     background-color:#fff;
-    min-width: 500px;
+    min-width: 150px;
+    top: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    /* z-index: 1; */
     border-radius: 0.5rem;
   }
   .dropdown-content-c {
     display: none;
     position: absolute;
     background-color:#fff;
-    min-width: 200px;
+    top: 60px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    /* z-index: 1; */
     border-radius: 0.5rem;
   }
   /* Links inside the dropdown */
