@@ -62,7 +62,7 @@ function App() {
           <Route path = "/retail-stores" element = {<Retail/>}/>
 
           <Route path = "/shopping-centres" element = {<Mall/>}/>
-          <Route path = "/airports" element = {<Airport/>}/>
+          <Route path = "/ariadne-test/airports" exact element = {<Airport/>}/>
           <Route path = "/transportation" element = {<Transport/>}/>
           <Route path = "/cities" element = {<Cities/>}/>
           <Route path = "/hospitality" element = {<Hospitality/>}/>
