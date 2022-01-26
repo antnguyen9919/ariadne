@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.dd5a5646.css",
-    "main.js": "/ariadne/static/js/main.7e698d89.js",
+    "main.css": "/ariadne/static/css/main.b42606dd.css",
+    "main.js": "/ariadne/static/js/main.13ad3668.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
     "static/media/home.mp4": "/ariadne/static/media/home.c94b9f55daed4810c232.mp4",
     "static/media/backgroundvid.mp4": "/ariadne/static/media/backgroundvid.6b34a81dd5f16eb9b0b7.mp4",
     "static/media/black.png": "/ariadne/static/media/black.ef95ca3608444770cd74.png",
     "static/media/white.png": "/ariadne/static/media/white.f3549073aae69352508b.png",
     "index.html": "/ariadne/index.html",
-    "main.dd5a5646.css.map": "/ariadne/static/css/main.dd5a5646.css.map",
-    "main.7e698d89.js.map": "/ariadne/static/js/main.7e698d89.js.map",
+    "main.b42606dd.css.map": "/ariadne/static/css/main.b42606dd.css.map",
+    "main.13ad3668.js.map": "/ariadne/static/js/main.13ad3668.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd5a5646.css",
-    "static/js/main.7e698d89.js"
+    "static/css/main.b42606dd.css",
+    "static/js/main.13ad3668.js"
   ]
 }
