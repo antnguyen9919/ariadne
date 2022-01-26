@@ -50,7 +50,7 @@ function App() {
       <NavBar/>
           
           <Routes>
-            <Route path = "/" element = {<Home/>}/>
+            <Route path = "/" exact element = {<Home/>}/>
           <Route path = "/products" element = {<Products/>}/>
           <Route path = "/industries" element = {<Industries/>}/>
           <Route path = "/why-ariadne" element = {<WhyAriadne/>}/>
@@ -62,7 +62,7 @@ function App() {
           <Route path = "/retail-stores" element = {<Retail/>}/>
 
           <Route path = "/shopping-centres" element = {<Mall/>}/>
-          <Route path = "/ariadne-test/airports" exact element = {<Airport/>}/>
+          <Route path = "/airports" exact element = {<Airport/>}/>
           <Route path = "/transportation" element = {<Transport/>}/>
           <Route path = "/cities" element = {<Cities/>}/>
           <Route path = "/hospitality" element = {<Hospitality/>}/>
