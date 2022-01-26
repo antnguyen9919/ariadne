@@ -1,0 +1,169 @@
+import React,{useState, useEffect} from 'react'
+import './NavBar.css'
+import {Link} from 'react-router-dom'
+import Button from './Button';
+import white from '../Resources/Photos/white.png'
+import black from '../Resources/Photos/black.png'
+
+
+
+
+function NavBar() {
+    const [click,setClick] = useState(false);
+    const [button,setButton] = useState(true);
+
+    const handleClick = ()=> setClick(!click);
+    const closeMobileMenu =()=> setClick(false);
+
+    const [navscroll, setNavbar] = useState(false);
+    const [navbarLogo, setNavbarLogo] = useState(white);
+
+    const changeBackground = () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 10) {
+          setNavbar(true)
+        } else {
+          setNavbar(false)
+        }
+      }
+      useEffect(() => {
+        changeLogo()
+        // adding the event when scroll change Logo
+        window.addEventListener("scroll", changeLogo)
+      })
+      const changeLogo = () => {
+        if (window.scrollY >= 10) {
+          setNavbarLogo(black)
+        } else {
+          setNavbarLogo(white)
+        }
+      }
+
+    useEffect(() => {
+        changeBackground()
+        // adding the event when scroll change background
+        window.addEventListener("scroll", changeBackground)
+      })
+
+
+    const showButton = ()=>{
+        if(window.innerWidth <= 960){
+            setButton(false)
+        } else {
+            setButton(true)
+        }
+    };
+
+    useEffect(()=> {
+        showButton();
+    },[]);
+
+
+
+    window.addEventListener('resize', showButton);
+
+    return (
+        <>
+            <nav className = {navscroll? 'nav-scroll':'navbarr'}>
+                    <div className = 'navbar--container'>
+                               
+                       <div className='navbar-logo' > 
+                        <Link to='/'  onClick ={closeMobileMenu}>
+                            
+                            <img id = {navscroll?'logo-scroll' :'ariadne-logo'} src={navbarLogo} alt="Ariadne Logo" width="140x"/>
+                            
+                        </Link>
+                        </div>
+                           
+
+
+
+                    <div className ='menu-icon' onClick ={handleClick}>
+                        <i class = {click ? 'fas fa-times':'fas fa-bars'}/> 
+                    </div>
+
+                    <ul className={click? 'nav--menu active': 'nav--menu' }>
+                        <div class="dropdown">
+                        <li className='nav--item'>
+                            <Link to ='/products' className='nav--links' onClick={closeMobileMenu}>
+                                Products <i class="fas fa-caret-down"></i>
+                             </Link>
+                            
+                                                
+    
+                        </li>
+                        <div class="dropdown-content"> 
+                                <a href="/ariadne-analytics">Ariadne Analytics     </a>
+                                <a href="/ariadne-mapping">Ariadne Mapping</a>
+                                <a href="/ariadne-navigation">Ariadne Navigation</a>
+                                <a href="/ariadne-engagement">Ariadne Engagement</a>
+                                                </div>
+                        </div>
+                        <div class="dropdown">
+                        <li className='nav--item'>
+                            <Link to ='/industries' className='nav--links' onClick={closeMobileMenu}>
+                                Industries <i class="fas fa-caret-down"></i>
+                             </Link>
+                             
+                                                
+    
+                        </li>
+                        <div class="dropdown-content"> 
+                             <a href="/retail-stores">Retail Stores</a>
+                                <a href="/shopping-centres">Shopping Centres</a>
+                                <a href="/airports">Airports </a>
+                                <a href="/transportation">Transportation</a>
+                                <a href="/cities">Cities</a>
+                                <a href="/hospitality">Hospitalities</a>
+                                                </div>
+                        </div>
+                        <li className='nav--item'>
+                            <Link to ='/why-ariadne' className='nav--links' onClick={closeMobileMenu}>
+                                Why Ariadne?
+                             </Link>
+                        </li>
+
+                        <div class="dropdown">
+                        <li className='nav--item'>
+                            <Link to ='/company' className='nav--links' onClick={closeMobileMenu}>
+                                Company <i class="fas fa-caret-down"></i>
+                             </Link>
+                             
+                                                
+    
+                        </li>
+                        <div class="dropdown-content-c"> 
+                                <a href="/about-us">About Us</a>
+                                <a href="/careers">Careers</a>
+                                <a href="/blog">Blog</a>
+                                <a href="/contact">Contact</a>
+                               
+                                                </div>
+                        </div>
+
+                        <li className='nav--item'>
+                            <Link 
+                            to ='/contact' 
+                            className='nav-links-mobile' 
+                            onClick={closeMobileMenu}>
+                                LET'S TALK
+                             </Link>
+                        </li>
+
+                        
+                    </ul>
+                    {button && <Link to ='/contact' ><button class={navscroll?"glow-on-hover":'normal-btn' } type="button">LET'S TALK!</button></Link>}
+                    
+                    
+                    </div>
+
+
+
+            </nav>
+        
+        
+        </>
+    )
+}
+
+export default NavBar

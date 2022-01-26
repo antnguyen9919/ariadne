@@ -1,0 +1,113 @@
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1000;
+  }
+  #intro-video{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+  }
+  h1 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  }
+  
+  /* h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  } */
+  
+  /* h2 { font-size: 3rem; }
+  @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+} */
+
+.testimonials{
+  margin: 4rem;
+  
+}
+.fa-quote-left{
+  font-size: 0.7rem;
+}
+.fa-quote-right{
+  font-size: 0.7rem;
+  float:right;
+}
+.caro-card{
+  height: 70vh;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-bottom: 1rem;
+}
+.caro-card>p{
+  color: black;
+  font-size: 16px;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  
+}
+.caro-card>h2{
+  color: black;
+  font-size: 20px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+.caro-card>img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+main {
+    
+    font-size: 2rem;
+    margin-top: 10vh;
+    /* padding: 10px; */
+    position: relative;
+    
+  }
+.intro-area{
+  padding: 10px 10px 10px 10px;
+}  
+.intro-area >h1{
+  color: black;
+  text-align: left;
+}
+.intro-area>p{
+  font-size: 1.5rem;
+  font-weight: normal;
+}  
