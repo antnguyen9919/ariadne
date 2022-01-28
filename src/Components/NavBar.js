@@ -12,12 +12,11 @@ import black from '../Resources/Photos/black.png'
 function NavBar() {
     const [click,setClick] = useState(false);
     const [button,setButton] = useState(true);
-
-   
-    const closeMobileMenu =()=> setClick(false);
-
+    
     const [navscroll, setNavbar] = useState(false);
     const [navbarLogo, setNavbarLogo] = useState(white);
+
+ 
 
     const changeBackground = () => {
         console.log(window.scrollY)
@@ -27,6 +26,7 @@ function NavBar() {
           setNavbar(false)
         }
       }
+      
       useEffect(() => {
         changeLogo()
         // adding the event when scroll change Logo
@@ -45,6 +45,8 @@ function NavBar() {
         // adding the event when scroll change background
         window.addEventListener("scroll", changeBackground)
       })
+      
+      
 
 
     const showButton = ()=>{
@@ -63,15 +65,18 @@ function NavBar() {
 
     window.addEventListener('resize', showButton);
 
+
+    
+
     return (
         <>
-            <nav className = {navscroll? 'nav-scroll':'navbarr'}>
+            <nav  className = {navscroll? 'nav-scroll':'navbarr'}>
                     <div className = 'navbar--container'>
                                
                        <div className='navbar-logo' > 
                         <Link to='/' >
                             
-                            <img id = {navscroll?'logo-scroll' :'ariadne-logo'} src={navbarLogo} alt="Ariadne Logo" width="140x"/>
+                            <img id = {navscroll?'logo-scroll' :'ariadne-logo'} src={navbarLogo} alt="Ariadne Logo" />
                             
                         </Link>
                         </div>
@@ -85,7 +90,7 @@ function NavBar() {
                     <ul className={click? 'nav--menu active': 'nav--menu' }>
                         <div class="dropdown">
                         <li className='nav--item'>
-                            <Link to ='/products' className='nav--links' onClick={closeMobileMenu}>
+                            <Link to ='/products' className={navscroll?'nav-links-s':'nav--links'} >
                                 Products <i class="fas fa-caret-down"></i>
                              </Link>
                             
@@ -103,7 +108,7 @@ function NavBar() {
                         </div>
                         <div class="dropdown">
                         <li className='nav--item'>
-                            <Link to ='/industries' className='nav--links' onClick={closeMobileMenu}>
+                            <Link to ='/industries' className={navscroll?'nav-links-s':'nav--links'}>
                                 Industries <i class="fas fa-caret-down"></i>
                              </Link>
                              
@@ -121,14 +126,14 @@ function NavBar() {
                                                 </div>
                         </div>
                         <li className='nav--item'>
-                            <Link to ='/why-ariadne' className='nav--links' onClick={closeMobileMenu}>
+                            <Link to ='/why-ariadne' className={navscroll?'nav-links-s':'nav--links'}>
                                 Why Ariadne?
                              </Link>
                         </li>
 
                         <div class="dropdown">
                         <li className='nav--item'>
-                            <Link to ='/company' className='nav--links' onClick={closeMobileMenu}>
+                            <Link to ='/company' className={navscroll?'nav-links-s':'nav--links'}>
                                 Company <i class="fas fa-caret-down"></i>
                              </Link>
                              
@@ -145,14 +150,7 @@ function NavBar() {
                                                 </div>
                         </div>
 
-                        <li className='nav--item btn'>
-                            <Link 
-                            to ='/contact' 
-                            className='nav-links-mobile' 
-                            onClick={closeMobileMenu}>
-                                LET'S TALK
-                             </Link>
-                        </li>
+                        
 
                         
                     </ul>

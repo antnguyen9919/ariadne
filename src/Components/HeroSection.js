@@ -3,6 +3,7 @@ import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroH2, HeroBtnWrap
 import backgroundvid from '../Resources/Videos/backgroundvid.mp4';
 import Button from './Button';
 
+
 const HeroSection = () => {
    
 
@@ -20,7 +21,9 @@ Your Customers!</HeroH1>
                     Ariadne. Smart Decisions. Better returns.
                     </HeroH2>
                     <HeroBtnWrapper>
-                        <Button buttonStyle='btn--outline' buttonSize='btn--medium'> Get Started</Button>
+                        <Button buttonStyle='btn--outline' buttonSize='btn--medium'> 
+                                Get started
+                        </Button>
                     </HeroBtnWrapper>
                 </HeroContent>
 
