@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -133,6 +133,7 @@
     justify-content: center;
   }
   
+  
   .nav--links {
     color: #fff;
     display: flex;
@@ -156,14 +157,17 @@
   }
   
   .nav--links:hover {
-    border-bottom: 5px solid transparent;
-    transition: all 0.2s ease-out;
+    
+    transform: scale(1.02,1.02);
+    transition: all 0.1s ease-out;
     color:#fff;
   }
   .nav-links-s:hover{
     color: #222;
-    border-bottom: 5px solid transparent;
-    transition: all 0.2s ease-out;
+    transform: scale(1.02,1.02);
+    
+    
+    transition: all 0.1s ease-out;
   }
   
   .fa-bars {
@@ -246,12 +250,13 @@
   
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
 
 
   .glow-on-hover {
     padding: 8px 20px;
     font-size: 18px;
+    font-weight: bold;
     border: none;
     outline: none;
     color: #fff;
@@ -269,6 +274,7 @@
 .normal-btn{
   padding: 8px 20px;
   font-size: 18px;
+  font-weight: bold;
   border: 2px solid white;
   outline: none;
   color: #fff;
@@ -284,89 +290,28 @@
 		1px 1px 0 #000;
 
 }
-.normal-btn-footer{
-  padding: 8px 20px;
-  font-size: 18px;
-  border: 2px solid black;
-  outline: none;
-  color: black;
-  background: transparent;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 4px;
- 
 
+.normal-btn:hover{
+  background-color: #222;
+}
+.glow-on-hover:hover{
+  background-color:#aca9a9 ;
+  color:#222;
+  /* border: #222 solid 1px; */
+  text-shadow: none;
 }
 
-.glow-on-hover:before, .normal-btn:before,.normal-btn-footer:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 4px;
-}
 
 .glow-on-hover:active {
     color: #000
 }
 
 
-.glow-on-hover:active:after,.normal-btn:active:after,.normal-btn-footer:active:after  {
-    background: transparent;
-}
 
-.glow-on-hover:hover:before,.normal-btn:hover:before,.normal-btn-footer:hover:before  {
-    opacity: 1;
-}
 
-.glow-on-hover:after{
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 4px;
-}
-.normal-btn:after{
-  z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    left: 0;
-    top: 0;
-    border-radius: 4px;
-    
-} 
-.normal-btn-footer:after{
-  z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    left: 0;
-    top: 0;
-    border-radius: 4px;
-    
-} 
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
+
+
+
+
+

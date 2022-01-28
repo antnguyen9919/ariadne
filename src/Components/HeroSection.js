@@ -11,6 +11,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
                 <HeroBg>
+                    
                         <VideoBg id = "bgvid" autoPlay loop muted src = {backgroundvid} type = 'video/mp4' poster ='https://images.ctfassets.net/9mt55bm0937w/1VhXxVR2AP6jpbAaXKdr4I/6ba92dd0b690f2b59fc2caae3991504f/Key-Visual_Flexible-Office_Frankfurt_Wiesenh__ttenplatz.jpg' />
                 </HeroBg>
                 <HeroContent>

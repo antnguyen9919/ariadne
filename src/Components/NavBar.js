@@ -10,7 +10,7 @@ import black from '../Resources/Photos/black.png'
 
 
 function NavBar() {
-    const [click,setClick] = useState(false);
+   
     const [button,setButton] = useState(true);
     
     const [navscroll, setNavbar] = useState(false);
@@ -87,7 +87,7 @@ function NavBar() {
             
                     
                     <div className="navnav">
-                    <ul className={click? 'nav--menu active': 'nav--menu' }>
+                    <ul className='nav--menu'>
                         <div class="dropdown">
                         <li className='nav--item'>
                             <Link to ='/products' className={navscroll?'nav-links-s':'nav--links'} >

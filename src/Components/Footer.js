@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-// import  Button from './Button';
+import  Button from './Button';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 
@@ -51,7 +51,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <div>
-          <button className ='normal-btn-footer' type="button"><Link to ='/contact'>LET'S TALK!</Link></button>
+          <Button buttonSize="btn--medium" buttonStyle="btn--primary">Contact Us</Button>
 
             </div>
             <div className="para">

@@ -11,9 +11,9 @@
   }
   
   .btn--primary {
-    background-color: var(--primary);
+    background-color:darkgray;
     color: #242424;
-    border: 1px solid var(--primary);
+    border: 2px solid black;
   }
   
   .btn--outline {
@@ -30,6 +30,7 @@
   .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
+    font-weight: bold;
   }
   
   .btn--large {
