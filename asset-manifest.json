@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.712486ff.css",
-    "main.js": "/ariadne/static/js/main.31704f3f.js",
+    "main.css": "/ariadne/static/css/main.93bd9f83.css",
+    "main.js": "/ariadne/static/js/main.970e9c27.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
     "static/media/home.mp4": "/ariadne/static/media/home.c94b9f55daed4810c232.mp4",
-    "static/media/backgroundvid.mp4": "/ariadne/static/media/backgroundvid.6b34a81dd5f16eb9b0b7.mp4",
-    "static/media/retail.jpg": "/ariadne/static/media/retail.b7cb253801ac21d4a578.jpg",
-    "static/media/mall.jpg": "/ariadne/static/media/mall.b5a5150c81de38ebfcec.jpg",
-    "static/media/airports.jpg": "/ariadne/static/media/airports.99b7cab439974f0cdaa0.jpg",
-    "static/media/career.jpg": "/ariadne/static/media/career.559dc9f639600eca3ae5.jpg",
-    "static/media/cities.jpg": "/ariadne/static/media/cities.80b744bb13bc123554c6.jpg",
-    "static/media/whyariadne.jpg": "/ariadne/static/media/whyariadne.3b07654c3ecf22fc47d8.jpg",
-    "static/media/analytics.jpg": "/ariadne/static/media/analytics.69b54603ac8db3d549f0.jpg",
-    "static/media/transportation.jpeg": "/ariadne/static/media/transportation.2152811c483fe099778e.jpeg",
+    "static/media/retail.jpg": "/ariadne/static/media/retail.41aedfe142dbd15040ed.jpg",
+    "static/media/mall.jpg": "/ariadne/static/media/mall.e0ef2ada792939ff3260.jpg",
+    "static/media/backgroundvid.mp4": "/ariadne/static/media/backgroundvid.d7c3a79429b891d14f6b.mp4",
+    "static/media/airports.jpg": "/ariadne/static/media/airports.bac6483151ff9512b168.jpg",
+    "static/media/career.jpg": "/ariadne/static/media/career.41f55dea59e56ff41810.jpg",
+    "static/media/cities.jpg": "/ariadne/static/media/cities.d054c948972f9207957f.jpg",
+    "static/media/transportation.jpeg": "/ariadne/static/media/transportation.8a65542aa2aa56e7fe17.jpeg",
+    "static/media/analytics.jpg": "/ariadne/static/media/analytics.0daaf50b26e6e73b8eb2.jpg",
+    "static/media/whyariadne.jpg": "/ariadne/static/media/whyariadne.4f7d1a25457341320f26.jpg",
+    "static/media/hospitality.jpg": "/ariadne/static/media/hospitality.ee2e7398d4c5c5cf244f.jpg",
     "static/media/black.png": "/ariadne/static/media/black.ef95ca3608444770cd74.png",
     "static/media/white.png": "/ariadne/static/media/white.f3549073aae69352508b.png",
-    "static/media/hospitality.jpg": "/ariadne/static/media/hospitality.044805003650c20a88ec.jpg",
     "index.html": "/ariadne/index.html",
-    "main.712486ff.css.map": "/ariadne/static/css/main.712486ff.css.map",
-    "main.31704f3f.js.map": "/ariadne/static/js/main.31704f3f.js.map",
+    "main.93bd9f83.css.map": "/ariadne/static/css/main.93bd9f83.css.map",
+    "main.970e9c27.js.map": "/ariadne/static/js/main.970e9c27.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.712486ff.css",
-    "static/js/main.31704f3f.js"
+    "static/css/main.93bd9f83.css",
+    "static/js/main.970e9c27.js"
   ]
 }
