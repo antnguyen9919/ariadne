@@ -4,7 +4,7 @@ import './Airport.css';
 function Airport() {
   return <div className ="all">
     <div className = "start">
-      {/* <img src = "http://cdn.cnn.com/cnnnext/dam/assets/210421142251-01-worlds-busiest-airports-2020-restricted.jpg" alt = 'airport'/> */}
+     
         <h1>AIRPORTS</h1>
         <p>Ariadne Maps helps airports understand and serve their passengers better,
 
