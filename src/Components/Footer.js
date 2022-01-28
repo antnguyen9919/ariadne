@@ -55,7 +55,7 @@ function Footer() {
           
           <div class='footer-link-items'>
             <h3>Social Media</h3>
-            <Link to='/'>Instagram <i class='fab fa-instagram' /></Link>
+            {/* <Link to='/'>Instagram <i class='fab fa-instagram' /></Link> */}
             
             <a href='https://www.facebook.com/ariadnemaps/'>Facebook <i class='fab fa-facebook-f' /></a>
             <a href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'>Youtube <i class='fab fa-youtube' /></a>

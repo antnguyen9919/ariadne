@@ -33,6 +33,8 @@
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
   }
+
+
   
   /* h1 {
     font-size: 6rem;
@@ -78,8 +80,8 @@
  
 }
 .caro-card>img{
-  height:100px ;
-  width:auto; 
+  height:20vh ;
+  width:30vh; 
 }
 
 @media screen and (max-width: 960px){

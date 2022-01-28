@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
+    
     /* width: 100%; */
     display: flex;
     /* border: 2px solid blue;     */
@@ -14,7 +15,7 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-    background: url("https://images.ctfassets.net/9mt55bm0937w/1VhXxVR2AP6jpbAaXKdr4I/6ba92dd0b690f2b59fc2caae3991504f/Key-Visual_Flexible-Office_Frankfurt_Wiesenh__ttenplatz.jpg") no-repeat;
+    background: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmVydGljYWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80") no-repeat;
       background-size: cover;
     
 `
@@ -31,15 +32,15 @@ export const HeroBg = styled.div`
 `
 export const VideoBg = styled.video`
     border: 1px solid green;
-    width: auto;
+    width: 100%;
     height: 100%;
-    -o-object-fit: cover; 
+    object-fit: cover; 
     background: #232a34;
+    
 
-    @media (max-width: 750px) {
-    display: none; 
-        
-}
+    @media screen and (max-width: 480px){
+        display: none;
+    }
    
 
     `
