@@ -3,7 +3,7 @@ import './Post.css';
 
 export default function Post() {
   return <div className='post'>
-      <img className='postImg' src ="https://bilder.bild.de/fotos-skaliert/lionel-messi-wird-nicht-mehr-fuer-den-fc-barcelona-auflaufen-312a5155cbd74636b32e58d1bce5cf70-77300420/31,w=1986,q=low,c=0.bild.jpg"  alt = ""/>
+      <img className='postImg' src ="https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"  alt = ""/>
 
     <div className="postInfo">
         <div className="postCats">
@@ -11,7 +11,7 @@ export default function Post() {
             <span className="postCat">Life</span>
         </div>
         <span className="postTitle">
-            Messi misses FCB!
+            Lorem ipsum dolor sit amet.
         </span>
         <hr/>
         <span className="postDate">1 hour ago</span>

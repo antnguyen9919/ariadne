@@ -11,9 +11,13 @@
     bottom: 0;
     z-index: -1000;
   }
+  .vid-container{
+        margin: 1px 0px;
+
+  }
   #intro-video{
     margin-top: 20px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     
     left: 0;
@@ -22,38 +26,20 @@
     bottom: 0;
     
   }
-  h1 {
-    color: white;
+  .intro-area>h1 {
+    
     font-family: Trebuchet MS;
     font-weight: bold;
-    text-align: center;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    color: black;
+  text-align: left;
+    
   }
 
 
   
-  /* h1 {
-    font-size: 6rem;
-    margin-top: 30vh;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-  } */
+
   
-  /* h2 { font-size: 3rem; }
-  @media (max-width: 750px) {
-    #background-video { display: none; }
-    body {
-      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
-      background-size: cover;
-    }
-} */
+
 
 .testimonials{
   padding: 15px 10px;
@@ -130,14 +116,19 @@ main {
     position: relative;
     
   }
+  .home-article{
+    padding: 20px 40px;
+  }
 .intro-area{
   padding: 10px 10px 10px 10px;
 }  
-.intro-area >h1{
-  color: black;
-  text-align: left;
-}
+
 .intro-area>p{
   font-size: 1.5rem;
   font-weight: normal;
 }  
+
+.policy-p{
+  margin: 10px 30px;
+  font-size:medium;
+}

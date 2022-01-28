@@ -40,15 +40,23 @@
 .sidebarList{
     list-style-type: none;
     margin-bottom: 30px;
-    display: flex;
+    display:flex;
+    flex-direction: row;
     align-content: center ;
+    justify-items: space-between;
+}
+.cat-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
 }
 .sidebarListItem{
-    display: inline-block;
-    width: 50px;
-    margin-top: 15px;
-    cursor: pointer;
+     cursor: pointer;
 
+}
+.sidebarListItem:hover{
+    text-decoration:underline;
 }
 
 .sidebarSocial{

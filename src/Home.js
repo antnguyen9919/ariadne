@@ -18,9 +18,20 @@ function Home() {
   <p>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors behavior, it consults you on strategies, and provides you with recommendations for the future.</p>
   </div>
   
-
+  <div class='vid-container'>
   <video id="intro-video" src = {home} controls/>
 
+  </div>
+
+      <div className="home-article">
+          <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, inventore harum corrupti dolor temporibus perferendis voluptates fuga cupiditate ratione amet laborum, perspiciatis quas ex dignissimos repudiandae modi quia similique repellendus rem reprehenderit architecto impedit quae commodi. Quidem, maiores corporis. Architecto quasi asperiores fuga eligendi amet vero delectus, atque in consectetur ut soluta reiciendis fugiat exercitationem non voluptatum similique aspernatur sint doloremque facilis mollitia incidunt assumenda odio nihil nisi. Dolorem, eius. Sit soluta earum qui sunt ullam, sed maiores voluptas corporis ratione at voluptatibus autem quasi cumque itaque et aperiam debitis suscipit. Architecto sunt accusamus consectetur nam sit officiis molestiae accusantium?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum minus facere voluptates optio. Fugiat est laboriosam at officia molestias nemo dicta inventore iste, sit autem deleniti facere ducimus vero non illo nulla totam repudiandae illum reiciendis! Pariatur, fugiat eos itaque inventore cupiditate obcaecati cum dicta quasi quis iure ea. Deleniti illo labore nesciunt dolor placeat, unde libero harum tenetur, atque nisi iusto modi facere sed recusandae eius molestias rem perspiciatis nulla illum voluptates aperiam debitis assumenda quia! Ullam perspiciatis reprehenderit amet dolorem laudantium quis qui totam, fugiat sed quidem voluptatem facere, impedit illo labore quod reiciendis necessitatibus adipisci ipsum!
+          </p>
+
+
+      </div>
+      <hr/>
 
       <div className="testimonials">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">

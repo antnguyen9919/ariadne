@@ -31,6 +31,7 @@ import Blog from './Pages/Company/Blog';
 import Career from './Pages/Company/Career';
 import Contact from './Pages/Company/Contact';
 import BootNav from './Components/Bootstrap/BootNav';
+import Privacy from './Pages/Privacy';
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
           <Route exact  path = "/blog" element = {<Blog/>}/>
           <Route exact  path = "/careers" element = {<Career/>}/>
           <Route exact  path = "/contact" element = {<Contact/>}/>
+          <Route exact  path = "/privacy" element =  {<Privacy/>}/>
           </Routes>
           <Footer/>
           </ScrollToTop>

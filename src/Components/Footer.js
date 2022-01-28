@@ -12,26 +12,9 @@ function Footer() {
 
     
       
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section> */}
+ 
       <div class='footer-links'>
+
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h3>Technology</h3>
@@ -51,6 +34,7 @@ function Footer() {
             <Link to='/careers'>Careers</Link>
           </div>
         </div>
+
         <div className='footer-link-wrapper'>
           
           <div class='footer-link-items'>
@@ -66,19 +50,27 @@ function Footer() {
             
           </div>
           <div class='footer-link-items'>
+            <div>
           <button className ='normal-btn-footer' type="button"><Link to ='/contact'>LET'S TALK!</Link></button>
+
+            </div>
+            <div className="para">
+
             <p>Ariadne Maps GmbH
 
-                Brecherspitzstraße 8
+Brecherspitzstraße 8 <br/>
 
-                  81541 München
-                  </p>
+  81541 München
+  </p>
 
-                  <p>
+  <p>
 
-                  +49 174 4079675
+  +49 174 4079675
 
-                  contact@ariadnemaps.com</p>
+  contact@ariadnemaps.com</p>
+
+            </div>
+            
                   </div>
 
 
@@ -88,28 +80,23 @@ function Footer() {
       
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Ariadne Maps
-             
-            </Link>
-          </div>
+         <div>
           <small class='website-rights'>© 2019 – 2021 Ariadne Maps GmbH. All rights reserved.</small>
+
+         </div>
           
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
+              to='/privacy'
+             
             >
               Privacy Policy
             </Link>
             <Link
               class='social-icon-link instagram'
               to='/'
-              target='_blank'
-              aria-label='Instagram'
+              
             >
               Impressum
             </Link>
