@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.2962bec3.css",
-    "main.js": "/ariadne/static/js/main.1eb7f587.js",
+    "main.css": "/ariadne/static/css/main.35838b92.css",
+    "main.js": "/ariadne/static/js/main.3155669a.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
     "static/media/home.mp4": "/ariadne/static/media/home.c94b9f55daed4810c232.mp4",
     "static/media/backgroundvid.mp4": "/ariadne/static/media/backgroundvid.6b34a81dd5f16eb9b0b7.mp4",
@@ -17,12 +17,12 @@
     "static/media/white.png": "/ariadne/static/media/white.f3549073aae69352508b.png",
     "static/media/hospitality.jpg": "/ariadne/static/media/hospitality.044805003650c20a88ec.jpg",
     "index.html": "/ariadne/index.html",
-    "main.2962bec3.css.map": "/ariadne/static/css/main.2962bec3.css.map",
-    "main.1eb7f587.js.map": "/ariadne/static/js/main.1eb7f587.js.map",
+    "main.35838b92.css.map": "/ariadne/static/css/main.35838b92.css.map",
+    "main.3155669a.js.map": "/ariadne/static/js/main.3155669a.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2962bec3.css",
-    "static/js/main.1eb7f587.js"
+    "static/css/main.35838b92.css",
+    "static/js/main.3155669a.js"
   ]
 }
