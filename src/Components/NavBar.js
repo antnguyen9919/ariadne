@@ -1,9 +1,10 @@
 import React,{useState, useEffect} from 'react'
 import './NavBar.css'
 import {Link} from 'react-router-dom'
-// import Button from './Button';
+
 import white from '../Resources/Photos/white.png'
 import black from '../Resources/Photos/black.png'
+
 
 
 
@@ -12,7 +13,7 @@ function NavBar() {
     const [click,setClick] = useState(false);
     const [button,setButton] = useState(true);
 
-    const handleClick = ()=> setClick(!click);
+   
     const closeMobileMenu =()=> setClick(false);
 
     const [navscroll, setNavbar] = useState(false);
@@ -68,7 +69,7 @@ function NavBar() {
                     <div className = 'navbar--container'>
                                
                        <div className='navbar-logo' > 
-                        <Link to='/'  onClick ={closeMobileMenu}>
+                        <Link to='/' >
                             
                             <img id = {navscroll?'logo-scroll' :'ariadne-logo'} src={navbarLogo} alt="Ariadne Logo" width="140x"/>
                             
@@ -76,12 +77,11 @@ function NavBar() {
                         </div>
                            
 
+                        
 
-
-                    <div className ='menu-icon' onClick ={handleClick}>
-                        <i class = {click ? 'fas fa-times':'fas fa-bars'}/> 
-                    </div>
-
+            
+                    
+                    <div className="navnav">
                     <ul className={click? 'nav--menu active': 'nav--menu' }>
                         <div class="dropdown">
                         <li className='nav--item'>
@@ -145,7 +145,7 @@ function NavBar() {
                                                 </div>
                         </div>
 
-                        <li className='nav--item'>
+                        <li className='nav--item btn'>
                             <Link 
                             to ='/contact' 
                             className='nav-links-mobile' 
@@ -156,6 +156,9 @@ function NavBar() {
 
                         
                     </ul>
+
+                    </div>
+                    
                     {button && <Link to ='/contact' ><button class={navscroll?"glow-on-hover":'normal-btn' } type="button">LET'S TALK!</button></Link>}
                     
                     
@@ -164,6 +167,7 @@ function NavBar() {
 
 
             </nav>
+            
         
         
         </>

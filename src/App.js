@@ -30,6 +30,7 @@ import About from './Pages/Company/About';
 import Blog from './Pages/Company/Blog';
 import Career from './Pages/Company/Career';
 import Contact from './Pages/Company/Contact';
+import BootNav from './Components/Bootstrap/BootNav';
 
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
       
       <ScrollToTop>
       <NavBar/>
+      
+      <BootNav class = 'bootnav'/> 
           
           <Routes>
             <Route exact path = "/"  element = {<Home/>}/>

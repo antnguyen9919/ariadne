@@ -1,0 +1,14 @@
+
+.bnav{
+    display:none;
+    /* margin-top: 4rem; */
+}
+
+@media screen and (max-width: 960px){
+    .bnav{
+        display:block;
+    }
+   
+
+}
+

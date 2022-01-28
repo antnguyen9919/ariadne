@@ -1,19 +1,17 @@
-import '../../App.css';
 import React from 'react';
-// import {useState, useEffect} from 'react';
-// import axios from 'axios'
-// import Posts from '../../Components/Post'
-// import Sidebar from '../../Components/Sidebar'
-
+import Header from '../../Components/Blog/Header';
+import Posts from '../../Components/Blog/Posts';
+import Sidebar from '../../Components/Blog/Sidebar';
+import './Blog.css';
+// import Single from './Single';
 
 function Blog() {
- 
-
-
-
   return <>
-    <div className="container mx-auto px-10 mb8">
-     
+    <Header/>
+    <div className="home">
+      <Posts/>
+      <Sidebar/>
+      {/* <Single/> */}
     </div>
   </>;
 }
