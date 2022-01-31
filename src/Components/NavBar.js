@@ -11,7 +11,7 @@ import black from '../Resources/Photos/black.png'
 
 function NavBar() {
    
-    const [button,setButton] = useState(true);
+    
     
     const [navscroll, setNavbar] = useState(false);
     const [navbarLogo, setNavbarLogo] = useState(white);
@@ -49,21 +49,12 @@ function NavBar() {
       
 
 
-    const showButton = ()=>{
-        if(window.innerWidth <= 960){
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    };
 
-    useEffect(()=> {
-        showButton();
-    },[]);
+   
 
 
 
-    window.addEventListener('resize', showButton);
+   
 
 
     
@@ -149,15 +140,21 @@ function NavBar() {
                                
                                                 </div>
                         </div>
-
+                        
+                        
                         
 
+                        
+                        
                         
                     </ul>
+                    
 
                     </div>
-                    
-                    {button && <Link to ='/contact' ><button class={navscroll?"glow-on-hover":'normal-btn' } type="button">LET'S TALK!</button></Link>}
+                    <div>
+                    <Link to ='/contact' ><button class={navscroll?"glow-on-hover":'normal-btn' } type="button">LET'S TALK!</button></Link>
+                    </div>
+                   
                     
                     
                     </div>

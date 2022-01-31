@@ -61,28 +61,38 @@
 }
 .caro-card{
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 100px;
   
  
 }
 .caro-card>img{
   height:20vh ;
   width:30vh; 
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 960px){
+  .testimonials{
+    padding: 15px 10px;
+    
+    
+    height: 80vh;
+    
+    width: 100%;
+    
+  }
   .caro-card.long>p{
     font-size: 15px;
   }
   .caro-card{
-    padding: 0 0px;
+    padding: 0 40px;
   }
   
 }
 
 
 .pagi-btn{
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .caro-card>p{
   color: black;

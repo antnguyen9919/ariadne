@@ -58,6 +58,7 @@ function Home() {
     <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/Atlantis.png"  alt="..."/>
    
     <p><b>"</b>Your devices are like beacons on steroids<b>"</b> <br/><br/>
+    <br/><br/>
       <b>Anthony Lynsdale</b><br/>
       Atlantis The Palm, VP Information Technology
     </p>
@@ -72,7 +73,7 @@ function Home() {
     <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/DB.png"  alt="..."/>
     
     <p><b>"</b>You presented to us what we were expecting to see in at least 7 years<b>"</b>
-    <br/><br/><b>Janis Diekmann</b> <br/>Deutsche Bahn, Innovation Manager
+    <br/><br/><br/><br/><b>Janis Diekmann</b> <br/>Deutsche Bahn, Innovation Manager
     </p>
     
      
@@ -87,7 +88,7 @@ function Home() {
    
     <p>
       <b>"</b>I cannot think of anyone who does not need your devices  <b>" </b>
-    <br/><br/>
+    <br/><br/><br/><br/>
      <b>Gordon Bain</b><br/>
     Glasgow Airport, Head of Project Delivery
     </p>

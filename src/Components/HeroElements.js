@@ -6,9 +6,9 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
     background: #222;
     
-    /* width: 100%; */
+    
     display: flex;
-    /* border: 2px solid blue;     */
+    
     justify-content: center;
     align-items: center;
     padding: 0 30px;
@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
     
 `
 export const HeroBg = styled.div`
-/* border: 1px solid red; */
+
     position: absolute;
     top: 0;
     right: 0;
@@ -31,7 +31,7 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 export const VideoBg = styled.video`
-    border: 1px solid green;
+    
     width: 100%;
     height: 100%;
     object-fit: cover; 
