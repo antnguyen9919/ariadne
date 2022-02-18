@@ -1,28 +1,39 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.9c83ee0e.css",
-    "main.js": "/ariadne/static/js/main.58c23125.js",
+    "main.css": "/ariadne/static/css/main.4b26b2ea.css",
+    "main.js": "/ariadne/static/js/main.e080cff4.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
-    "static/media/home.mp4": "/ariadne/static/media/home.c94b9f55daed4810c232.mp4",
     "static/media/retail.jpg": "/ariadne/static/media/retail.41aedfe142dbd15040ed.jpg",
+    "static/media/h4.gif": "/ariadne/static/media/h4.4ca44a4b65b1b9ebb0ba.gif",
     "static/media/mall.jpg": "/ariadne/static/media/mall.e0ef2ada792939ff3260.jpg",
-    "static/media/backgroundvid.mp4": "/ariadne/static/media/backgroundvid.d7c3a79429b891d14f6b.mp4",
+    "static/media/Wall.mp4": "/ariadne/static/media/Wall.114c63303915c5d7fbcb.mp4",
+    "static/media/h1.gif": "/ariadne/static/media/h1.e8aaecaabc6ddf576239.gif",
+    "static/media/h3.gif": "/ariadne/static/media/h3.d9d58f6da54b529525f2.gif",
     "static/media/airports.jpg": "/ariadne/static/media/airports.bac6483151ff9512b168.jpg",
+    "static/media/h2.gif": "/ariadne/static/media/h2.a47cea2deefc49637553.gif",
     "static/media/career.jpg": "/ariadne/static/media/career.41f55dea59e56ff41810.jpg",
     "static/media/cities.jpg": "/ariadne/static/media/cities.d054c948972f9207957f.jpg",
     "static/media/transportation.jpeg": "/ariadne/static/media/transportation.8a65542aa2aa56e7fe17.jpeg",
     "static/media/analytics.jpg": "/ariadne/static/media/analytics.0daaf50b26e6e73b8eb2.jpg",
     "static/media/whyariadne.jpg": "/ariadne/static/media/whyariadne.4f7d1a25457341320f26.jpg",
     "static/media/hospitality.jpg": "/ariadne/static/media/hospitality.ee2e7398d4c5c5cf244f.jpg",
-    "static/media/black.png": "/ariadne/static/media/black.ef95ca3608444770cd74.png",
+    "static/media/s3.png": "/ariadne/static/media/s3.44074892790d49968910.png",
     "static/media/white.png": "/ariadne/static/media/white.f3549073aae69352508b.png",
+    "static/media/s7.png": "/ariadne/static/media/s7.21e987975f5c9931379d.png",
+    "static/media/s4.png": "/ariadne/static/media/s4.ec4be0247932b21b4c7a.png",
+    "static/media/s11.png": "/ariadne/static/media/s11.9ad894c0c625cb8467ad.png",
+    "static/media/s12.png": "/ariadne/static/media/s12.4df9f623a43e795bff75.png",
+    "static/media/s6.png": "/ariadne/static/media/s6.167528eb949286b3df9b.png",
+    "static/media/s9.png": "/ariadne/static/media/s9.839193cded77f1cafbc2.png",
+    "static/media/s1.png": "/ariadne/static/media/s1.b91f9f7be2f61d73388b.png",
+    "static/media/s5.png": "/ariadne/static/media/s5.a2f243ab420e6df5066d.png",
     "index.html": "/ariadne/index.html",
-    "main.9c83ee0e.css.map": "/ariadne/static/css/main.9c83ee0e.css.map",
-    "main.58c23125.js.map": "/ariadne/static/js/main.58c23125.js.map",
+    "main.4b26b2ea.css.map": "/ariadne/static/css/main.4b26b2ea.css.map",
+    "main.e080cff4.js.map": "/ariadne/static/js/main.e080cff4.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c83ee0e.css",
-    "static/js/main.58c23125.js"
+    "static/css/main.4b26b2ea.css",
+    "static/js/main.e080cff4.js"
   ]
 }
