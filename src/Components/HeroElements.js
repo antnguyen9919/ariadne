@@ -9,36 +9,42 @@ export const HeroContainer = styled.div`
     
     display: flex;
     
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    min-height: 800px;
     position: relative;
     z-index: 1;
     background: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmVydGljYWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80") no-repeat;
       background-size: cover;
+      @media screen and(max-width: 760px){
+          display: flex;
+          justify-content:center;
+          align-items: center;
+
+      }
     
 `
 export const HeroBg = styled.div`
 
     position: absolute;
-    top: 0;
+    top: -200px;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     overflow: hidden;
 `
 export const VideoBg = styled.video`
     
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: fill;
     background: #232a34;
     
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 760px){
         display: none;
     }
    
@@ -48,17 +54,19 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
     z-index:3;
-    max-width: 1200px;
+    width: 40vw;
+    height: 50vh;
     position: absolute;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
-`
+    border: 1px red solid;
+`   
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 48px;
-    text-align: center;
+    font-size: 40px;
+    text-align: start;
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -78,7 +86,7 @@ export const HeroH2 = styled.h2`
     margin-top: 24px;
     color: #fff;
     font-size: 24px;
-    text-align: center;
+    text-align:start;
     max-width: 600px;
     text-shadow:
 		-1px -1px 0 #000,
@@ -97,8 +105,13 @@ export const HeroH2 = styled.h2`
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
-    flex-direction: column;
+    
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    /* border:red solid 1px; */
+    
 
 `
+
 

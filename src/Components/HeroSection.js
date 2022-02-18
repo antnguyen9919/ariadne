@@ -1,7 +1,9 @@
 import React from 'react';
 import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroH2, HeroBtnWrapper} from './HeroElements';
-import backgroundvid from '../Resources/Videos/backgroundvid.mp4';
+
+import Wall from '../Resources/Videos/Wall.mp4';
 import Button from './Button';
+import './hero.css'
 
 
 const HeroSection = () => {
@@ -12,20 +14,33 @@ const HeroSection = () => {
         <HeroContainer>
                 <HeroBg>
                     
-                        <VideoBg id = "bgvid" autoPlay loop muted src = {backgroundvid} type = 'video/mp4' poster ='https://images.ctfassets.net/9mt55bm0937w/1VhXxVR2AP6jpbAaXKdr4I/6ba92dd0b690f2b59fc2caae3991504f/Key-Visual_Flexible-Office_Frankfurt_Wiesenh__ttenplatz.jpg' />
+                        <VideoBg  autoPlay loop muted src = {Wall} type = 'video/mp4' poster ='https://images.ctfassets.net/9mt55bm0937w/1VhXxVR2AP6jpbAaXKdr4I/6ba92dd0b690f2b59fc2caae3991504f/Key-Visual_Flexible-Office_Frankfurt_Wiesenh__ttenplatz.jpg' />
                 </HeroBg>
-                <HeroContent>
+
+                <HeroContent >
+                    <div>
                     <HeroH1>Get
 To Know
 Your Customers!</HeroH1>
                     <HeroH2>
-                    Ariadne. Smart Decisions. Better returns.
+                    Ariadne. Smart Decisions. Better returns. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magni necessitatibus ducimus sed eius blanditiis.
                     </HeroH2>
                     <HeroBtnWrapper>
+                        
                         <Button buttonStyle='btn--outline' buttonSize='btn--medium'> 
                                 Get started
                         </Button>
+                        
+                        
+                        <Button  buttonStyle='btn--outline' buttonSize='btn--medium' > 
+                                Let's talk
+                        </Button>
+                        
                     </HeroBtnWrapper>
+                    </div>
+                    
+                  
+                   
                 </HeroContent>
 
 

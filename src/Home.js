@@ -1,36 +1,110 @@
 import React from 'react';
-// import backgroundvid from './Resources/Videos/backgroundvid.mp4';
-import home from './Resources/Videos/home.mp4';
+
 import './Home.css';
 import HeroSection from './Components/HeroSection';
 
+import Button from './Components/Button';
+import s1 from './Resources/Photos/inf/s1.png';
+import s2 from './Resources/Photos/inf/s2.png';
+import s3 from './Resources/Photos/inf/s3.png';
+import s4 from './Resources/Photos/inf/s4.png';
+import s5 from './Resources/Photos/inf/s5.png';
+import s6 from './Resources/Photos/inf/s6.png';
+import s7 from './Resources/Photos/inf/s7.png';
+import s8 from './Resources/Photos/inf/s8.png';
+import s9 from './Resources/Photos/inf/s9.png';
+import s10 from './Resources/Photos/inf/s10.png';
+import s11 from './Resources/Photos/inf/s11.png';
+import s12 from './Resources/Photos/inf/s12.png';
+import s13 from './Resources/Photos/inf/s13.png';
+import h1 from './Resources/Photos/h1.gif';
+import h2 from './Resources/Photos/h2.gif';
+import h3 from './Resources/Photos/h3.gif';
+import h4 from './Resources/Photos/h4.gif';
+import HomePost from './Components/HomePost';
+
 
 function Home() {
-  return <div class = "cov">
+  return <div >
       
 <HeroSection/>
+
 
    
 
 <main>
-  <div className="intro-area">
-    <h1>Unlock the value of your data and multiply your returns!</h1>
-  <p>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors behavior, it consults you on strategies, and provides you with recommendations for the future.</p>
+
+  <div className="slider0">
+    <div className="slide-track0">
+        <div className="slide"><img src ={s1} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s2} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s3} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s4} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s5} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s6} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s7} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s8} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s9} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s10} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s11} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s12} alt = "slider-img"/></div>
+        <div className="slide"><img src ={s13} alt = "slider-img"/></div>
+
+    </div>
+    
+  
   </div>
   
-  <div class='vid-container'>
-  <video id="intro-video" src = {home} controls/>
 
+  <div className = 'intro-1'>
+  <h1>Unlock the value of your data and multiply your returns!</h1>
+      <div className="block-1">
+        <img src='https://www.sap.com/dam/application/shared/photos/products-a-b/sap-billing-and-revenue-innovation-management-device-anlycntrct.png/_jcr_content/renditions/original.adapt.970_546.false.false.false.true.png/1547710900555.png'  width='50%'  />
+
+        <p>Create a Free Account now to see our Demo
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda odio iusto veritatis esse dolore eligendi aperiam consequatur, pariatur sit. Qui aliquid tenetur numquam odio quod molestiae quae doloribus. Dignissimos.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet cupiditate quisquam amet, culpa laborum deleniti in cumque magnam. Quasi maiores consequuntur vero veniam tempora id sequi corrupti, vitae ipsum! Fugit recusandae quas aliquam praesentium quam reprehenderit fuga dolor ex odio est rem, repellat neque aperiam maiores nulla aut provident.
+        </p>
+      </div>
   </div>
 
-      <div className="home-article">
-          <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi?</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, inventore harum corrupti dolor temporibus perferendis voluptates fuga cupiditate ratione amet laborum, perspiciatis quas ex dignissimos repudiandae modi quia similique repellendus rem reprehenderit architecto impedit quae commodi. Quidem, maiores corporis. Architecto quasi asperiores fuga eligendi amet vero delectus, atque in consectetur ut soluta reiciendis fugiat exercitationem non voluptatum similique aspernatur sint doloremque facilis mollitia incidunt assumenda odio nihil nisi. Dolorem, eius. Sit soluta earum qui sunt ullam, sed maiores voluptas corporis ratione at voluptatibus autem quasi cumque itaque et aperiam debitis suscipit. Architecto sunt accusamus consectetur nam sit officiis molestiae accusantium?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum minus facere voluptates optio. Fugiat est laboriosam at officia molestias nemo dicta inventore iste, sit autem deleniti facere ducimus vero non illo nulla totam repudiandae illum reiciendis! Pariatur, fugiat eos itaque inventore cupiditate obcaecati cum dicta quasi quis iure ea. Deleniti illo labore nesciunt dolor placeat, unde libero harum tenetur, atque nisi iusto modi facere sed recusandae eius molestias rem perspiciatis nulla illum voluptates aperiam debitis assumenda quia! Ullam perspiciatis reprehenderit amet dolorem laudantium quis qui totam, fugiat sed quidem voluptatem facere, impedit illo labore quod reiciendis necessitatibus adipisci ipsum!
+  
+  <div className="small-divider">
+      <h4>Get more from your traffic</h4>
+      <h4>Learn how Ariadne can transform your business</h4>
+      <Button buttonStyle='btn--primary'>Discover the industries</Button>
+  </div>
+
+  <div className="vid-section">
+
+  </div>
+    
+  <div className="home-article">
+          <h1>What is Ariadne Maps all about?</h1>
+          <p>Ariadne Maps is the physical world's Google Analytics. Ariadne Maps expertise lies in Indoor and Outdoor analytics and Indoor Positioning services.
+How does Ariadne add value to you?
+Ariadne analyzes your customers journey and behavior and assists you in developing data-driven initiatives, operating and marketing strategies. 
+Who can benefit from Ariadne´s Services?
+We have a solution for every industry right from Retail establishments to Airport Terminals.
           </p>
 
 
       </div>
+
+    <HomePost title = "Ariadne Analytics" texts="Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
+You can monitor your performance in real time with Ariadne analytics.
+" image = {h1}/>
+    <HomePost title = "Ariadne Navigation" texts="Enhance your visitors, guests and customer´s experience by navigating them! 
+Present dynamic and localized promotions to boost the satisfaction level of your visitors.
+" image = {h2} color = "gray"/>
+    <HomePost title = "Ariadne Engagement" texts="Ariadne enables your visitors to opt-in to your loyalty program! 
+The opt-in feature enables you to push notifications to your visitors the right moment.
+" image = {h3}/>
+    <HomePost title = "Ariadne Mapping" texts="Transform your physical business into a digital landscape.
+By enabling you to map and localize your products, Ariadne increases your efficiency.
+" image = {h4} color = "gray"/>
+  
+
       <hr/>
 
       <div className="testimonials">
