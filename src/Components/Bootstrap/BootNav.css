@@ -1,14 +1,42 @@
 
 .bnav{
-    display:none;
+    /* display:none; */
     /* margin-top: 4rem; */
+    /* display: block; */
+    z-index: 100;
+    top: 0;
+    position:sticky;
+    
+  
 }
 
-@media screen and (max-width: 960px){
-    .bnav{
+#navbarDarkDropdownMenuLink:hover{
+    /* text-decoration:underline; */
+
+}
+
+
+@media screen and (min-width: 960px ) {
+    #roro:hover #kaka{
         display:block;
+        /* text-decoration:underline; */
+    
     }
+    .nav-link:hover{
+        /* text-decoration:underline; */
+        color:yellow;
+        border-bottom: 1px solid yellow;
+        /* border-radius: 10px; */
+        
+    }
+    #kaka{
+        display:none;
+    }
+    
+}
+
+
    
 
-}
+
 

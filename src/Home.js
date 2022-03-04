@@ -4,6 +4,7 @@ import './Home.css';
 import HeroSection from './Components/HeroSection';
 
 import Button from './Components/Button';
+import screens from './Resources/Photos/screens.png';
 import s1 from './Resources/Photos/inf/s1.png';
 import s2 from './Resources/Photos/inf/s2.png';
 import s3 from './Resources/Photos/inf/s3.png';
@@ -22,6 +23,7 @@ import h2 from './Resources/Photos/h2.gif';
 import h3 from './Resources/Photos/h3.gif';
 import h4 from './Resources/Photos/h4.gif';
 import HomePost from './Components/HomePost';
+import ProductSection from './Components/ProductSection';
 
 
 function Home() {
@@ -34,21 +36,25 @@ function Home() {
 
 <main>
 
-  <div className="slider0">
-    <div className="slide-track0">
-        <div className="slide"><img src ={s1} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s2} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s3} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s4} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s5} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s6} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s7} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s8} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s9} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s10} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s11} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s12} alt = "slider-img"/></div>
-        <div className="slide"><img src ={s13} alt = "slider-img"/></div>
+  <div className="slider-mine">
+    <div className="slider-track-mine">
+        <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s2} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s3} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s4} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s5} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s6} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s7} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s8} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s9} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s10} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s11} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s12} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s13} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s2} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s3} alt = "slider-img"/></div>
+        <div className="slide-mine"><img src ={s4} alt = "slider-img"/></div>
 
     </div>
     
@@ -59,7 +65,7 @@ function Home() {
   <div className = 'intro-1'>
   <h1>Unlock the value of your data and multiply your returns!</h1>
       <div className="block-1">
-        <img src='https://www.sap.com/dam/application/shared/photos/products-a-b/sap-billing-and-revenue-innovation-management-device-anlycntrct.png/_jcr_content/renditions/original.adapt.970_546.false.false.false.true.png/1547710900555.png'  width='50%'  />
+        <img src={screens}  width='50%'  />
 
         <p>Create a Free Account now to see our Demo
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda odio iusto veritatis esse dolore eligendi aperiam consequatur, pariatur sit. Qui aliquid tenetur numquam odio quod molestiae quae doloribus. Dignissimos.
@@ -193,6 +199,7 @@ By enabling you to map and localize your products, Ariadne increases your effici
  
 
 </div>
+<ProductSection/>
 
 
 </main>

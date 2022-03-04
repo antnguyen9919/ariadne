@@ -4,23 +4,29 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-    background: #222;
-    
+    background-color: black;
+    margin-bottom: -100px;
     
     display: flex;
-    
+    top: -150px;
     justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
-    min-height: 800px;
+    height: 125vh;
     position: relative;
     z-index: 1;
-    background: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmVydGljYWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80") no-repeat;
-      background-size: cover;
-      @media screen and(max-width: 760px){
-          display: flex;
-          justify-content:center;
-          align-items: center;
+    
+      
+
+      @media screen and(max-width: 480px){
+        display: flex;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    min-height: 110vh;
+    position: relative;
+    z-index: 1;
 
       }
     
@@ -28,19 +34,19 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
 
     position: absolute;
-    top: -200px;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 125vh;
     overflow: hidden;
 `
 export const VideoBg = styled.video`
     
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
     background: #232a34;
     
 
@@ -60,8 +66,8 @@ export const HeroContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px red solid;
+    align-items:flex-start;
+    /* border: 1px red solid; */
 `   
 export const HeroH1 = styled.h1`
     color: #fff;

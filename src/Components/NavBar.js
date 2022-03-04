@@ -108,6 +108,7 @@ function NavBar() {
                     
 
                     </div>
+                    
                     <div>
                     <Link to ='/contact' ><button class='normal-btn' type="button">LET'S TALK!</button></Link>
                     </div>
