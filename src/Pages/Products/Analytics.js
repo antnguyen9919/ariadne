@@ -1,4 +1,5 @@
 import '../../App.css';
+import './analytics.css'
 import React from 'react';
 import analytics from '../../Resources/Photos/Pages/analytics.jpg';
 import h1 from '../../Resources/Photos/h1.gif';
@@ -26,7 +27,7 @@ import h15 from '../../Resources/Photos/Pages/Analytics/AdvancedAnalytics/h15.pn
 
 function Analytics() {
   return <div>
-  <div className="container-fluid bg-dark text-white">
+  <div className="container-fluid bg-dark text-white mb-5" >
     <div className="row align-items-center">
       <div className="col-md-6 align-self-center">
         <h1>Ariadne Analytics</h1>
@@ -38,7 +39,7 @@ function Analytics() {
       </div>
     </div>
   <main>
-      <div className="container">
+      <div className="container mb-5" id = 'open'>
       <div className="row align-items-center ">
       <div className="col-md-6">
         <h3>Ariadne Analytics</h3>
@@ -51,11 +52,11 @@ You can monitor your performance in real time with Ariadne analytics.</p>
       </div>
         </div>
 
-
-        <div className="container">
+        <div className="analytics-whole">
+        <div className="container text-center" id = 'analytics-whole'>
           <h1>Real-Time Analytics</h1>
           <p>When do your consumers prefer to shop during the day, and how many people are now in your store and where are they located? We provide answer to those questions with our intuitive dashboard.</p>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col-md-4">
               <img src={Total} alt=""width={'100%'} />
               </div>
@@ -65,17 +66,20 @@ You can monitor your performance in real time with Ariadne analytics.</p>
             <img src={Floor2} alt="" width={'100%'}/></div>
             
             </div>
-            <div className="row">
+            <div className="row mt-3">
             <img src={Daily} alt="" />
               </div>
 
           </div>
-          <br />
+         
           
-          <div className="container">
-            <div className="row">
-            <h2>Basic Analytics</h2>
+          <div className="container mt-5 text-center mb-5" >
+          <h2>Basic Analytics</h2>
           <h6>Recognize the most visited areas of your establishment and tailor your services there to improve your customer´s experience. </h6>
+            <div className="row mt-5">
+            
+
+         
               <div className="col-md-4">
               <img src={h1a} alt="" />
                 </div>
@@ -83,14 +87,14 @@ You can monitor your performance in real time with Ariadne analytics.</p>
               <div className="col-md-4"><img src={h3} alt="" width={'100%'}/></div>
               </div>
               <h6>Understand what interests your customers, and how much time do they spend to each section in your premises? Take advantage of and cater to your customers' needs.</h6>
-            <div className="row">
+            <div className="row mt-5">
             <div className="col-md-4"><img src={h4} alt="" width={'100%'}/></div>
             <div className="col-md-4"><img src={h5} alt="" width={'100%'}/></div>
             <div className="col-md-4"><img src={h6} alt="" width={'100%'}/></div>
             <h6>Employ our queue management system to get notified when client wait times near the cashier counter are getting longer and reduce the dwell time. </h6>
               
               </div>
-            <div className="row">
+            <div className="row mt-5">
             <div className="col-md-4"><img src={h7} alt="" width={'100%'}/></div>
             <div className="col-md-4"><img src={h8} alt="" width={'100%'}/></div>
             <div className="col-md-4"><img src={h9} alt="" width={'100%'}/></div>
@@ -98,7 +102,7 @@ You can monitor your performance in real time with Ariadne analytics.</p>
 
               <h2>Advanced Analytic</h2>
               <h6>Cool graphics and intuitive heat maps for your entire store that you may use to better manage your space.       </h6>
-              <div className="row">
+              <div className="row mt-5">
                 <div className="col-md-6">
                 <img src={h10} alt="" width={'100%'}/>
                   </div>
@@ -107,7 +111,7 @@ You can monitor your performance in real time with Ariadne analytics.</p>
                   </div>
                 </div>
                 <h5>Utilize our user-friendly graphs to plan practical activities and to improve your operational strategies.</h5>
-                <div className="row">
+                <div className="row mt-5">
                 <div className="col-md-6">
                 <img src={h12} alt="" width={'100%'}/>
                   </div>
@@ -135,8 +139,14 @@ You can monitor your performance in real time with Ariadne analytics.</p>
             
             
           </div>
+          
+          
+          
+          </div>
+
+        
   
-  {/* <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='1000px' ></iframe> */}
+  
   
 
  

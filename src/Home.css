@@ -128,6 +128,19 @@
     bottom: 0;
     
   } */
+  #home-post img{
+    height: 50vh;
+    width: 40vw;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+    border-radius: 15px;
+    margin-left: 40px;
+  }
+
+
   .block-1{
     /* margin-top: 7rem; */
     display: flex;
@@ -191,35 +204,12 @@
   
 
 
-.testimonials{
-  padding: 15px 10px;
-  
-  
-  min-height: 70vh;
-  
-  width: 100%;
-  
-}
 
 
 
-.caro-inner{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: red; */
-}
-.caro-card{
-  align-items: center;
-  padding: 20px 100px;
-  
- 
-}
-.caro-card>img{
-  height:20vh ;
-  width:30vh; 
-  margin-bottom: 10px;
-}
+
+
+
 
 @media screen and (max-width: 760px){
   .home-article{
@@ -266,33 +256,6 @@
 }
 
 
-.pagi-btn{
-  /* background-color: yellow; */
-}
-.caro-card>p{
-  color: black;
-  font-size: 18px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-top: 0.1rem;
-  /* margin-bottom: 0.1rem; */
-  text-align: center;
-  
-}
-
-.caro-card>h2{
-  color: black;
-  font-size: 1.5vw;
-  font-style: bold;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  text-align: center;
-
-}
-.caro-card>img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 main {
     width: 100%;

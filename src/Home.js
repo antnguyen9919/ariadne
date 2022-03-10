@@ -25,6 +25,8 @@ import h3 from './Resources/Photos/h3.gif';
 import h4 from './Resources/Photos/h4.gif';
 import HomePost from './Components/HomePost';
 import ProductSection from './Components/ProductSection';
+import VidCaro from './Components/VidCaro';
+import Testimonials from './Components/Testimonials';
 
 
 function Home() {
@@ -65,17 +67,17 @@ function Home() {
     </div>
   
 
-    <div className="container">
-    <div className="container">
-    <div className="row">
+    <div className="container mt-5 align-items-center" >
+    <div className="container align-items-center">
+    <div className="row text-center mb-4 align-items-center">
     <h1>Unlock the value of your data and multiply your returns!</h1>
       </div>
     </div>
-  <div className="container">
-      <div className="row">
-        <div className="col-md-6">
+  <div className="container mb-5 align-items-center">
+      <div className="row align-items-center">
+        <div className="col-md-8">
         <img src={screens} width = "100%" /></div>
-        <div className="col-md-6">
+        <div className="col-md-4">
           
         <div >
         <h5>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
@@ -98,15 +100,17 @@ function Home() {
     </div>
       </div>
 
-      <hr />
+     
   
-  <div className="container-fluid small-divider">
+  <div className="container-fluid small-divider ">
     <div className="row align-items-center justify-content-center">
       <div className="col-md-4"><h4>Get more from your traffic</h4></div>
       <div className="col-md-4"><h4>Learn how Ariadne can transform your business</h4></div>
       <div className="col-md-4"><Button buttonStyle='btn--primary'>Discover the industries</Button></div>
       </div>
     </div>
+
+    <VidCaro/>
 
   <div className="vid-section">
 
@@ -123,9 +127,9 @@ We have a solution for every industry right from Retail establishments to Airpor
 
 
       </div>
-    <hr />
-<div className="container flex-column">
-    <div className="row align-items-center ">
+    
+<div className="container flex-column" id = 'home-post'>
+    <div className="row align-items-center mt-5 ">
       <div className="col-md-6">
         <h3>Ariadne Analytics</h3>
         <p>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
@@ -135,7 +139,7 @@ You can monitor your performance in real time with Ariadne analytics.</p>
         <img src={h1} alt="" width = '100%' />
         </div>
       </div>
-      <div className="row align-items-center">
+      <div className="row align-items-center mt-5">
       <div className="col-md-6">
         <h3>Ariadne Navigation</h3>
 
@@ -146,7 +150,7 @@ Present dynamic and localized promotions to boost the satisfaction level of your
         <img src={h1} alt="" width = '100%' />
         </div>
       </div>
-      <div className="row align-items-center">
+      <div className="row align-items-center mt-5">
       <div className="col-md-6">
         <h3>Ariadne Engagement</h3>
         <p>Ariadne enables your visitors to opt-in to your loyalty program! 
@@ -156,7 +160,7 @@ The opt-in feature enables you to push notifications to your visitors the right 
         <img src={h1} alt="" width = '100%' />
         </div>
       </div>
-      <div className="row align-items-center">
+      <div className="row align-items-center mt-5 mb-5">
       <div className="col-md-6">
         <h3>Ariadne Mapping</h3>
         <p>Transform your physical business into a digital landscape.
@@ -169,95 +173,22 @@ By enabling you to map and localize your products, Ariadne increases your effici
   </div>
   
 
-      <hr/>
+      
 
-      <div className="testimonials">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      
+<Testimonials/>
+<ProductSection/>
+<div className="container-fluid text-center h-75 mb-5">
+  <h1>Spotlight</h1>
   
-    
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <div className="caro-card long">
-     
-
-    <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/Grabert.png"  alt="..."/>
-    
-      <p> <b>"</b> When they said "We are the Google Analytics of the physical world", they were not kidding! Thanks to Ariadne Maps, I have now reliable data and numbers about the visitors on my shopping centre. We can now use this information to make better decisions and optimize the customer experience<b>"</b> <br/><br/>
-      <b>Thomas Grabert</b><br/>
-      Ö-Center Mall, Managing Director
-      </p>
-     
-    
-
-      </div>
-    </div>
-    <div class="carousel-item" >
-    <div className="caro-card"> 
-    <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/Atlantis.png"  alt="..."/>
-   
-    <p><b>"</b>Your devices are like beacons on steroids<b>"</b> <br/><br/>
-    <br/><br/>
-      <b>Anthony Lynsdale</b><br/>
-      Atlantis The Palm, VP Information Technology
-    </p>
-    
-     
-
-    </div>
-    </div>
-    <div class="carousel-item" >
-      <div className="caro-card">
-
-    <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/DB.png"  alt="..."/>
-    
-    <p><b>"</b>You presented to us what we were expecting to see in at least 7 years<b>"</b>
-    <br/><br/><br/><br/><b>Janis Diekmann</b> <br/>Deutsche Bahn, Innovation Manager
-    </p>
-    
-     
-      
-
-      </div>
-    </div>
-    <div class="carousel-item">
-        <div className="caro-card">
-
-    <img src="https://ariadnemaps.com/wp-content/uploads/2021/04/Glasgow.png"  alt="..."/>
-   
-    <p>
-      <b>"</b>I cannot think of anyone who does not need your devices  <b>" </b>
-    <br/><br/><br/><br/>
-     <b>Gordon Bain</b><br/>
-    Glasgow Airport, Head of Project Delivery
-    </p>
-    
-      
-
-        </div>
-    </div>
   </div>
 
-  
 
-    
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  
-</div>
-
-
-
-
- 
-
-</div>
-<ProductSection/>
+<div className="container text-center mb-5">
+<h1>LET'S TALK</h1>
+<h5>Schedule a free 30 minute demo call with an expert</h5>
+  </div>
+<iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' ></iframe>
 
 
 </main>

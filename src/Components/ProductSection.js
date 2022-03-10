@@ -7,7 +7,7 @@ const ProductSection = () => {
   return (
     <div className = 'product-main'>
         
-        <div className="container">
+        <div className="container text-center">
             <div className="row align-item-center">
             <h3>Get Started</h3>
             <p >Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
@@ -18,7 +18,7 @@ const ProductSection = () => {
         <div className="container">
         <div class="card-group">
   <div class="card border-light">
-    <img src={floor} class="card-img-top" alt="..." height={'200px'}/>
+    <img src={floor} class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">Configuration</h5>
       <p class="card-text">Let our team design a project based on your floor plan and industry.</p>
@@ -26,7 +26,7 @@ const ProductSection = () => {
     
   </div>
   <div class="card border-light">
-    <img src={device2} class="card-img-top" alt="..." height={'200px'}/>
+    <img src={device2} class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">Installation</h5>
       <p class="card-text">Simply plug the devices in the predetermined sockets.</p>
@@ -34,7 +34,7 @@ const ProductSection = () => {
     
   </div>
   <div class="card border-light">
-    <img src={screen} class="card-img-top" alt="..." height={'200px'}/>
+    <img src={screen} class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">The Dashboard</h5>
       <p class="card-text">Voila! Now you can make the most out of your existing traffic.</p>

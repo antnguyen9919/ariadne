@@ -7,37 +7,9 @@
     justify-content: space-around;
     
 }
-.cards-section{
-    
-    display: flex;
-    flex-direction: row;
-
-    align-items: space-between;
-    justify-content: center;
-}
-.card-k{
-    height: 10rem;
+.product-main img {
+    height: 60%;
+    width: 100%;
 }
 
-@media screen and (max-width:760px){
-    .product-main{
-        width: 100%;
-        
-    }
-    .cards-section{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-    }
-    #card-k{
-        width: 100%;
-        align-items: center;
 
-    }
-    #card-k >img{
-            width: 400px;
-            height: auto;
-
-    }
-}

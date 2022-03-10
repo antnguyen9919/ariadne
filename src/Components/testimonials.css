@@ -1,0 +1,75 @@
+.testimonials{
+    padding: 15px 10px;
+    
+    
+    min-height: 70vh;
+    
+    width: 100%;
+    
+  }
+
+  .caro-card{
+    align-items: center;
+    padding: 20px 100px;
+    
+   
+  }
+  .caro-card>img{
+    height:20vh ;
+    width:30vh; 
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 760px){
+  
+  
+    .block-1{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .testimonials{
+      padding: 15px 10px;
+      
+      
+      height: 80vh;
+      
+      width: 100%;
+      
+    }
+    .caro-card.long>p{
+      font-size: 15px;
+    }
+    .caro-card{
+      padding: 0 40px;
+    }
+    
+  }
+  
+.pagi-btn{
+    /* background-color: yellow; */
+  }
+  .caro-card>p{
+    color: black;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.1rem;
+    /* margin-bottom: 0.1rem; */
+    text-align: center;
+    
+  }
+  
+  .caro-card>h2{
+    color: black;
+    font-size: 1.5vw;
+    font-style: bold;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  
+  }
+  .caro-card>img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
