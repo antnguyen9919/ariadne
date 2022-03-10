@@ -74,10 +74,12 @@ function Home() {
       </div>
     </div>
   <div className="container mb-5 align-items-center">
-      <div className="row align-items-center">
-        <div className="col-md-8">
+      <div className="row align-items-center" style = {{height: '500px'}}>
+        
+          <div className="row">
+          <div className="col-md-8">
         <img src={screens} width = "100%" /></div>
-        <div className="col-md-4">
+        <div className="col-md-4 justify-content-between">
           
         <div >
         <h5>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
@@ -95,7 +97,9 @@ function Home() {
 
 
         </div>
-          </div></div>
+          </div>
+          </div>
+            </div>
         </div>
     </div>
       </div>

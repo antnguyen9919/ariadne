@@ -5,7 +5,7 @@ import floor from '../Resources/Photos/floor.png'
 import screen from '../Resources/Photos/screen.png'
 const ProductSection = () => {
   return (
-    <div className = 'product-main'>
+    <div className = 'product-main '>
         
         <div className="container text-center">
             <div className="row align-item-center">
@@ -15,9 +15,9 @@ const ProductSection = () => {
             </div>
 
 
-        <div className="container">
-        <div class="card-group">
-  <div class="card border-light">
+        <div className="container justify-content-center align-items-center">
+        <div class="card-group justify-content-center">
+  <div class="card border-light justify-content-center">
     <img src={floor} class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">Configuration</h5>

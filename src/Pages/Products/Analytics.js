@@ -27,26 +27,25 @@ import h15 from '../../Resources/Photos/Pages/Analytics/AdvancedAnalytics/h15.pn
 
 function Analytics() {
   return <div>
-  <div className="container-fluid bg-dark text-white mb-5" >
+  <div className="container-fluid bg-dark text-white" >
     <div className="row align-items-center">
-      <div className="col-md-6 align-self-center">
-        <h1>Ariadne Analytics</h1>
-        <h6>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</h6>
+      <div className="col-md-4 align-self-center offset-1 col-sm-12">
+        <h1>Ariadne <br/> Analytics</h1>
+        <p>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
-        <div className="col-md-6">
-          <img src={Laptopwp} alt="" />
+        <div className="col-md-6 col-sm-12">
+          <img src={Laptopwp} alt="" id = 'lap_wp'/>
           </div>
       </div>
     </div>
   <main>
-      <div className="container mb-5" id = 'open'>
-      <div className="row align-items-center ">
-      <div className="col-md-6">
-        <h3>Ariadne Analytics</h3>
-        <p>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
-You can monitor your performance in real time with Ariadne analytics.</p>
+      <div className="container-fluid" id = 'open' style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row p-5 align-items-center">
+      <div className="col-md-5 offset-1">
+        
+        <h6>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</h6>
         </div>
-      <div className="col-md-6">
+      <div className="col-md-5 col-sm-12">
         <img src={h1} alt="" width = '100%' />
         </div>
       </div>
@@ -58,7 +57,7 @@ You can monitor your performance in real time with Ariadne analytics.</p>
           <p>When do your consumers prefer to shop during the day, and how many people are now in your store and where are they located? We provide answer to those questions with our intuitive dashboard.</p>
           <div className="row mt-5">
             <div className="col-md-4">
-              <img src={Total} alt=""width={'100%'} />
+              <img src={Total} alt=""width={'80%'} />
               </div>
             <div className="col-md-4">
             <img src={Floor1} alt="" width={'100%'}/></div>

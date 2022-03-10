@@ -4,6 +4,8 @@ import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroH2, HeroBtnWrap
 import Wall from '../Resources/Videos/Wall.mp4';
 import Button from './Button';
 import './hero.css'
+import { Link } from 'react-router-dom';
+import Home from '../Home';
 
 
 const HeroSection = () => {
@@ -28,14 +30,10 @@ Your Customers!</HeroH1>
                     </HeroH2>
                     <HeroBtnWrapper>
                         
-                        <Button buttonStyle='btn--outline' buttonSize='btn--medium'> 
-                                Get started
-                        </Button>
+                       
                         
+                            <Link to ='/' element = {<Home/>}> <button type="button" class="btn btn-danger">Let's Talk</button></Link>
                         
-                        <Button  buttonStyle='btn--outline' buttonSize='btn--medium' > 
-                                Let's talk
-                        </Button>
                         
                     </HeroBtnWrapper>
                     </div>

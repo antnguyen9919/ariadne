@@ -3,7 +3,7 @@
     -webkit-box-shadow: 10px 10px 5px #ccc;
     box-shadow: 1px 1px 1px rgb(139, 139, 139);
     height: 80%;   
-    width: 90%;
+    width: 100%;
     
 }
 #open img{
@@ -20,4 +20,13 @@
 
 .analytics-whole button {
     margin-top: 30px;
+}
+@media screen and (max-width:760px){
+    #lap_wp{
+            width: 100%;
+    }
+    #open img{
+        width: 100%;
+        margin-left: 0;
+    }
 }
