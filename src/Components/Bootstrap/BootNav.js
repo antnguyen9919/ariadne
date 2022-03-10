@@ -55,7 +55,7 @@ const BootNav = () => {
         <li class="nav-item">
          
           <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                                <h5>Why Ariadne?</h5>
+                                <h5 id="navbarDarkDropdownMenuLink">Why Ariadne?</h5>
                              </Link>
         </li>
         <li class="nav-item dropdown" id = 'roro'>
@@ -79,20 +79,20 @@ const BootNav = () => {
       <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                               <h5>Let's talk</h5>
+                               <h5 id="navbarDarkDropdownMenuLink">Let's talk</h5>
                             </Link>
        </li>
         <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                               <PersonOutlineIcon style = {{width: '100%'    }  } />
+                               <PersonOutlineIcon id="navbarDarkDropdownMenuLink" style = {{width: '100%'    }  } />
                                
                             </Link>
        </li>
        <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                              <img src ='https://cdn-icons-png.flaticon.com/512/330/330523.png' alt='de'height='30px'/>
+                              <img id='de-flag' src ='https://cdn-icons-png.flaticon.com/512/330/330523.png' alt='de'height='30px'/>
                             </Link>
        </li>
       </ul>

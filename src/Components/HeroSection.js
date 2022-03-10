@@ -24,7 +24,7 @@ const HeroSection = () => {
 To Know
 Your Customers!</HeroH1>
                     <HeroH2>
-                    Ariadne. Smart Decisions. Better returns. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magni necessitatibus ducimus sed eius blanditiis.
+                    Turn your existing customer traffic into an additional source of revenue.
                     </HeroH2>
                     <HeroBtnWrapper>
                         
