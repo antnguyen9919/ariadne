@@ -6,11 +6,12 @@ import phone3 from '../../Resources/Photos/Pages/Navigation/phone3.png';
 import h1 from '../../Resources/Photos/h1.gif';
 function Navigation() {
   return <div>
-  <div className="container-fluid bg-dark text-white">
+  <div className="container-fluid bg-dark text-white px-5">
+
     <div className="row align-items-center">
       <div className="col-md-6 align-self-center">
-        <h1>Ariadne Analytics</h1>
-        <h6>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</h6>
+        <h1 className='display-2 fw-bold'>Ariadne Analytics</h1>
+        <p className='fs-3'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
         <div className="col-md-6">
           <img src={MunichOffice} alt="" height={'500px'} width = '80%' />
@@ -18,20 +19,20 @@ function Navigation() {
       </div>
     </div>
   <main>
-  <div className="container">
-      <div className="row align-items-center ">
+  <div className="container-fluid  p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center justify-content-between ">
       <div className="col-md-6">
-        <h3>Ariadne Analytics</h3>
-        <p>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
+        
+        <p className='lh-lg fs-4'>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
 You can monitor your performance in real time with Ariadne analytics.</p>
         </div>
-      <div className="col-md-6">
-        <img src={h1} alt="" width = '90%' />
+      <div className="col-md-5">
+        <img src={h1} alt="" className='img-fluid rounded shadow' />
         </div>
       </div>
         </div>
-        <hr />
-        <div className="container">
+        
+        <div className="container my-5">
       <div className="row align-items-center justify-content-center">
       <div className="col-md-6">
       <h2>Indoor Positioning Services (IPS)</h2>

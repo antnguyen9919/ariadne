@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Home.css';
 import HeroSection from './Components/HeroSection';
-
+import CheckIcon from '@mui/icons-material/Check';
 
 import Button from './Components/Button';
 import screens from './Resources/Photos/screens.png';
@@ -27,18 +27,20 @@ import HomePost from './Components/HomePost';
 import ProductSection from './Components/ProductSection';
 import VidCaro from './Components/VidCaro';
 import Testimonials from './Components/Testimonials';
+import Hero2 from './Components/Hero2';
 
 
 function Home() {
   return <div >
       
 <HeroSection/>
+{/* <Hero2/> */}
 
 
    
 
 <main>
-  <div className="container-fluid">
+  <div className="container-fluid my-5">
   <div className="slider-mine">
     <div className="slider-track-mine">
         <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
@@ -66,33 +68,52 @@ function Home() {
     
     </div>
   
+    <div class = 'container text-align-center text-center mt-5 px-5'> 
+    <h1 class='display-3 fw-bold'>Unlock the value of your data and multiply your returns!</h1>
 
-    <div className="container mt-5 align-items-center" >
+    </div>
+
+    <div className="container mt-3 align-items-center" >
     <div className="container align-items-center">
     <div className="row text-center mb-4 align-items-center">
-    <h1>Unlock the value of your data and multiply your returns!</h1>
       </div>
     </div>
   <div className="container mb-5 align-items-center">
       <div className="row align-items-center" style = {{height: '500px'}}>
         
-          <div className="row">
-          <div className="col-md-8">
+          <div className="row justify-content-between">
+          <div className="col-md-7">
         <img src={screens} width = "100%" /></div>
-        <div className="col-md-4 justify-content-between">
+        <div className="col-md-5 text-md-start text-sm-center">
           
         <div >
-        <h5>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
-        </h5>
+        <h6 class = 'lh-lg'>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
+        </h6>
         <div>
 
-        <ul>
-          <li>Footfall (Total and by area)</li>
-          <li>Dwell Time(Total and by area)</li>
-          <li>Heatmap (2D and 3D)</li>
-          <li>Transitions between areas</li>
-          <li>ERP, BI, POS Integration</li>
-        </ul>
+      
+        <div class = 'container-fluid pt-2'>
+            <div className="row justify-content-start py-1">
+              <div className="col-2"><CheckIcon /> </div>
+              <div className="col-10">Footfall (Total and by area)</div>
+            </div>
+            <div className="row py-1">
+            <div className="col-2"><CheckIcon /> </div>
+              <div className="col-10">Dwell Time(Total and by area)</div>
+            </div>
+            <div className="row py-1">
+            <div className="col-2"><CheckIcon /> </div>
+              <div className="col-10">Heatmap (2D and 3D)</div>
+            </div>
+            <div className="row py-1">
+            <div className="col-2"><CheckIcon /> </div>
+              <div className="col-10">Transitions between areas</div>
+            </div>
+            <div className="row py-1">
+            <div className="col-2"><CheckIcon /> </div>
+              <div className="col-10">ERP, BI, POS Integration</div>
+            </div>
+        </div>
 
 
 
@@ -106,72 +127,70 @@ function Home() {
 
      
   
-  <div className="container-fluid small-divider ">
-    <div className="row align-items-center justify-content-center">
-      <div className="col-md-4"><h4>Get more from your traffic</h4></div>
-      <div className="col-md-4"><h4>Learn how Ariadne can transform your business</h4></div>
-      <div className="col-md-4"><Button buttonStyle='btn--primary'>Discover the industries</Button></div>
-      </div>
-    </div>
+ 
 
-    <VidCaro/>
+    {/* <VidCaro/> */}
 
   <div className="vid-section">
 
   </div>
     
-  <div className="home-article">
-          <h1>What is Ariadne Maps all about?</h1>
-          <p>Ariadne Maps is the physical world's Google Analytics. Ariadne Maps expertise lies in Indoor and Outdoor analytics and Indoor Positioning services.
+  
+      <div className="container p-5">
+        <div class = 'text-center'> <h1>What is Ariadne Maps all about?</h1> </div>
+        <div class ='fs-1 pt-4' >
+        <p class = 'lh-lg fs-5'>Ariadne Maps is the physical world's Google Analytics. Ariadne Maps expertise lies in Indoor and Outdoor analytics and Indoor Positioning services.
 How does Ariadne add value to you?
 Ariadne analyzes your customers journey and behavior and assists you in developing data-driven initiatives, operating and marketing strategies. 
 Who can benefit from Ariadne´s Services?
 We have a solution for every industry right from Retail establishments to Airport Terminals.
           </p>
-
-
+        </div>
       </div>
+
+      <div class = 'text-center p-5'> <h1>The Ariadne Platform</h1> </div>
     
-<div className="container flex-column" id = 'home-post'>
-    <div className="row align-items-center mt-5 ">
-      <div className="col-md-6">
-        <h3>Ariadne Analytics</h3>
-        <p>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
+<div className="container-fluid flex-column">
+    <div className="row align-items-center mt-5 py-2 justify-content-around p-5 ">
+      <div className="col-md-6 ">
+        <h3 class = 'display-6 fw-bold'>Ariadne Analytics</h3>
+        <p class = 'mt-5 fs-5'>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
 You can monitor your performance in real time with Ariadne analytics.</p>
         </div>
-      <div className="col-md-6">
-        <img src={h1} alt="" width = '100%' />
+      <div className="col-md-5">
+        <img src={h1} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
-      <div className="row align-items-center mt-5">
-      <div className="col-md-6">
-        <h3>Ariadne Navigation</h3>
 
-        <p>Enhance your visitors, guests and customer´s experience by navigating them! 
+      <div className="row align-items-center mt-5 justify-content-around p-5 " style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="col-md-6">
+        <h3 class = 'display-6 fw-bold'>Ariadne Navigation</h3>
+
+        <p class = 'mt-5 fs-5'>Enhance your visitors, guests and customer´s experience by navigating them! 
 Present dynamic and localized promotions to boost the satisfaction level of your visitors.</p>
         </div>
-      <div className="col-md-6">
-        <img src={h1} alt="" width = '100%' />
+      <div className="col-md-5">
+        <img src={h1} alt="" class="img-fluid rounded  shadow"  />
         </div>
       </div>
-      <div className="row align-items-center mt-5">
+      <div className="row align-items-center mt-5 justify-content-around p-5 ">
       <div className="col-md-6">
-        <h3>Ariadne Engagement</h3>
-        <p>Ariadne enables your visitors to opt-in to your loyalty program! 
+        <h3 class = 'display-6 fw-bold'>Ariadne Engagement</h3>
+        <p class = 'mt-5 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program! 
 The opt-in feature enables you to push notifications to your visitors the right moment.</p>
         </div>
-      <div className="col-md-6">
-        <img src={h1} alt="" width = '100%' />
+      <div className="col-md-5">
+        <img src={h1} alt=""class="img-fluid rounded shadow"  />
         </div>
       </div>
-      <div className="row align-items-center mt-5 mb-5">
+      <div className="row align-items-center mt-5 mb-5 justify-content-around p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
-        <h3>Ariadne Mapping</h3>
-        <p>Transform your physical business into a digital landscape.
+        <h3 class = 'display-6 fw-bold'>Ariadne Mapping</h3>
+        <p class = 'mt-5 fs-5'>Transform your physical business into a digital landscape.
 By enabling you to map and localize your products, Ariadne increases your efficiency.</p>
         </div>
-      <div className="col-md-6">
-        <img src={h1} alt="" width = '100%' />
+      <div className="col-md-5">
+        <img src={h1} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
   </div>
@@ -182,7 +201,7 @@ By enabling you to map and localize your products, Ariadne increases your effici
       
 <Testimonials/>
 <ProductSection/>
-<div className="container-fluid text-center h-75 mb-5">
+<div className="container-fluid text-center h-75 my-5">
   <h1>Spotlight</h1>
   
   </div>

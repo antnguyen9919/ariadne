@@ -7,42 +7,36 @@ const ProductSection = () => {
   return (
     <div className = 'product-main '>
         
-        <div className="container text-center">
-            <div className="row align-item-center">
-            <h3>Get Started</h3>
-            <p >Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
+        <div className="container text-center m-5">
+            <div className="align-item-center">
+            <h3 class = 'display-6 fw-bold'>Get Started</h3>
+            <p class = 'mt-4 fs-4'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
                 </div>
             </div>
 
 
-        <div className="container justify-content-center align-items-center">
-        <div class="card-group justify-content-center">
-  <div class="card border-light justify-content-center">
-    <img src={floor} class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Configuration</h5>
-      <p class="card-text">Let our team design a project based on your floor plan and industry.</p>
+        
+    <div className="container mb-5">
+      <div className="row justify-content-center">
+        <div className="col-md-4 col-sm-12">
+          <img src={floor} alt="" className="img-fluid" />
+          <h4 class = 'pt-5'>Configuration</h4>
+          <p>Let our team design a project based on your floor plan and industry.</p>
+        </div>
+        <div className="col-md-4">
+          <img src={device2} alt="" className="img-fluid" />
+          <h4 class = 'pt-5'>Installation</h4>
+          <p>Simply plug the devices in the predetermined sockets.</p>
+        </div>
+        <div className="col-md-4">
+          <img src={screen} alt="" className="img-fluid" />
+          <h4 class = 'pt-5'>The Dashboard</h4>
+          <p>Voila! Now you can make the most out of your existing traffic.</p>
+        </div>
+      </div>
     </div>
-    
-  </div>
-  <div class="card border-light">
-    <img src={device2} class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Installation</h5>
-      <p class="card-text">Simply plug the devices in the predetermined sockets.</p>
-    </div>
-    
-  </div>
-  <div class="card border-light">
-    <img src={screen} class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">The Dashboard</h5>
-      <p class="card-text">Voila! Now you can make the most out of your existing traffic.</p>
-    </div>
-    
-  </div>
-</div>
-            </div>
+
+
     </div>
   )
 }

@@ -1,36 +1,39 @@
 import React from 'react'
-import './hero.css'
-import backgroundvid from '../Resources/Videos/backgroundvid.mp4';
-import ug from '../Resources/Photos/ug.gif'
-import apple from '../Resources/Photos/apple.png';
-import Button from './Button';
-
+import Wall2 from '../Resources/Videos/Wall2.mp4';
+import WPPGIF from '../Resources/Photos/WPPGIF.gif';
 const Hero2 = () => {
   return (
-
-    <div className = 'hero-sec'>
-      
-      <div className="bg">
-      {/* <video id = 'bgvid' src = {backgroundvid} autoPlay loop muted type = 'video/mp4' poster ='https://images.ctfassets.net/9mt55bm0937w/1VhXxVR2AP6jpbAaXKdr4I/6ba92dd0b690f2b59fc2caae3991504f/Key-Visual_Flexible-Office_Frankfurt_Wiesenh__ttenplatz.jpg'/> */}
-      <img src = 'https://www.xmple.com/wallpaper/gradient-black-linear-grey-2560x1440-c2-d3d3d3-000000-a-90-f-14.svg' width='100%'/>
-    </div>
-
-    <div className="float">
-    <div className="content">
-      <h1>Ariadne. Smart Decisions. Better returns.</h1>
-      <Button buttonStyle='btn--outline' buttonSize='btn--medium'> 
-                                Get started
-                        </Button>
-    </div>
-
-    <div className="ima" >
-        <img src = {ug} alt = "monitor" no-repeat />
-        
-    </div>
-    </div>
     
-      </div>
+  
+
+<div class="container-fluid col-xxl-8 px-4 py-5 text-light mb-5" style = {{backgroundColor:'rgba(47, 48, 58, 1)'}}>
+
+	<div class="row flex-lg-row-reverse g-5 py-5">
+		<div class="col-10 col-sm-10 col-lg-7 offset-1 align-self-end">
+			
+      <video src = {Wall2} class="d-block mx-lg-auto" autoPlay muted loop type = "videos/mp4" style = {{width: '100%', marginBottom:'-10px '}}/>
+		</div>
+		<div class="col-lg-4">
+			<div class="lc-block mb-3">
+				<div editable="rich">
+					<h2 class="fw-bold display-5">Get To Know Your Customers!</h2>
+				</div>
+			</div>
+
+			<div class="lc-block mb-3">
+				<div editable="rich">
+					<p class="lead">Turn your existing customer traffic into an additional source of revenue.
+					</p>
+				</div>
+			</div>
+
+			<div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start"><a class="btn btn-danger px-4 me-md-2" href="#" role="button">Let's Talk</a>
       
+			</div>
+
+		</div>
+	</div>
+</div>
   )
 }
 

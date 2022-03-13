@@ -7,26 +7,28 @@ export const HeroContainer = styled.div`
     background-color: rgba(47, 48, 58, 1);
     /* margin-bottom: -100px; */
     
-    display: flex;
-    top: -50px;
+    
+    /* top: -70px; */
     justify-content: flex-start;
-    align-items: center;
-    padding: 0 30px;
+    
+    
     height: 100vh;
     position: relative;
     z-index: 1;
+    margin-bottom:100px
     
       
 
-      @media screen and(max-width: 480px){
+      @media screen and(max-width: 760px){
         display: flex;
     top: 0px;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    min-height: 110vh;
+    height: 150vh;
     position: relative;
     z-index: 1;
+    margin-bottom: 200px;
 
       }
     
@@ -60,14 +62,13 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
     z-index:3;
-    width: 33vw;
-    height: 50vh;
+    padding-top: 150px;
+    width: 100%;
+    height:100%;
     position: absolute;
-    padding: 8px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    /* border: 1px red solid; */
+     
+   
+    
 `   
 export const HeroH1 = styled.h1`
     color: #fff;

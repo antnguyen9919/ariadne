@@ -21,21 +21,19 @@ const HeroSection = () => {
                 </HeroBg>
 
                 <HeroContent >
-                    <div>
-                    <HeroH1>Get
+                    <div className='container-fluid px-4 text-light'>
+                        
+                        <div className="row align-items-center">
+                            <div className="col-md-4">
+                                <h1 className='display-5 lh-md fw-bold mb-4'>Get
 To Know
-Your Customers!</HeroH1>
-                    <HeroH2>
-                    Turn your existing customer traffic into an additional source of revenue.
-                    </HeroH2>
-                    <HeroBtnWrapper>
-                        
-                       
-                        
-                            <Link to ='/' element = {<Home/>}> <button type="button" class="btn btn-danger">Let's Talk</button></Link>
-                        
-                        
-                    </HeroBtnWrapper>
+Your Customers!</h1>
+                        <p class='fs-5 mb-4'>Turn your existing customer traffic into an additional source of revenue.</p>
+                        <button type="button" class="btn btn-danger btn-lg">Let's Talk</button>
+
+                            </div>
+                        </div>
+                    
                     </div>
                     
                   
