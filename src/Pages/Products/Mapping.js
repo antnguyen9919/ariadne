@@ -1,12 +1,216 @@
 import '../../App.css';
 import React from 'react';
+import h3 from '../../Resources/Photos/h3.gif';
+import MunichOffice from '../../Resources/Photos/Pages/Navigation/MunichOffice.png';
 
 function Mapping() {
   return <div>
-  <img src = "https://data-science-blog.com/wp-content/uploads/2020/09/image1.jpg" width="100%" alt = "analytics"/>
+ <div className="container-fluid bg-dark text-white px-5">
+
+<div className="row align-items-center">
+  <div className="col-md-6 align-self-center">
+    <h1 className='display-2 fw-bold'>Ariadne
+
+Mapping</h1>
+    <p className='fs-3'>Digitalize, customize and update your maps at any point
+
+Engage your customers not only in the physical space but also in the digital environment</p>
+    </div>
+    <div className="col-md-6">
+      <img src={MunichOffice} alt="" height={'500px'} width = '80%' />
+      </div>
+  </div>
+</div>
   <main>
-  <h1>Ariadne Mapping</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit exercitationem laudantium officiis non, cumque, reiciendis et consequuntur, minima sint est ea molestias commodi! Voluptatum quas ab aperiam veniam dolores eum minima deserunt consequatur. Quae commodi ad qui dolores nihil recusandae modi. Dignissimos rerum aliquid obcaecati sapiente placeat magnam possimus, dicta perferendis quidem, cum alias voluptatem veniam mollitia quis incidunt, similique eveniet repudiandae odio dolor asperiores! Excepturi illo quaerat obcaecati ad aliquid sunt quisquam, reprehenderit ratione veniam aspernatur ut voluptatem dignissimos pariatur expedita delectus atque, temporibus ab doloribus eaque, unde eius quas quae? Facilis, repellendus libero. Eius deleniti et nostrum aperiam!</p>
+  <div className="container-fluid  p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center justify-content-between ">
+      <div className="col-md-6">
+        
+        <p className='lh-lg fs-4'>Transform your physical business into a digital landscape.
+        <br/>
+By enabling you to map and localize your products, Ariadne increases your efficiency.
+</p>
+        </div>
+      <div className="col-md-5">
+        <img src={h3} alt="" className='img-fluid rounded shadow'/>
+        </div>
+      </div>
+
+        
+
+        
+
+
+
+        </div>
+        <div class=" container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
+           
+            <div className="row align-items-center justify-content-center">
+              <div className="col-8">
+              
+            <p className='lh-lg fs-5'>Ariadne Mapping is the first component of the Ariadne Platform. With this feature, Ariadne Maps creates the indoor maps of your areas. We transform your static map, i.e., floor plan, into a digital map and and position your assets, areas and offices. This feature can be applied to any industry, from hospitals to government facilities and ease your challenges of wayfinding, asset tracking, navigation and many more. It is also possible to update the maps with changes in your layout design, such as a new food court in your premises or a concert in your main hall. Your maps can be displayed across all platforms including mobile, desktop and kiosks.</p>
+              </div>
+            
+            </div>
+            
+          </div>
+          <div className="text-center mt-5">
+        <h1 className='display-4 fw-bold'>Features</h1>
+      </div>
+      <div className="container">
+        <div className="row justify-content-around mt-5 py-5">
+          <div className="col-md-4">
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png' alt ='' class = 'img-fluid'/>
+            <h2>Digital Conversion</h2>
+            <p>
+
+Create the digital version of your static map and have a holistic overview of your spaces in real time. </p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png' alt ='' class = 'img-fluid'/>
+            <h2>Asset Positioning</h2>
+            <p>
+
+Place your assets and properties in the map and don’t waste your time with wayfinding and navigation</p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
+            <h2>Branding</h2>
+            <p>
+
+Customize your digital map in line with your brand and colors, show off your values to your customers</p>
+          </div>
+        </div>
+        <div className="row justify-content-around mt-2 py-5">
+          <div className="col-md-4">
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png' alt ='' class = 'img-fluid'/>
+            <h2>Integration</h2>
+            <p>
+
+Integrate your digital map with your existing infrastructure and tools like CRM to get the most benefits</p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png' alt ='' class = 'img-fluid'/>
+            <h2>Detailed Overview</h2>
+            <p>
+
+Insert details about your assets and areas, help your visitors zoom and find what they need with ease</p>
+          </div>
+
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Funnel.png' alt ='' class = 'img-fluid'/>
+            <h2>Customization</h2>
+            <p>
+
+Customize, edit and update your map with changes in your spaces, add or remove areas with modifications</p>
+          </div>
+        </div>
+        
+      </div>
+      <div className="text-center mt-5">
+        <h1 className='display-4 fw-bold'>Complementary Solutions</h1>
+        <h4>Complement your digital maps with our solutions below, increase returns on your investments</h4>
+      </div>
+      <div className="container">
+        <div className="row justify-content-around mt-5 py-5">
+          <div className="col-md-4">
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png' alt ='' class = 'img-fluid'/>
+            
+            <a href=""><h2>Ariadne Navigation</h2></a>
+            <p>
+
+Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png' alt ='' class = 'img-fluid'/>
+            
+            <a href=""><h2>Ariadne Analytics</h2></a>
+            <p>
+
+Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
+             
+            <a href=""><h2>Ariadne Engagement</h2></a>
+            <p>
+
+Ariadne comes with an opt-in option for your customers. Even though the core technology does not require interaction from your visitors, with the opt-in option, you can push notifications to your customers, or just send short surveys to assess the quality of your service.</p>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class='text-center'>
+        <h1>Discover Our Use Cases</h1>
+      </div>
+      <div className="container mt-5 py-5">
+
+        <div class="row justify-content-around" >
+  <div class="col-md-2">
+    <div class="card border-light">
+      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+      <a href="#" class="btn btn-primary">Shopping</a>
+        <p class="card-text mt-3 mt-3">Structure the layout and decide on the tenant mix that brings you the most returns</p>
+       
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="card border-light">
+      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Airport.svg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+      <a href="#" class="btn btn-primary">Airports</a>
+        <p class="card-text mt-3 mt-3">Optimize the revenues of commercial duty free area and minimize the queue times</p>
+        
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="card border-light">
+      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Train.svg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+      <a href="#" class="btn btn-primary">Transportation</a>
+        <p class="card-text mt-3 mt-3">
+
+Engage with passengers, optimize train scheduling and make better use of your spaces</p>
+        
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="card border-light">
+      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/City.svg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+      <a href="#" class="btn btn-primary">Cities</a>
+        <p class="card-text mt-3 mt-3">Measure the performance of your shopping streets, increase the visitor satisfaction at government buildings</p>
+        
+      </div>
+      
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="card border-light">
+      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Hotel.svg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+      <a href="#" class="btn btn-primary">Hospitality</a>
+        <p class="card-text  mt-3">Provide the best service to your guests, increase their spending and deliver unique experiences</p>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+        </div>
   </main>
 </div>;
 }

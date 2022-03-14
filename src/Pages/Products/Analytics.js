@@ -29,9 +29,9 @@ function Analytics() {
   return <div>
   <div className="container-fluid bg-dark text-white" >
     <div className="row align-items-center">
-      <div className="col-md-4 align-self-center offset-1 col-sm-12">
-        <h1 class = 'lh-md'>Ariadne <br/> Analytics</h1>
-        <p>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
+      <div className="col-md-4 align-self-center offset-1 col-sm-10">
+        <h1 className='display-2 fw-bold'>Ariadne <br/> Analytics</h1>
+        <p className='fs-4'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
         <div className="col-md-6 col-sm-12">
           <img src={Laptopwp} alt="" id = 'lap_wp'/>
@@ -40,14 +40,14 @@ function Analytics() {
     </div>
 
   <main>
-      <div className="container-fluid" id = 'open' style = {{backgroundColor: '#f2f2f2'}}>
-      <div className="row p-5 align-items-center">
-      <div className="col-md-5 offset-1">
+      <div className="container-fluid p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center justify-content-around">
+      <div className="col-md-6">
         
-        <h6>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</h6>
+        <p className='lh-lg fs-4'>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</p>
         </div>
       <div className="col-md-5 col-sm-12">
-        <img src={h1} alt="" width = '100%' />
+        <img src={h1} alt="" className='img-fluid rounded shadow' />
         </div>
       </div>
         </div>
@@ -134,19 +134,25 @@ function Analytics() {
                   </div>
                 </div>
             </div>
-            <div style = {{height:'200px'}} class="p-3 mb-2 bg-dark text-white text-center font-weight-bold justify-content-between">
-            <div className="row">
-            <h1>Work Together?</h1>
 
+           
+          
+          
+          
+          </div>
+          <div class="container-fluid p-5 mt-5 bg-black text-white text-center font-weight-bold align-items-center">
+           
+            
+            
+            <div className="row align-items-center justify-content-center">
+              <div className="col-8">
+              <h1 class='mb-5'>Work Together?</h1>
+              <button type="button" class="btn btn-success">Let's Talk</button>
               </div>
             
-            <button type="button" class="btn btn-success">Success</button>
+            </div>
             
             
-          </div>
-          
-          
-          
           </div>
 
         

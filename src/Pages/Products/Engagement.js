@@ -120,7 +120,7 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
               </div>
 
 
-              <div class="container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
+              <div class="container-fluid p-5 mt-5 bg-black text-white text-center font-weight-bold align-items-center">
            
             
             

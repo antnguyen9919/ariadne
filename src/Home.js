@@ -154,8 +154,9 @@ We have a solution for every industry right from Retail establishments to Airpor
     <div className="row align-items-center mt-5 py-2 justify-content-around p-5 ">
       <div className="col-md-6 ">
         <h3 class = 'display-6 fw-bold'>Ariadne Analytics</h3>
-        <p class = 'mt-5 fs-5'>Discover your own establishments people counting, customer Heatmaps, conversion rate, footfall rate and other insightful metrics.
-You can monitor your performance in real time with Ariadne analytics.</p>
+        <p class = 'mt-4 fs-5'>Obtain people counting, heatmaps, loyalty rate and more!<br/>
+
+With Ariadne analytics, you can review your performance in real time.</p>
         </div>
       <div className="col-md-5">
         <img src={h1} alt="" class="img-fluid rounded  shadow" />
@@ -166,31 +167,34 @@ You can monitor your performance in real time with Ariadne analytics.</p>
       <div className="col-md-6">
         <h3 class = 'display-6 fw-bold'>Ariadne Navigation</h3>
 
-        <p class = 'mt-5 fs-5'>Enhance your visitors, guests and customer´s experience by navigating them! 
-Present dynamic and localized promotions to boost the satisfaction level of your visitors.</p>
+        <p class = 'mt-4 fs-5'>Navigate your visitors and guests for an enhanced experience!
+<br/>
+Present promotions in your map to engage and enhance your visitors satisfaction.</p>
         </div>
       <div className="col-md-5">
-        <img src={h1} alt="" class="img-fluid rounded  shadow"  />
+        <img src={h2} alt="" class="img-fluid rounded  shadow"  />
         </div>
       </div>
       <div className="row align-items-center mt-5 justify-content-around p-5 ">
       <div className="col-md-6">
         <h3 class = 'display-6 fw-bold'>Ariadne Engagement</h3>
-        <p class = 'mt-5 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program! 
+        <p class = 'mt-4 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program!
+        <br/> 
 The opt-in feature enables you to push notifications to your visitors the right moment.</p>
         </div>
       <div className="col-md-5">
-        <img src={h1} alt=""class="img-fluid rounded shadow"  />
+        <img src={h3} alt=""class="img-fluid rounded shadow"  />
         </div>
       </div>
       <div className="row align-items-center mt-5 mb-5 justify-content-around p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h3 class = 'display-6 fw-bold'>Ariadne Mapping</h3>
-        <p class = 'mt-5 fs-5'>Transform your physical business into a digital landscape.
+        <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
+        <br/>
 By enabling you to map and localize your products, Ariadne increases your efficiency.</p>
         </div>
       <div className="col-md-5">
-        <img src={h1} alt="" class="img-fluid rounded  shadow" />
+        <img src={h4} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
   </div>
