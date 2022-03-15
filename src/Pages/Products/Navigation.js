@@ -4,6 +4,7 @@ import MunichOffice from '../../Resources/Photos/Pages/Navigation/MunichOffice.p
 import navigate from '../../Resources/Photos/Pages/Navigation/navigate.png';
 import phone3 from '../../Resources/Photos/Pages/Navigation/phone3.png';
 import h2 from '../../Resources/Photos/h2.gif';
+import Usecase from '../../Components/Usecase'
 function Navigation() {
   return <div>
   <div className="container-fluid bg-dark text-white px-5">
@@ -121,72 +122,7 @@ Ariadne comes with an opt-in option for your customers. Even though the core tec
             <h1>Discover Use Cases</h1>
           </div>
 
-        <div className="container mt-5 py-5">
-
-        <div class="row justify-content-around" >
-  <div class="col-md-2">
-    <div class="card border-light">
-      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" class="card-img-top" alt="..."/>
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">Shopping</a>
-        <p class="card-text mt-3 mt-3">Structure the layout and decide on the tenant mix that brings you the most returns</p>
-       
-      </div>
-      
-    </div>
-  </div>
-
-  <div class="col-md-2">
-    <div class="card border-light">
-      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Airport.svg" class="card-img-top" alt="..."/>
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">Airports</a>
-        <p class="card-text mt-3 mt-3">Optimize the revenues of commercial duty free area and minimize the queue times</p>
-        
-      </div>
-      
-    </div>
-  </div>
-
-  <div class="col-md-2">
-    <div class="card border-light">
-      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Train.svg" class="card-img-top" alt="..."/>
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">Transportation</a>
-        <p class="card-text mt-3 mt-3">
-
-Engage with passengers, optimize train scheduling and make better use of your spaces</p>
-        
-      </div>
-      
-    </div>
-  </div>
-
-  <div class="col-md-2">
-    <div class="card border-light">
-      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/City.svg" class="card-img-top" alt="..."/>
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">Cities</a>
-        <p class="card-text mt-3 mt-3">Measure the performance of your shopping streets, increase the visitor satisfaction at government buildings</p>
-        
-      </div>
-      
-    </div>
-  </div>
-  <div class="col-md-2">
-    <div class="card border-light">
-      <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Hotel.svg" class="card-img-top" alt="..."/>
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">Hospitality</a>
-        <p class="card-text  mt-3">Provide the best service to your guests, increase their spending and deliver unique experiences</p>
-        
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
-        </div>
+        <Usecase/>
         
         
   </main>
