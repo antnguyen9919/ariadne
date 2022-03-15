@@ -6,7 +6,7 @@ const Usecase = () => {
         <div class='text-center'>
         <h1>Discover Our Use Cases</h1>
       </div>
-      <div className="container-fluid mt-5 py-5">
+      <div className="container-xxl mt-5 py-5">
 
         <div class="row justify-content-around px-4" >
   <div class="col-md-2 col-sm-8">

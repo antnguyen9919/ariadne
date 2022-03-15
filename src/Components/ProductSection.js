@@ -10,13 +10,13 @@ const ProductSection = () => {
     
             
       <div className="container">
-      <h3 class = 'display-6 fw-bold text-center'>Get Started</h3>
-            <p class = 'mt-4 fs-3 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
+      <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>Get Started</h1>
+            <p class = 'mt-4 fs-3 px-5 mx-5 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
       </div>
         
     <div className="container my-5">
-      <div className="row justify-content-between">
-        <div className="col-md-3 col-sm-8">
+      <div className="row justify-content-around">
+        <div className="col-md-3 col-sm-4">
           <img src={floor} alt="" className="img-fluid" />
           <h4 class = 'pt-5'>Configuration</h4>
           <p class='fs-4 lead'>Let our team design a project based on your floor plan and industry.</p>

@@ -11,7 +11,7 @@ const BootNav = () => {
       
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black align-items-center">
 
   <div class="container align-items-center">
     
@@ -23,9 +23,9 @@ const BootNav = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    <div class="collapse navbar-collapse align-items-center" id="navbarNavDarkDropdown">
 
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav mx-auto align-items-center">
 
         <li class="nav-item dropdown" id= 'roro'>
 
@@ -77,7 +77,7 @@ const BootNav = () => {
         </li>
           
       </ul>
-      <ul class="navbar-nav ms-auto mx-5">
+      <ul class="navbar-nav mx-auto ">
       <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >

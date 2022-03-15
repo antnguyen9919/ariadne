@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 import HeroSection from './Components/HeroSection';
 import CheckIcon from '@mui/icons-material/Check';
-
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Button from './Components/Button';
 import screens from './Resources/Photos/screens.png';
 import s1 from './Resources/Photos/inf/s1.png';
@@ -40,7 +40,7 @@ function Home() {
    
 
 <main >
-  <div className="container-fluid mb-5 shadow-sm py-2">
+  <div className="container mb-5 shadow-sm py-2 overflow-hidden">
   <div className="slider-mine">
     <div className="slider-track-mine">
         <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
@@ -69,18 +69,23 @@ function Home() {
     </div>
   
     <div class = 'container text-align-center text-center mt-5 px-5'> 
-    <h1 class='display-4 fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and multiply your returns!</h1>
+    <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and<br/> multiply your returns!</h1>
 
     </div>
 
     
     
-  <div className="container-fluid mb-2 align-items-center py-5 shadow-sm">
+  <div className="container-lg mb-2 align-items-center py-5 shadow-sm mt-4">
       <div className="row align-items-center" >
         
           <div className="row justify-content-around">
           <div className="col-md-7">
         <img src={screens} class = 'img-fluid'/></div>
+        
+
+
+
+
 
         <div className="col-lg-4  text-md-start text-sm-center">
         
@@ -106,8 +111,19 @@ function Home() {
 
           </div>
           </div>
+          
             </div>
+            
         </div>
+        
+    <div className="row justify-content-start">
+      <div className="col-md-2 offset-3">
+      <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       <p class = 'fs-5'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
+       
+</button>
+      </div>
+    </div>
     </div>
       
 
@@ -122,22 +138,12 @@ function Home() {
   </div>
     
   
-      <div className="container p-5">
-        <div class = 'text-center'> <h1>What is Ariadne Maps all about?</h1> </div>
-        <div class ='fs-1 pt-4' >
-        <p class = 'lh-lg fs-5'>Ariadne Maps is the physical world's Google Analytics. Ariadne Maps expertise lies in Indoor and Outdoor analytics and Indoor Positioning services.
-How does Ariadne add value to you?
-Ariadne analyzes your customers journey and behavior and assists you in developing data-driven initiatives, operating and marketing strategies. 
-Who can benefit from Ariadne´s Services?
-We have a solution for every industry right from Retail establishments to Airport Terminals.
-          </p>
-        </div>
-      </div>
+     
 
-      <div class = 'text-center px-5'> <h1>The Ariadne Platform</h1> </div>
+      <div class = 'text-center px-5 mt-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>The Ariadne Platform</h1> </div>
     
-<div className="container-fluid flex-column">
-    <div className="row align-items-center mt-5 py-2 justify-content-center p-5 ">
+<div className="container flex-column">
+    <div className="row align-items-center mt-5 py-2 justify-content-between   p-5 ">
       <div className="col-md-6  ">
         <h1 class = '  display-xxl-5'>Ariadne Analytics</h1>
         <p class = 'mt-4 fs-5'>Obtain people counting, heatmaps, loyalty rate and more!<br/>
@@ -145,12 +151,12 @@ We have a solution for every industry right from Retail establishments to Airpor
 
 With Ariadne analytics, you can review your performance in real time.</p>
         </div>
-      <div className="col-md-5">
+      <div className="col-md-4">
         <img src={h1} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
 
-      <div className="row align-items-center mt-5 justify-content-around p-5 " style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center mt-5 justify-content-between  p-5 " style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1 >Ariadne Navigation</h1>
 
@@ -158,29 +164,29 @@ With Ariadne analytics, you can review your performance in real time.</p>
 <br/> <br/>
 Present promotions in your map to engage and enhance your visitors satisfaction.</p>
         </div>
-      <div className="col-md-5">
+      <div className="col-md-4">
         <img src={h2} alt="" class="img-fluid rounded  shadow"  />
         </div>
       </div>
-      <div className="row align-items-center mt-5 justify-content-around p-5 ">
+      <div className="row align-items-center mt-5 justify-content-between  p-5 ">
       <div className="col-md-6">
         <h1>Ariadne Engagement</h1>
         <p class = 'mt-4 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program!
         <br/> <br/>
 The opt-in feature enables you to push notifications to your visitors the right moment.</p>
         </div>
-      <div className="col-md-5">
+      <div className="col-md-4">
         <img src={h3} alt=""class="img-fluid rounded shadow"  />
         </div>
       </div>
-      <div className="row align-items-center mt-5 mb-5 justify-content-around p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center mt-5 mb-5 justify-content-between  p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1>Ariadne Mapping</h1>
         <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
         <br/> <br/>
 By enabling you to map and localize your products, Ariadne increases your efficiency.</p>
         </div>
-      <div className="col-md-5">
+      <div className="col-md-4">
         <img src={h4} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
@@ -190,7 +196,10 @@ By enabling you to map and localize your products, Ariadne increases your effici
       
 
       
+<div className="container-xxl">
 <Testimonials/>
+
+</div>
 <ProductSection/>
 {/* <div className="container-fluid text-center h-75 my-5">
   <h1>Spotlight</h1>
@@ -199,11 +208,51 @@ By enabling you to map and localize your products, Ariadne increases your effici
 
 
 <div className="container text-center mb-5">
-<h1>LET'S TALK</h1>
-<h5>Schedule a free 30 minute demo call with an expert</h5>
+<h1 class='fw-bold mb-4' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
+<p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
 <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' ></iframe>
 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div className="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 

@@ -28,14 +28,15 @@ import Usecase from '../../Components/Usecase'
 
 function Analytics() {
   return <div>
-  <div className="container-fluid bg-dark text-white" >
-    <div className="row align-items-center">
+  <div className="container-fluid bg-dark text-white mt-5 pt-5" >
+    <div className="row align-items-center justify-content-between">
       <div className="col-md-4 align-self-center offset-1 col-sm-10">
         <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne <br/> Analytics</h1>
         <p style={{fontFamily:'Poppins'}} className='fs-6'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
-        <div className="col-md-6 col-sm-12">
-          <img src={Laptopwp} alt="" id = 'lap_wp'/>
+
+        <div className="col-md-6 col-sm-12 col-xxl-6 offset-1">
+          <img src={Laptopwp} alt="" id = 'lap_wp' class = ''/>
           </div>
       </div>
     </div>
@@ -47,14 +48,15 @@ function Analytics() {
         
         <p className='lh-lg fs-4'>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</p>
         </div>
-      <div className="col-md-5 col-sm-12">
+      <div className="col-md-4 col-sm-12">
         <img src={h1} alt="" className='img-fluid rounded shadow' />
         </div>
       </div>
         </div>
 
         <div className="analytics-whole">
-        <div className="container text-center m-5 px-4" id = 'analytics-whole'>
+
+        <div className="container mt-5 text-center mb-5 px-4" >
           <h1>Real-Time Analytics</h1>
           <p>When do your consumers prefer to shop during the day, and how many people are now in your store and where are they located? We provide answer to those questions with our intuitive dashboard.</p>
           <div className="row mt-5 justify-content-between mb-3">
@@ -75,7 +77,7 @@ function Analytics() {
          
           
           <div className="container mt-5 text-center mb-5 px-4" >
-          <h2 class = 'display-5 fw-bold mb-5'>Basic Analytics</h2>
+          <h1 class = 'mb-5'>Basic Analytics</h1>
           <h6>Recognize the most visited areas of your establishment and tailor your services there to improve your customer´s experience. </h6>
             <div className="row mt-5 justify-content-between mb-5">
             
@@ -103,7 +105,7 @@ function Analytics() {
             <div className="col-md-3"><img src={h9} alt="" class = 'img-fluid'/></div>
               </div>
 
-              <h2 class = 'display-5 fw-bold mb-5'>Advanced Analytic</h2>
+              <h1 class = 'mb-3 mt-4'>Advanced Analytic</h1>
 
               <h6>Cool graphics and intuitive heat maps for your entire store that you may use to better manage your space.       </h6>
 
@@ -148,7 +150,7 @@ function Analytics() {
             <div className="row align-items-center justify-content-center">
               <div className="col-8">
               <h1 class='mb-5'>Work Together?</h1>
-              <button type="button" class="btn btn-success">Let's Talk</button>
+              <button type="button" class="btn btn-lg btn-success">Let's Talk</button>
               </div>
             
             </div>
@@ -162,7 +164,7 @@ function Analytics() {
       </div>
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
-          <div className="col-md-4">
+          <div className="col-xxl-3 col-md-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width="27%"/>
             
             <a href="" className = "text-decoration-none"><h2>Ariadne Navigation</h2></a>
@@ -170,7 +172,7 @@ function Analytics() {
 
 Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-xxl-3">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Map.svg' alt ='' class = 'img-fluid' width="27%"/>
             
             <a href="" className = "text-decoration-none"><h2>Ariadne Mapping</h2></a>
@@ -178,7 +180,7 @@ Navigate your visitors and guests for an enhanced experience; show ads and promo
 
             Transform your physical business into a digital landscape! Ariadne Maps creates your indoor maps that can be integrated with other platforms in digital environment, and enables you to position assets and products for the ease of finding and time efficiency. </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-xxl-3">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Engagement.svg' alt ='' width='27%'/>
              
             <a href="#" className = "text-decoration-none"><h2>Ariadne Engagement</h2></a>

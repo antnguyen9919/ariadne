@@ -51,7 +51,8 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <div>
-          <Button buttonSize="btn--medium" buttonStyle="btn--primary">Contact Us</Button>
+          
+          <button type="button" class="btn btn-danger">Contact Us</button>
 
             </div>
             <div className="para">
@@ -81,7 +82,7 @@ Brecherspitzstraße 8 <br/>
       <section class='social-media'>
         <div class='social-media-wrap'>
          <div>
-          <small class='website-rights'>© 2019 – 2021 Ariadne Maps GmbH. All rights reserved.</small>
+          <small class='website-rights'>© 2019 - 2022 Ariadne Maps GmbH. All rights reserved.</small>
 
          </div>
           

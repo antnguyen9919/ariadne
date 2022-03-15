@@ -1,10 +1,14 @@
-.jumbotron {
-    color: white;
-    background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-
-  
+.hero-button{
+    background-color:rgb(241, 1, 1);
+    border:none;
+    /* padding:5px 20px; */
+    color:#fff;
+    font-weight: bold;
+    
+}
+.hero-button:hover{
+    background-color:rgb(211, 1, 1);
+}
+.hero-button:active{
+    background-color:red;
+}

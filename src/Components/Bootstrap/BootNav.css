@@ -5,15 +5,12 @@
     /* display: block; */
     z-index: 100;
     top: 0;
-    position:sticky;
+    
     
   
 }
 
-#navbarDarkDropdownMenuLink:hover{
-    /* text-decoration:underline; */
 
-}
 
 
 @media screen and (min-width: 960px ) {
