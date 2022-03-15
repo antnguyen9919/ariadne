@@ -24,10 +24,10 @@ const HeroSection = () => {
                 <HeroContent >
                     
                     
-                    <div className='container-fluid d-xxl-none px-3 mt-5 text-light' id = 'sasa'>
+                    <div className='container d-xxl-none px-3 mt-5 text-light' id = 'sasa'>
                         
                         <div className="row align-items-center justify-content-start">
-                            <div className="col-md-5 col-sm-10 offset-1 mt-1">
+                            <div className="col-md-5 col-sm-10 mt-1">
                                 <h1 style ={{fontFamily:'Poppins'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
                         <p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
                         <button type="button" class="hero-button mt-3"><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>

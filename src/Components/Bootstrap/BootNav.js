@@ -23,13 +23,13 @@ const BootNav = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse align-items-center" id="navbarNavDarkDropdown">
+    <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
 
-      <ul class="navbar-nav mx-auto align-items-center">
+      <ul class="navbar-nav mx-auto">
 
         <li class="nav-item dropdown" id= 'roro'>
-
-          <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        
+          <h5 class="nav-link dropdown active fw-normal mt-1" style ={{fontFamily:'Poppins'}}  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Solutions
           </h5>
           <ul id='kaka' class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -40,7 +40,7 @@ const BootNav = () => {
           </ul>
         </li>
         <li class="nav-item dropdown" id= 'roro'>
-        <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <h5 style ={{fontFamily:'Poppins'}} class="nav-link dropdown active fw-normal mt-1"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Industries
           </h5>
           
@@ -57,11 +57,11 @@ const BootNav = () => {
         <li class="nav-item">
          
           <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                                <h5 class ='fw-normal' id="navbarDarkDropdownMenuLink">Why Ariadne?</h5>
+                                <h5 style ={{fontFamily:'Poppins'}} class ='fw-normal mt-1' id="navbarDarkDropdownMenuLink">Why Ariadne?</h5>
                              </Link>
         </li>
         <li class="nav-item dropdown" id = 'roro'>
-        <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <h5 style ={{fontFamily:'Poppins'}} class="nav-link dropdown active mt-1"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Company
           </h5>
           <ul id = 'kaka' class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -81,7 +81,7 @@ const BootNav = () => {
       <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                               <h5 id="navbarDarkDropdownMenuLink">Let's talk</h5>
+                               <h5 style ={{fontFamily:'Poppins'}} id="navbarDarkDropdownMenuLink">Let's talk</h5>
                             </Link>
        </li>
         <li class="nav-item">
