@@ -10,10 +10,10 @@ function Mapping() {
 
 <div className="row align-items-center">
   <div className="col-md-6 align-self-center">
-    <h1 className='display-2 fw-bold'>Ariadne
+    <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne <br/>
 
 Mapping</h1>
-    <p className='fs-3'>Digitalize, customize and update your maps at any point
+    <p style={{fontFamily:'Poppins'}} className='fs-6'>Digitalize, customize and update your maps at any point
 
 Engage your customers not only in the physical space but also in the digital environment</p>
     </div>

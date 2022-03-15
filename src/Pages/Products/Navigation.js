@@ -11,8 +11,8 @@ function Navigation() {
 
     <div className="row align-items-center">
       <div className="col-md-6 align-self-center">
-        <h1 className='display-2 fw-bold'>Ariadne Navigation</h1>
-        <p className='fs-3'>Engage with your visitors at the right time and the right place. Develop strategies targeted to specific clusters of customers</p>
+        <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne<br/> Navigation</h1>
+        <p style={{fontFamily:'Poppins'}} className='fs-6'>Engage with your visitors at the right time and the right place. Develop strategies targeted to specific clusters of customers</p>
         </div>
         <div className="col-md-6">
           <img src={MunichOffice} alt="" height={'500px'} width = '80%' />

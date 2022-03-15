@@ -31,8 +31,8 @@ function Analytics() {
   <div className="container-fluid bg-dark text-white" >
     <div className="row align-items-center">
       <div className="col-md-4 align-self-center offset-1 col-sm-10">
-        <h1 className='display-2 fw-bold'>Ariadne <br/> Analytics</h1>
-        <p className='fs-4'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
+        <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne <br/> Analytics</h1>
+        <p style={{fontFamily:'Poppins'}} className='fs-6'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
         <div className="col-md-6 col-sm-12">
           <img src={Laptopwp} alt="" id = 'lap_wp'/>

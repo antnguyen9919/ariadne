@@ -14,8 +14,8 @@ function Engagement() {
           <div className="container-fluid bg-dark text-white">
     <div className="row justify-content-around">
       <div className="col-md-5 align-self-center">
-        <h1 className='display-2 fw-bold'>Ariadne Analytics</h1>
-        <p className='fs-3'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
+        <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne Analytics</h1>
+        <p style={{fontFamily:'Poppins'}} className='fs-5'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
         <div className="col-md-5 align-self-end">
           <img src={phonewp} alt="" class = 'img-fluid' />
