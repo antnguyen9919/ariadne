@@ -82,6 +82,41 @@ We enable and lead you to hyperlocal marketing.</p>
             </div>
           </div>
         </div>
+        
+        <div className="text-center mt-5">
+        <h1 className='display-4 fw-bold'>Complementary Solutions</h1>
+        <h4>Complement your navigation tool with our solutions below, increase returns on your investments</h4>
+      </div>
+      <div className="container">
+        <div className="row justify-content-around mt-5 py-5">
+        <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' class = 'img-fluid' width="27%"/>
+            
+            <a href="" className = "text-decoration-none"><h2>Ariadne Analytics</h2></a>
+            <p>
+
+Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Map.svg' alt ='' class = 'img-fluid' width="27%"/>
+            
+            <a href="" className = "text-decoration-none"><h2>Ariadne Mapping</h2></a>
+            <p>
+
+            Transform your physical business into a digital landscape! Ariadne Maps creates your indoor maps that can be integrated with other platforms in digital environment, and enables you to position assets and products for the ease of finding and time efficiency. </p>
+          </div>
+          <div className="col-md-4">
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Engagement.svg' alt ='' width='27%'/>
+             
+            <a href="#" className = "text-decoration-none"><h2>Ariadne Engagement</h2></a>
+            <p>
+
+Ariadne comes with an opt-in option for your customers. Even though the core technology does not require interaction from your visitors, with the opt-in option, you can push notifications to your customers, or just send short surveys to assess the quality of your service.</p>
+          </div>
+        </div>
+        
+        
+      </div>
           <div class = 'text-center'>
             <h1>Discover Use Cases</h1>
           </div>

@@ -3,6 +3,7 @@ import './App.css';
 import React, { useEffect } from 'react';
 import Home from './Home';
 import {Routes,Route, useLocation} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
@@ -32,6 +33,7 @@ import Career from './Pages/Company/Career';
 import Contact from './Pages/Company/Contact';
 import BootNav from './Components/Bootstrap/BootNav';
 import Privacy from './Pages/Privacy';
+import PostPage from './Components/Blog/PostPage';
 
 
 function App() {
@@ -73,6 +75,7 @@ function App() {
 
           <Route exact  path = "/about-us" element = {<About/>}/>
           <Route exact  path = "/blog" element = {<Blog/>}/>
+          <Route exact  path = "/blog/:slug" element = {<PostPage/>}/>
           <Route exact  path = "/careers" element = {<Career/>}/>
           <Route exact  path = "/contact" element = {<Contact/>}/>
           <Route exact  path = "/privacy" element =  {<Privacy/>}/>

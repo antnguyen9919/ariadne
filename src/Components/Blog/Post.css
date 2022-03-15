@@ -4,7 +4,14 @@
     margin: 0px 25px 40px 25px;
 
 }
+#papa h3{
+    font-family: 'Poppins', sans-serif;
+}
 
+#papa #in{
+    font-family:'Courier New', Courier, monospace;
+
+}
 .postImg{
     width:100%;
     height: 280px;

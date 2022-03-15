@@ -25,14 +25,14 @@ identify their unnecessary costs and increase their revenues</p>
 Ariadne Navigation enables you to offer a better experience to your guests via navigating them to their destinations with great convenience, shorter routes</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/ring.png' alt ='' class = 'img-fluid'/>
             <h2>Push notifications</h2>
             <p>
 
 Notifications based on location and history are to be pushed, e.g., happy to host you again, enjoy your 20% discount, or, breakfast is to start in 20 minutes, here are the directions…</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/review.png' alt ='' width='27%'/>
             <h2>Review and Feedback</h2>
             <p>
 
@@ -41,14 +41,14 @@ To improve your service, short online surveys can be pushed to your guests and t
         </div>
         <div className="row justify-content-around mt-2 py-5">
           <div className="col-md-4">
-            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png' alt ='' class = 'img-fluid'/>
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png' alt ='' class = 'img-fluid'/>
             <h2>Strategy Optimization</h2>
             <p>
 
 Identify which of your actions, services or promotions bring you the best return, dwell time and loyalty, and work on the most reasonable one</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Pool.png' alt ='' class = 'img-fluid'/>
             <h2>Guest Familiarity</h2>
             <p>
 
@@ -65,6 +65,20 @@ Let your concessionaires acquire their conversion funnel of customers, and base 
         </div>
         
       </div>
+      <div class="container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
+           
+            
+            
+            <div className="row align-items-center justify-content-center">
+              <div className="col-8">
+              <h1 class='mb-5'>Work Together?</h1>
+              <button type="button" class="btn btn-success">Let's Talk</button>
+              </div>
+            
+            </div>
+            
+            
+          </div>
       <div class='text-center'>
         <h1>Discover More Industries</h1>
       </div>

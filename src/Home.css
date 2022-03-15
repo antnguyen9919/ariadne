@@ -1,4 +1,6 @@
-
+.home-all{
+  font-family: 'Poppins', sans-serif;
+}
 
 #background-video {
     width: 100vw;
@@ -259,7 +261,7 @@
 
 main {
     width: 100%;
-    /* font-size: 2rem; */
+    
    
     position: relative;
     

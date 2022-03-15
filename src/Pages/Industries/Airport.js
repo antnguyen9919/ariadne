@@ -75,6 +75,20 @@ Employee supervision, machine/asset tracking, visitor averages comparison over t
           </div>
         </div>
       </div>
+      <div class="container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
+           
+            
+            
+            <div className="row align-items-center justify-content-center">
+              <div className="col-8">
+              <h1 class='mb-5'>Work Together?</h1>
+              <button type="button" class="btn btn-success">Let's Talk</button>
+              </div>
+            
+            </div>
+            
+            
+          </div>
       <div class='text-center'>
         <h1>Discover More Industries</h1>
       </div>

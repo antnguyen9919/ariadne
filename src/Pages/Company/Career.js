@@ -1,53 +1,189 @@
 import '../../App.css';
 import React from 'react';
 import career from '../../Resources/Photos/Pages/career.jpg';
+import './career.css'
 function Career() {
   return <div>
   <img src = {career} width="100%" alt = "career"/>
   <main>
-  <div className="container p-5 m-5">
-  <h1>Join Us</h1>
+  <div className="container mx-5 px-4 mt-5">
+  <h1 className='display-2'>Join Us</h1>
   <h4>Do you want to extend your boundaries? Do you enjoy working in international teams? Ariadne Maps
 
 offers a dynamic environment for talented individuals who are excited to innovate and disrupt a huge industry!</h4>
   </div>
 
-  <div className="container">
+  <div className="container mx-5 px-4 mt-5">
     <h1>Open Positions</h1>
     <p>Ariadne Maps is a rapidly growing company on its way to disrupt a huge industry. We have a vision to be the Google Analytics of physical world, and the new GPS of indoor spaces. On our journey, we need talented members just like you. Check out the positions below and apply now! We are looking forward to meet you!</p>
   </div>
-  <div className="container m-5 p-4">
-    <div className="row mt-3">
-      <h1>Technology</h1>
+  <div className="container mx-5 p-4 ">
+    <div className="row mt-3 ">
+      <h1 class = 'mb-5 text-center'>Technology</h1>
       
-      <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><h3>Data Science</h3></button>
+      <h2>Data Science</h2>
+      
+    
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <p>Contribute end-to-end for data science projects, from data processing, to training, evaluating, to deploying and monitoring, understand business objectives and translate them into solutions that leverage machine learning…</p>
+      <div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary me-md-2"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Find out</button>
+</div>
+      
+    </div>
+   
+    <div className="row mt-3">
+      <h1 class = 'mb-5 text-center'>Business</h1>
+      <h2>Social Media</h2>
+      <p>Strategize and enable our growth: Ideate, create and launch content related to building our brand and reach. Keep constant track of data and adapt the content in order to improve performance, make organic social a channel for growth…</p>
+      <div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary me-md-2"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight">Find out</button>
+</div>
+
+      
+    </div>
+    <div className="row mt-3">
+    <h3>Business Development Representative</h3>
+      <p>
+
+Generate and nurture leads through digital/mailing/phone, lead opportunities of change as they relate to campaign and lead generation gaps, partner with the Sales and Marketing team to enhance opportunities to deliver incremental revenue…</p>
+<div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary me-md-2"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-2" aria-controls="offcanvasRight">Find out</button>
+</div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel-1">
   <div class="offcanvas-header">
     <h3 id="offcanvasRightLabel">Data Scientist</h3>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
   Munich, Germany <br/>
-  Ariadne Maps is a Munich based high tech company that provides detailed indoor analytics and customer analytics with its cutting edge artificial intelligence approach. We make use of advanced artificial intelligence algorithms for precise and anonymous tracking of passengers and customers, to help companies optimize their infrastructure. <br/>
+      <p class = 'lead mt-3'> Ariadne Maps is a Munich based high tech company that provides detailed indoor analytics and customer analytics with its cutting edge artificial intelligence approach. We make use of advanced artificial intelligence algorithms for precise and anonymous tracking of passengers and customers, to help companies optimize their infrastructure. <br/>
 
 At Ariadne Maps, we value innovative ideas, personality, ambition and an open mind. We do appreciate different lifestyles and cultural backgrounds. Ariadne’s team comes from different nationalities, all working together inclusively and respectfully. <br/>
 
-We are currently looking for: Data Scientist who could join the technology team at Ariadne Maps and improve disruptive technology powered by state-of-the-art techniques.
+We are currently looking for: Data Scientist who could join the technology team at Ariadne Maps and improve disruptive technology powered by state-of-the-art techniques. </p>
+ 
+
+      <h4>What You’ll Do</h4>
+      <ul>
+        <li>Transform and prepare data in coordination with our Data Scientists to allow both data exploration as well as data deep dives together with our customers.</li>
+        <li>Combine the data collected from our devices with data from both internal and external data sources.</li>
+        <li>Work in an agile, design thinking team – everybody can talk to stakeholders including customers and together we build great products</li>
+        <li>Contribute end-to-end for data science projects, from data processing, to training, evaluating, to deploying and monitoring</li>
+        <li>Understand business objectives and translate them into solutions that leverage machine learning</li>
+        <li>Monitor data quality and work on feature engineering</li>
+        <li>Contribute to automated model training and inference pipelines</li>
+        <li>Support the team to define model validation and monitoring strategies</li>
+        <li>Analyze the shortcomings of existing solutions and iterate on improvements</li>
+      </ul>
+      <h4>What You Should Bring</h4>
+      
+<ul>
+  <li>Background in a quantitative field such as computer science, mathematics, economics, statistics, electrical engineering</li>
+  <li>Proficiency in Python and experience with specialized ML libraries</li>
+  <li>First-hand experience in deploying, maintaining, and updating models in production</li>
+  <li>Solid understanding of the benefits and drawbacks of different ML algorithms</li>
+  <li>Experience working with cloud-platform environments, such as AWS</li>
+  <li>Fluency in English (German would be an advantage)</li>
+</ul>
+<p>If you are interested, please send us your CV and earliest possible starting date at: <b>careers@ariadnemaps.com</b></p>
   </div>
 </div>
-      <p>Contribute end-to-end for data science projects, from data processing, to training, evaluating, to deploying and monitoring, understand business objectives and translate them into solutions that leverage machine learning…</p>
-    </div>
-    <div className="row mt-3">
-      <h1>Business</h1>
-      <h3>Social Media</h3>
-      <p>Strategize and enable our growth: Ideate, create and launch content related to building our brand and reach. Keep constant track of data and adapt the content in order to improve performance, make organic social a channel for growth…</p>
-      <h3>Business Development Representative</h3>
-      <p>
-
-Generate and nurture leads through digital/mailing/phone, lead opportunities of change as they relate to campaign and lead generation gaps, partner with the Sales and Marketing team to enhance opportunities to deliver incremental revenue…</p>
-    </div>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-1" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h3 id="offcanvasRightLabel">Social Media Manager</h3>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
+  <div class="offcanvas-body">
+  Munich, Germany <br/>
+  (Project Studies)
+  
+      <p class = ' mt-3 lh-md'> Join the marketing team at Ariadne Maps and improve disruptive technology powered by state-of-the-art techniques. Ariadne Maps has a start-up culture in which your innovative ideas can be put to the test and impact a billion dollar industry. <br/>
+
+<br/>At Ariadne Maps, we appreciate different lifestyles and cultural backgrounds. We welcome diversity as a strength. Our team comes from different nationalities, all working together inclusively and respectfully. <br/>
+
+<br/>At Ariadne Maps, we value innovative ideas, personality, ambition and an open mind. We do appreciate different lifestyles and cultural backgrounds. Ariadne's team comes from different nationalities, all working together inclusively and respectfully. <br/>
+
+<br/>We are currently looking for: Data Scientist who could join the technology team at Ariadne Maps and improve disruptive technology powered by state-of-the-art techniques. </p>
+ 
+
+      <h4>What You'll Do</h4>
+      <ul>
+        <li><b>Strategize and enable our growth:</b> Ideate, create and launch content related to building our brand and reach. Keep constant track of data and adapt the content in order to improve performance.</li>
+        <li><b>Make organic social a channel for growth:</b> You steer the perception of the public via great, shareable content. You build organic social as a channel for growth and brand building, focusing on our target groups and stakeholders. You generate signed customers by “buzz”.</li>
+
+        <li><b>Create great content: </b>You engage and grow our audience by writing, photographing, filming and editing awesome posts. You do this across different channels with different target audiences, e.g. LinkedIn, Instagram and Facebook.</li>
+
+        <li><b>Build a community: </b>You engage with users, empathize with them and are their advocate to improve our product and storytelling.</li>
+        <li>Understand business objectives and translate them into solutions that leverage machine learning</li>
+
+        <li><b>Create convincing narratives to convert users:</b>When creating stories, you always have our brand and customers in mind. You make content look and feel seamless to our users. It brings them closer to engaging with us.</li>
+
+        <li><b>Try out new things</b>You continuously experiment with new formats and never run out of ideas.</li>
+
+        
+      </ul>
+      <h4>What You Should Bring</h4>
+      
+<ul>
+  <li>Currently advancing in your Bachelor or Master degree.</li>
+  <li>Preferably experience with design programs such as Adobe Illustrator</li>
+  <li>Experience in creating content for and managing LinkedIn, Twitter and Facebook social media accounts.</li>
+  <li>Proven ability to create great social media content, user stories, photos and videos – either for yourself or someone else.</li>
+  <li>Creative storyteller, bursting with ideas and creativity and with the ability to amplify your ideas by using the right channels to push them.</li>
+  <li>Proactive mindset with an ability to think outside the box and enrich the team with new, creative ideas.</li>
+  <li>Great communication skills - able to provide clear & concise content.</li>
+  <li>Genuine interest in the retail and transportation industry.</li>
+  <li>Fluency in English (German would be an advantage)</li>
+</ul>
+<p className='lead'>If this appeals to you but you are in doubt about how exactly your skills match our requirements - we value personality, ambition and an open mind. Don't hesitate to get in touch and present your personal strengths to us.</p>
+<p>If you are interested, please send us your CV and earliest possible starting date at: <b>careers@ariadnemaps.com</b></p>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-2" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h3 id="offcanvasRightLabel">Business Development Representative</h3>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  Munich, Germany <br/>
+  (Working Student/Project Studies/Internship)
+      <p class = 'mt-3'> Join the marketing team at Ariadne Maps and improve disruptive technology powered by state-of-the-art techniques. Ariadne Maps has a start-up culture in which your innovative ideas can be put to the test and impact a billion dollar industry. <br/><br/>
+
+      At Ariadne Maps, we appreciate different lifestyles and cultural backgrounds. We welcome diversity as a strength. Our team comes from different nationalities, all working together inclusively and respectfully. </p>
+ 
+
+      <h4>What You’ll Do</h4>
+      <ul>
+        <li>Generate and nurture leads through digital/mailing/phone</li>
+        <li>Lead opportunities of change as they relate to campaign and lead generation gaps.</li>
+        <li>Partner with the Sales and Marketing team to enhance opportunities to deliver incremental revenue.</li>
+        <li>Book discovery meetings through a combination of the classic prospecting techniques like social outreach via LinkedIn, phone or email.</li>
+        <li>Prospect and generate leads in the market.</li>
+        <li>Outreach the leads, book meetings and convert them to customers.</li>
+
+        
+      </ul>
+      <h4>What You Should Bring</h4>
+      
+<ul>
+  <li>Currently advancing in your Bachelor or Master’s degree, or a recent graduate.</li>
+  <li>Relevant sales experience preferred, but not essential</li>
+  <li>Ability to engage with prospects over the phone, email, or LinkedIn</li>
+  <li>Ambition to build a career in sales with an eye on future growth</li>
+  <li>Proactive mindset with an ability to think outside the box and enrich the team with new, creative ideas.</li>
+  <li>Great communication skills - able to provide clear & concise content.</li>
+  <li>Genuine interest in the retail and transportation industry.</li>
+  <li>Fluency in English (German would be an advantage)</li>
+</ul>
+<p class = 'lead'>If this appeals to you but you are in doubt about how exactly your skills match our requirements – we value personality, ambition and an open mind. Don’t hesitate to get in touch and present your personal strengths to us. </p>
+<p>If you are interested, please send us your CV and earliest possible starting date at: <b>careers@ariadnemaps.com</b></p>
+  </div>
+</div>
   
   
     

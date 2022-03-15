@@ -60,21 +60,21 @@ By enabling you to map and localize your products, Ariadne increases your effici
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
           <div className="col-md-4">
-            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png' alt ='' class = 'img-fluid'/>
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Map.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Digital Conversion</h2>
             <p>
 
 Create the digital version of your static map and have a holistic overview of your spaces in real time. </p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Asset Positioning</h2>
             <p>
 
 Place your assets and properties in the map and don’t waste your time with wayfinding and navigation</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Branding.png' alt ='' />
             <h2>Branding</h2>
             <p>
 
@@ -83,14 +83,14 @@ Customize your digital map in line with your brand and colors, show off your val
         </div>
         <div className="row justify-content-around mt-2 py-5">
           <div className="col-md-4">
-            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png' alt ='' class = 'img-fluid'/>
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Settings.png' alt ='' class = 'img-fluid'/>
             <h2>Integration</h2>
             <p>
 
 Integrate your digital map with your existing infrastructure and tools like CRM to get the most benefits</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/City.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Detailed Overview</h2>
             <p>
 
@@ -98,7 +98,7 @@ Insert details about your assets and areas, help your visitors zoom and find wha
           </div>
 
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Funnel.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Updates.png' alt ='' class = 'img-fluid'/>
             <h2>Customization</h2>
             <p>
 
@@ -114,25 +114,25 @@ Customize, edit and update your map with changes in your spaces, add or remove a
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
           <div className="col-md-4">
-            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png' alt ='' class = 'img-fluid'/>
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href=""><h2>Ariadne Navigation</h2></a>
+            <a href="" className = "text-decoration-none"><h2>Ariadne Navigation</h2></a>
             <p>
 
 Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href=""><h2>Ariadne Analytics</h2></a>
+            <a href="" className = "text-decoration-none"><h2>Ariadne Analytics</h2></a>
             <p>
 
 Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Engagement.svg' alt ='' width='27%'/>
              
-            <a href=""><h2>Ariadne Engagement</h2></a>
+            <a href="#" className = "text-decoration-none"><h2>Ariadne Engagement</h2></a>
             <p>
 
 Ariadne comes with an opt-in option for your customers. Even though the core technology does not require interaction from your visitors, with the opt-in option, you can push notifications to your customers, or just send short surveys to assess the quality of your service.</p>

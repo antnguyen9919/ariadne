@@ -26,7 +26,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 Major transportation companies use surveys to determine their ticket prices, which is costly and inefficient. Ariadne Maps offers required data to improve your ticket prices.</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/share.png' alt ='' class = 'img-fluid'/>
             <h2>Revenue Sharing</h2>
             <p>
 
@@ -43,14 +43,14 @@ How often do trains come to the station? How crowded are they? Quantify how many
         </div>
         <div className="row justify-content-around mt-2 pb-5">
           <div className="col-md-4">
-            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' width='27%'/>
+            <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg' alt ='' width='27%'/>
             <h2>Retail Hubs</h2>
             <p>
 
 Network Rail footfall studies show that 25% of people coming to its stations are not travelers, but actually use them as hubs for shopping and dining, paving the way for more retail opportunities. To optimize the retail section, you can have a look at what we offer.</p>
           </div>
           <div className="col-md-4">
-          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/ratio.png' alt ='' class = 'img-fluid'/>
+          <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png' alt ='' class = 'img-fluid'/>
             <h2>Leverages</h2>
             <p>
 
@@ -63,6 +63,21 @@ Find strategies that gives you maximum output with the least expenses! By using 
           </div>
         </div>
       </div>
+      <div class="container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
+           
+            
+            
+            <div className="row align-items-center justify-content-center">
+              <div className="col-8">
+              <h1 class='mb-5'>Work Together?</h1>
+              <button type="button" class="btn btn-success">Let's Talk</button>
+              </div>
+            
+            </div>
+            
+            
+          </div>
+          
       <div class='text-center'>
         <h1>Discover More Industries</h1>
       </div>

@@ -11,9 +11,11 @@ const BootNav = () => {
       
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-  <Link to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-dark">
+
+  <div class="container align-items-center">
+    
+  <Link class ='px-4' to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
                             
                             </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +29,8 @@ const BootNav = () => {
 
         <li class="nav-item dropdown" id= 'roro'>
 
-          <h5 class="nav-link dropdown active"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Products
+          <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solutions
           </h5>
           <ul id='kaka' class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><Link class="dropdown-item" to ="/ariadne-analytics">Ariadne Analytics</Link></li>
@@ -38,7 +40,7 @@ const BootNav = () => {
           </ul>
         </li>
         <li class="nav-item dropdown" id= 'roro'>
-        <h5 class="nav-link dropdown active"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Industries
           </h5>
           
@@ -55,11 +57,11 @@ const BootNav = () => {
         <li class="nav-item">
          
           <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                                <h5 id="navbarDarkDropdownMenuLink">Why Ariadne?</h5>
+                                <h5 class ='fw-normal' id="navbarDarkDropdownMenuLink">Why Ariadne?</h5>
                              </Link>
         </li>
         <li class="nav-item dropdown" id = 'roro'>
-        <h5 class="nav-link dropdown active"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <h5 class="nav-link dropdown active fw-normal"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Company
           </h5>
           <ul id = 'kaka' class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -75,7 +77,7 @@ const BootNav = () => {
         </li>
           
       </ul>
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto mx-5">
       <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
@@ -97,6 +99,7 @@ const BootNav = () => {
        </li>
       </ul>
     </div>
+
   </div>
 </nav>
   </div>;

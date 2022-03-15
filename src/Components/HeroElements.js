@@ -5,17 +5,18 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
     background-color: rgba(47, 48, 58, 1);
-    /* margin-bottom: -100px; */
+    margin-bottom: -40px;
     
     
-    /* top: -70px; */
+    top: -50px;
     justify-content: flex-start;
     
     
-    height: 100vh;
+    height: 95vh;
     position: relative;
     z-index: 1;
-    margin-bottom:100px
+    /* margin-bottom:100px; */
+    overflow: hidden;
     
       
 
@@ -48,7 +49,7 @@ export const VideoBg = styled.video`
     
     width: 100%;
     height: 100%;
-    object-fit:contain ;
+    object-fit:cover ;
     background: rgba(47, 48, 58, 1);
     
 
@@ -62,11 +63,12 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
     z-index:3;
-    padding-top: 150px;
+    padding-top: 10px;
     width: 100%;
     height:100%;
     position: absolute;
-     
+     display: flex;
+     align-items: center;
    
     
 `   
