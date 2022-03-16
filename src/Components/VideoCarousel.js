@@ -99,7 +99,7 @@ function VideoCarousel({click}) {
 <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
             
             
-            <img id ='vid-img' src={img} alt={img} 
+            <img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
             type="button" data-bs-toggle="modal" data-bs-target= {`#vid${idx}`}
             onClick={((e) => handleClick(e, idx))}/>
             

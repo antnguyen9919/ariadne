@@ -11,24 +11,21 @@
 .slide {
   transform: scale(0.4);
   transition: transform 300ms;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .activeSlide {
   transform: scale(1.1);
+  
   opacity: 1;
 }
-#play-button{
-  position: absolute;
-  z-index: 10000;
-  width: 50px;
-  align-self: center;
-}
+
 .arrow {
   background-color: #fff;
   position: absolute;
   cursor: pointer;
   z-index: 10;
+  transform: scale(2.1);
 }
 
 .arrow svg {
@@ -36,7 +33,7 @@
 }
 
 .arrow svg:hover {
-  color: #68edff;
+  color: #979797;
 }
 
 .next {

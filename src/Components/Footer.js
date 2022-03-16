@@ -54,7 +54,8 @@ function Footer() {
     <div class='footer-link-items'>
       <div>
     
-    <button type="button" class="btn btn-danger">Contact Us</button>
+    
+    <button type="button" class="hero-button my-1"><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 
       </div>
       <div className="para">

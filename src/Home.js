@@ -6,19 +6,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Button from './Components/Button';
 import screens from './Resources/Photos/screens.png';
-import s1 from './Resources/Photos/inf/s1.png';
-import s2 from './Resources/Photos/inf/s2.png';
-import s3 from './Resources/Photos/inf/s3.png';
-import s4 from './Resources/Photos/inf/s4.png';
-import s5 from './Resources/Photos/inf/s5.png';
-import s6 from './Resources/Photos/inf/s6.png';
-import s7 from './Resources/Photos/inf/s7.png';
-import s8 from './Resources/Photos/inf/s8.png';
-import s9 from './Resources/Photos/inf/s9.png';
-import s10 from './Resources/Photos/inf/s10.png';
-import s11 from './Resources/Photos/inf/s11.png';
-import s12 from './Resources/Photos/inf/s12.png';
-import s13 from './Resources/Photos/inf/s13.png';
+
 import h1 from './Resources/Photos/h1.gif';
 import h2 from './Resources/Photos/h2.gif';
 import h3 from './Resources/Photos/h3.gif';
@@ -29,6 +17,7 @@ import VidCaro from './Components/VidCaro';
 import Testimonials from './Components/Testimonials';
 import Hero2 from './Components/Hero2';
 import VideoCarousel from './Components/VideoCarousel';
+import BrandCarousel from './Components/BrandCarousel';
 
 
 
@@ -72,6 +61,8 @@ function Home() {
   </div>
     
     </div> */}
+
+    <BrandCarousel/>
   
     <div class = 'container text-align-center text-center mt-5 px-5'> 
     <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and<br/> multiply your returns!</h1>
@@ -79,12 +70,12 @@ function Home() {
     </div>
 
     
-    
-  <div className="container-lg mb-2 align-items-center py-5 shadow-sm mt-4">
+    {/* Intro section  */}
+  <div className="container-fluid mb-2 align-items-center py-5 shadow-sm mt-4">
       <div className="row align-items-center" >
         
-          <div className="row justify-content-around">
-          <div className="col-md-7">
+          <div className="row justify-content-center">
+          <div className="col-md-6">
         <img src={screens} class = 'img-fluid'/>
         </div>
         
@@ -131,25 +122,19 @@ function Home() {
       </div>
     </div>
     </div>
-      
-
-     
-  
- 
-
-  
-
+    
+{/* Vid Carousel  */}
     <div className="container text-align-center text-center mt-5 px-5">
     <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
     </div>
     <VideoCarousel/>
   
      
-
+{/* Ariadne Platform  */}
       <div class = 'text-center px-5 mt-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>The Ariadne Platform</h1> </div>
     
-<div className="container flex-column">
-    <div className="row align-items-center mt-5 py-2 justify-content-between   p-5 ">
+<div className="container-fluid flex-column">
+    <div className="row align-items-center mt-5 py-2 justify-content-center   p-5 ">
       <div className="col-md-6  ">
         <h1 class = '  display-xxl-5'>Ariadne Analytics</h1>
         <p class = 'mt-4 fs-5'>Obtain people counting, heatmaps, loyalty rate and more!<br/>
@@ -161,8 +146,8 @@ With Ariadne analytics, you can review your performance in real time.</p>
         <img src={h1} alt="" class="img-fluid rounded  shadow" />
         </div>
       </div>
-
-      <div className="row align-items-center mt-5 justify-content-between  p-5 " style = {{backgroundColor: '#f2f2f2'}}>
+      
+      <div className="row align-items-center mt-5 justify-content-center  p-5 " style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1 >Ariadne Navigation</h1>
 
@@ -174,7 +159,8 @@ Present promotions in your map to engage and enhance your visitors satisfaction.
         <img src={h2} alt="" class="img-fluid rounded  shadow"  />
         </div>
       </div>
-      <div className="row align-items-center mt-5 justify-content-between  p-5 ">
+
+      <div className="row align-items-center mt-5 justify-content-center  p-5 ">
       <div className="col-md-6">
         <h1>Ariadne Engagement</h1>
         <p class = 'mt-4 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program!
@@ -184,8 +170,9 @@ The opt-in feature enables you to push notifications to your visitors the right 
       <div className="col-md-4">
         <img src={h3} alt=""class="img-fluid rounded shadow"  />
         </div>
+
       </div>
-      <div className="row align-items-center mt-5 mb-5 justify-content-between  p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center mt-5 mb-5 justify-content-center  p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1>Ariadne Mapping</h1>
         <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
@@ -197,7 +184,7 @@ By enabling you to map and localize your products, Ariadne increases your effici
         </div>
       </div>
   </div>
-  
+  {/* end  */}
 
       
 
