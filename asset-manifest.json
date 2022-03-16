@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.54d08f98.css",
-    "main.js": "/ariadne/static/js/main.d1e79084.js",
+    "main.css": "/ariadne/static/css/main.2375f968.css",
+    "main.js": "/ariadne/static/js/main.2c007f7a.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
     "static/media/video1.mp4": "/ariadne/static/media/video1.c94b9f55daed4810c232.mp4",
     "static/media/video2.mp4": "/ariadne/static/media/video2.be3e8180d8cc8e9d6b2d.mp4",
@@ -77,12 +77,12 @@
     "static/media/slick.ttf": "/ariadne/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/ariadne/index.html",
     "static/media/slick.woff": "/ariadne/static/media/slick.295183786cd8a1389865.woff",
-    "main.54d08f98.css.map": "/ariadne/static/css/main.54d08f98.css.map",
-    "main.d1e79084.js.map": "/ariadne/static/js/main.d1e79084.js.map",
+    "main.2375f968.css.map": "/ariadne/static/css/main.2375f968.css.map",
+    "main.2c007f7a.js.map": "/ariadne/static/js/main.2c007f7a.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54d08f98.css",
-    "static/js/main.d1e79084.js"
+    "static/css/main.2375f968.css",
+    "static/js/main.2c007f7a.js"
   ]
 }
