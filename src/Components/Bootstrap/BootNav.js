@@ -7,11 +7,12 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import {Link} from 'react-router-dom';
 
 const BootNav = () => {
-  return <div class = "bnav">
+
+  return <div  id = "bnav">
       
 
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black align-items-center">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-black align-items-center">
 
   <div class="container align-items-center">
     

@@ -28,6 +28,10 @@ import ProductSection from './Components/ProductSection';
 import VidCaro from './Components/VidCaro';
 import Testimonials from './Components/Testimonials';
 import Hero2 from './Components/Hero2';
+import VideoCarousel from './Components/VideoCarousel';
+
+import ReactPlayer from 'react-player'
+
 
 
 function Home() {
@@ -40,7 +44,7 @@ function Home() {
    
 
 <main >
-  <div className="container mb-5 shadow-sm py-2 overflow-hidden">
+  {/* <div className="container mb-5 shadow-sm py-2 overflow-hidden">
   <div className="slider-mine">
     <div className="slider-track-mine">
         <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
@@ -66,7 +70,7 @@ function Home() {
   
   </div>
     
-    </div>
+    </div> */}
   
     <div class = 'container text-align-center text-center mt-5 px-5'> 
     <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and<br/> multiply your returns!</h1>
@@ -80,7 +84,8 @@ function Home() {
         
           <div className="row justify-content-around">
           <div className="col-md-7">
-        <img src={screens} class = 'img-fluid'/></div>
+        <img src={screens} class = 'img-fluid'/>
+        </div>
         
 
 
@@ -131,12 +136,12 @@ function Home() {
   
  
 
-    {/* <VidCaro/> */}
+  
 
-  <div className="vid-section">
-
-  </div>
-    
+    <div className="container text-align-center text-center mt-5 px-5">
+    <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
+    </div>
+    <VideoCarousel/>
   
      
 
@@ -196,10 +201,10 @@ By enabling you to map and localize your products, Ariadne increases your effici
       
 
       
-<div className="container-xxl">
+{/* <div className="container-xxl">
 <Testimonials/>
 
-</div>
+</div> */}
 <ProductSection/>
 {/* <div className="container-fluid text-center h-75 my-5">
   <h1>Spotlight</h1>
@@ -219,6 +224,145 @@ By enabling you to map and localize your products, Ariadne increases your effici
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div className="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vid0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vid 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div className="container">
+      {/* <video src={vid1} controls width={'100%'}/> */}
+      {/* <ReactPlayer url={vid1} controls playing width='100%' height='100%' /> */}
+      
+      </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="vid1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vid 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div className="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="vid2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vid 3</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div className="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="vid3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vid 4</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">

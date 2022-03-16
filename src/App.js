@@ -34,6 +34,7 @@ import Contact from './Pages/Company/Contact';
 import BootNav from './Components/Bootstrap/BootNav';
 import Privacy from './Pages/Privacy';
 import PostPage from './Components/Blog/PostPage';
+import Footer2 from './Components/Footer2';
 
 
 function App() {
@@ -80,7 +81,8 @@ function App() {
           <Route exact  path = "/contact" element = {<Contact/>}/>
           <Route exact  path = "/privacy" element =  {<Privacy/>}/>
           </Routes>
-          <Footer/>
+            <Footer/>
+          
           </ScrollToTop>
           
     </div>
