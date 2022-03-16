@@ -91,8 +91,9 @@ function VideoCarousel({click}) {
   };
 
   return (
-    <div className="container my-5 py-5">
-      <Slider {...settings}>
+    <div className="container my-5 p-5 ">
+      <Slider {...settings}> 
+      
         {images.map((img, idx) => (
             
 <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
@@ -108,8 +109,11 @@ function VideoCarousel({click}) {
           
         ))}
       </Slider>
+        
+      
+      
             <div>
-            <div class="modal fade" id="vid0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="vid0" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
@@ -129,7 +133,7 @@ function VideoCarousel({click}) {
     </div>
   </div>
 </div>
-            <div class="modal fade" id="vid1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="vid1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
@@ -149,7 +153,7 @@ function VideoCarousel({click}) {
     </div>
   </div>
 </div>
-<div class="modal fade" id="vid2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="vid2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
@@ -169,7 +173,7 @@ function VideoCarousel({click}) {
     </div>
   </div>
 </div>
-            <div class="modal fade" id="vid3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="vid3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">

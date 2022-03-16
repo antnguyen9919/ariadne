@@ -37,7 +37,8 @@ import VideoCarousel from './Components/VideoCarousel';
 function Home() {
   return <div className = 'home-all'>
       
-<HeroSection/>
+{/* <HeroSection/> */}
+<Hero2/>
 
 
   

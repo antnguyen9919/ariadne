@@ -16,7 +16,7 @@ const ProductSection = () => {
         
     <div className="container my-5">
       <div className="row justify-content-around">
-        <div className="col-md-3 col-sm-4">
+        <div className="col-md-3 col-sm-11">
           <img src={floor} alt="" className="img-fluid" />
           <h4 class = 'pt-5'>Configuration</h4>
           <p class='fs-4 lead'>Let our team design a project based on your floor plan and industry.</p>
@@ -27,7 +27,7 @@ const ProductSection = () => {
           <p class='fs-4 lead'>Simply plug the devices in the predetermined sockets.</p>
         </div>
         <div className="col-md-3">
-          <img src={screen} alt=""  width='110%' />
+          <img id ='screen' src={screen} alt=""   />
           <h4 class = 'pt-5'>The Dashboard</h4>
           <p class='fs-4 lead'>Voila! Now you can make the most out of your existing traffic.</p>
         </div>

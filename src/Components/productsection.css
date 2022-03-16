@@ -7,15 +7,18 @@
     justify-content: space-around;
     
 }
-/* .product-main img {
-    height: 60%;
-    width: 70%;
-} */
-@media screen and(max-width: 760px){
+#screen{
+    width: 110%;
+}
+
+@media screen and(max-width: 900px){
     .product-main img {
         height: 100%;
-        width: 100%;
+        width: 50%;
     }
+
+    
 }
+
 
 
