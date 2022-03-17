@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/ariadne/static/css/main.2375f968.css",
-    "main.js": "/ariadne/static/js/main.2c007f7a.js",
+    "main.css": "/ariadne/static/css/main.a4a86b88.css",
+    "main.js": "/ariadne/static/js/main.33d5174e.js",
     "static/js/787.c1112931.chunk.js": "/ariadne/static/js/787.c1112931.chunk.js",
     "static/media/video1.mp4": "/ariadne/static/media/video1.c94b9f55daed4810c232.mp4",
     "static/media/video2.mp4": "/ariadne/static/media/video2.be3e8180d8cc8e9d6b2d.mp4",
     "static/media/video0.mp4": "/ariadne/static/media/video0.1b9b2d0399fe8213e3c5.mp4",
     "static/media/WPPGIF.gif": "/ariadne/static/media/WPPGIF.ce066d2365f897033df0.gif",
-    "static/media/Hero.mov": "/ariadne/static/media/Hero.2259c9c4851c0275e4fa.mov",
+    "static/media/shopCenter.jpg": "/ariadne/static/media/shopCenter.9cb92f6a6934e08432a3.jpg",
     "static/media/video3.mp4": "/ariadne/static/media/video3.96b59c0ccc237fffe271.mp4",
-    "static/media/retail.jpg": "/ariadne/static/media/retail.41aedfe142dbd15040ed.jpg",
     "static/media/h4.gif": "/ariadne/static/media/h4.4ca44a4b65b1b9ebb0ba.gif",
     "static/media/Hero2vid.mp4": "/ariadne/static/media/Hero2vid.20a6d9108b1c6556791c.mp4",
-    "static/media/mall.jpg": "/ariadne/static/media/mall.e0ef2ada792939ff3260.jpg",
-    "static/media/Wall.mp4": "/ariadne/static/media/Wall.1d6781d12607510dec6d.mp4",
     "static/media/h1.gif": "/ariadne/static/media/h1.e8aaecaabc6ddf576239.gif",
     "static/media/h3.gif": "/ariadne/static/media/h3.d9d58f6da54b529525f2.gif",
     "static/media/airports.jpg": "/ariadne/static/media/airports.bac6483151ff9512b168.jpg",
     "static/media/Phone.png": "/ariadne/static/media/Phone.52e0218d48de1fc0bb98.png",
+    "static/media/retail.jpeg": "/ariadne/static/media/retail.bf239d835ce94a2d74db.jpeg",
     "static/media/h2.gif": "/ariadne/static/media/h2.a47cea2deefc49637553.gif",
     "static/media/scan.png": "/ariadne/static/media/scan.0bb4f2f9e23bd70c92a5.png",
     "static/media/career.jpg": "/ariadne/static/media/career.41f55dea59e56ff41810.jpg",
@@ -53,6 +51,7 @@
     "static/media/h8.png": "/ariadne/static/media/h8.0f8eb8477583c5fb4ceb.png",
     "static/media/s7.png": "/ariadne/static/media/s7.21e987975f5c9931379d.png",
     "static/media/s4.png": "/ariadne/static/media/s4.ec4be0247932b21b4c7a.png",
+    "static/media/atlantis.png": "/ariadne/static/media/atlantis.7cdb109fc7330394ff91.png",
     "static/media/h3.png": "/ariadne/static/media/h3.80933677554e81aac032.png",
     "static/media/Daily.png": "/ariadne/static/media/Daily.4bad298c5c5e1e9d1570.png",
     "static/media/h6.png": "/ariadne/static/media/h6.2b3a7f79ce1cf7498fc1.png",
@@ -63,6 +62,7 @@
     "static/media/s12.png": "/ariadne/static/media/s12.4df9f623a43e795bff75.png",
     "static/media/h4.png": "/ariadne/static/media/h4.bf979778897477c27911.png",
     "static/media/h1a.png": "/ariadne/static/media/h1a.a0a4cd750b8d09a035a9.png",
+    "static/media/airport.jpg": "/ariadne/static/media/airport.163cf52e8caea55b309a.jpg",
     "static/media/s6.png": "/ariadne/static/media/s6.167528eb949286b3df9b.png",
     "static/media/h7.png": "/ariadne/static/media/h7.e4240c55f2252b67970f.png",
     "static/media/s9.png": "/ariadne/static/media/s9.839193cded77f1cafbc2.png",
@@ -77,12 +77,12 @@
     "static/media/slick.ttf": "/ariadne/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/ariadne/index.html",
     "static/media/slick.woff": "/ariadne/static/media/slick.295183786cd8a1389865.woff",
-    "main.2375f968.css.map": "/ariadne/static/css/main.2375f968.css.map",
-    "main.2c007f7a.js.map": "/ariadne/static/js/main.2c007f7a.js.map",
+    "main.a4a86b88.css.map": "/ariadne/static/css/main.a4a86b88.css.map",
+    "main.33d5174e.js.map": "/ariadne/static/js/main.33d5174e.js.map",
     "787.c1112931.chunk.js.map": "/ariadne/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2375f968.css",
-    "static/js/main.2c007f7a.js"
+    "static/css/main.a4a86b88.css",
+    "static/js/main.33d5174e.js"
   ]
 }
