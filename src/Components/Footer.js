@@ -16,7 +16,7 @@ function Footer() {
       
  
 <div class='footer-links'>
-
+      
   <div className='footer-link-wrapper'>
     <div class='footer-link-items'>
       <h3>Technology</h3>
@@ -24,14 +24,14 @@ function Footer() {
       <Link to='/ariadne-navigation'>Ariadne Navigation</Link>
       <Link to='/ariadne-analytics'>Ariadne Analytics</Link>
       <Link to='/ariadne-engagement'>Ariadne Engagement</Link>
-      <Link to='/industries'>Industries</Link>
-      <Link to='/data-lifecycle'>Data Lifecycle</Link>
+      {/* <Link to='/industries'>Industries</Link>
+      <Link to='/data-lifecycle'>Data Lifecycle</Link> */}
     </div>
     <div class='footer-link-items'>
       <h3>Company</h3>
       <Link to='/about-us'>About Us</Link>
       <Link to='/why-ariadne'>Why Ariadne</Link>
-      <Link to='/resources'>Resources</Link>
+      {/* <Link to='/resources'>Resources</Link> */}
       <Link to='/blog'>Blog</Link>
       <Link to='/careers'>Careers</Link>
     </div>
@@ -55,7 +55,7 @@ function Footer() {
       <div>
     
     
-    <button type="button" class="hero-button my-1"><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+      <button type="button" class="btn btn-outline-danger btn-lg border-radius-sm" style = {{backgroundColor:'red', borderRadius:'0px', color:'#fff'}}>Let's Talk</button>
 
       </div>
       <div className="para">

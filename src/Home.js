@@ -1,19 +1,19 @@
 import React from 'react';
 
 import './Home.css';
-import HeroSection from './Components/HeroSection';
+
 import CheckIcon from '@mui/icons-material/Check';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import Button from './Components/Button';
+
 import screens from './Resources/Photos/screens.png';
 
 import h1 from './Resources/Photos/h1.gif';
 import h2 from './Resources/Photos/h2.gif';
 import h3 from './Resources/Photos/h3.gif';
 import h4 from './Resources/Photos/h4.gif';
-import HomePost from './Components/HomePost';
+
 import ProductSection from './Components/ProductSection';
-import VidCaro from './Components/VidCaro';
+
 import Testimonials from './Components/Testimonials';
 import Hero2 from './Components/Hero2';
 import VideoCarousel from './Components/VideoCarousel';
@@ -23,10 +23,11 @@ import BrandCarousel from './Components/BrandCarousel';
 
 
 
+
 function Home() {
   return <div className = 'home-all'>
       
-{/* <HeroSection/> */}
+
 <Hero2/>
 
 
@@ -34,33 +35,7 @@ function Home() {
    
 
 <main >
-  {/* <div className="container mb-5 shadow-sm py-2 overflow-hidden">
-  <div className="slider-mine">
-    <div className="slider-track-mine">
-        <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s2} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s3} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s4} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s5} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s6} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s7} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s8} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s9} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s10} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s11} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s12} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s13} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s1} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s2} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s3} alt = "slider-img"/></div>
-        <div className="slide-mine"><img src ={s4} alt = "slider-img"/></div>
-
-    </div>
-    
   
-  </div>
-    
-    </div> */}
 
     <BrandCarousel/>
   
@@ -72,6 +47,7 @@ function Home() {
     
     {/* Intro section  */}
   <div className="container-fluid mb-2 align-items-center py-5 shadow-sm mt-4">
+    
       <div className="row align-items-center" >
         
           <div className="row justify-content-center">
@@ -79,12 +55,7 @@ function Home() {
         <img src={screens} class = 'img-fluid'/>
         </div>
         
-
-
-
-
-
-        <div className="col-lg-4  text-md-start text-sm-center">
+          <div className="col-lg-4  text-md-start text-sm-center">
         
         <div >
         <h6 class = 'lh-lg mb-4'>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
@@ -114,22 +85,23 @@ function Home() {
         </div>
         
     <div className="row justify-content-start">
-      <div className="col-md-2 offset-3">
+      <div className="col-md-2 offset-md-3">
       <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
        <p class = 'fs-5'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
        
 </button>
       </div>
     </div>
+
     </div>
     
-{/* Vid Carousel  */}
+{/* Vid Carousel  text */}
     <div className="container text-align-center text-center mt-5 px-5">
     <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
     </div>
     <VideoCarousel/>
   
-     
+     <hr />
 {/* Ariadne Platform  */}
       <div class = 'text-center px-5 mt-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>The Ariadne Platform</h1> </div>
     
@@ -189,21 +161,25 @@ By enabling you to map and localize your products, Ariadne increases your effici
       
 
       
-{/* <div className="container-xxl">
+  <div class = 'text-center px-5 my-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Trusted by industry leaders</h1> </div>
 <Testimonials/>
+<hr />
 
-</div> */}
+
+{/* <Testimo/> */}
 <ProductSection/>
 {/* <div className="container-fluid text-center h-75 my-5">
   <h1>Spotlight</h1>
   
   </div> */}
+  
 
-
+{/* text  */}
 <div className="container text-center mb-5">
 <h1 class='fw-bold mb-4' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
 <p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
+
 <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' ></iframe>
 
 

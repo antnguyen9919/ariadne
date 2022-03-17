@@ -58,7 +58,7 @@ export default class BrandCarousel extends Component {
       ]
     };
     return (
-        // style = {{backgroundColor:'#eeeeee'}}
+        
                 <div className="container-fluid py-3" style = {{backgroundColor:'#eeeeee'}}>
                     <div className="container" >
         

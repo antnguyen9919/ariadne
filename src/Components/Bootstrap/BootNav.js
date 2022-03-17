@@ -16,7 +16,7 @@ const BootNav = () => {
 
   <div class="container align-items-center">
     
-  <Link class ='px-4' to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
+  <Link class ='px-4 pt-1'  to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
                             
                             </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +82,7 @@ const BootNav = () => {
       <li class="nav-item">
          
          <Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                               <h5 style ={{fontFamily:'Poppins'}} id="navbarDarkDropdownMenuLink">Let's talk</h5>
+                               <h5 class = 'mt-1' style ={{fontFamily:'Poppins'}} id="navbarDarkDropdownMenuLink">Let's talk</h5>
                             </Link>
        </li>
         <li class="nav-item">

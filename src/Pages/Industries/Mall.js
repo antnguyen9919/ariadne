@@ -1,10 +1,10 @@
 import '../../App.css';
 import React from 'react';
-import mall from '../../Resources/Photos/Pages/mall.jpg';
+import shopCenter from './resources/shopCenter.jpg'
 
 function Mall() {
   return <div>
-  <img src = {mall} width="100%" height="800vh" alt = "mall"/>
+  <img src = {shopCenter} width="100%" height="500vh" alt = "mall"/>
   <main>
     <div className="container mt-4">
       <h1 class = 'display-3 fw-bold'>Shopping

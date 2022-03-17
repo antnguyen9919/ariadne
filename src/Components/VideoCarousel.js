@@ -21,18 +21,7 @@ function VideoCarousel({click}) {
   const [play2,setPlay2] = useState(false);
   const [play3,setPlay3] = useState(false);
 
-  // const handleClick= ()=>{
-  //   setPlay(!play);
-  // }
-  // const handleClick1= ()=>{
-  //   setPlay1(!play1);
-  // }
-  // const handleClick2= ()=>{
-  //   setPlay2(!play2);
-  // }
-  // const handleClick3= ()=>{
-  //   setPlay3(!play3);
-  // }
+  
   const handleClick=(e, id)=>{
     console.log("id:",id);
     switch(id) {
@@ -91,23 +80,19 @@ function VideoCarousel({click}) {
   };
 
   return (
-    <div className="container my-5 p-5 ">
+    <div className="container my-5 p-5 " id = 'vids-carousel'>
       <Slider {...settings}> 
       
         {images.map((img, idx) => (
             
 <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            
-            
-            <img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
+            {idx === imageIndex?<img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
             type="button" data-bs-toggle="modal" data-bs-target= {`#vid${idx}`}
-            onClick={((e) => handleClick(e, idx))}/>
+            onClick={((e) => handleClick(e, idx))}/>:
+            <img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
+            />}
             
-          </div>
-            
-          
-          
-        ))}
+          </div>))}
       </Slider>
         
       
@@ -117,7 +102,7 @@ function VideoCarousel({click}) {
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Vid 2</h5>
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
         onClick={closeAll}
         ></button>
@@ -137,7 +122,7 @@ function VideoCarousel({click}) {
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Vid 1</h5>
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
         onClick={closeAll}
         ></button>
@@ -157,7 +142,7 @@ function VideoCarousel({click}) {
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Vid 2</h5>
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
         onClick={closeAll}
         ></button>
@@ -177,7 +162,7 @@ function VideoCarousel({click}) {
   <div class="modal-dialog modal-lg ">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Vid 3</h5>
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
         onClick={closeAll}
         ></button>

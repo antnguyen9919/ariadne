@@ -10,11 +10,12 @@ const Hero2 = () => {
 <div className = ' container-fluid   d-xxl-none align-items-end text-light mt-5 pt-3' >
 		
 		<div className="row align-items-center justify-content-center">
-				<div className="col-md-4 mb-5 p-0 px-1 offset-1">
+				<div className="col-md-4 mb-5 p-0 px-1 offset-md-1">
 					
 				<h1 style ={{fontFamily:'Poppins',fontSize:'43px'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
 				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
-                        <button type="button" class="hero-button mt-3"><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+                        {/* <button type="button" class="hero-button mt-3" style={{backgroundColor:'red'}}><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button> */}
+						<button type="button" class="btn btn-outline-danger btn-lg border-radius-sm" style = {{backgroundColor:'red', borderRadius:'0px', color:'#fff'}}>Let's Talk</button>
 					
 				</div>
 
@@ -28,7 +29,7 @@ const Hero2 = () => {
 	<div className = 'container d-none d-xxl-block align-items-end text-light mt-5 pt-3' >
 		
 		<div className="row align-items-center ">
-				<div className="col-md-4 offset-1 col-sm-10">
+				<div className="col-md-4 offset-md-1 col-sm-10">
 					
 				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
 				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>

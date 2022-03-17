@@ -9,33 +9,47 @@ function About() {
   return <div>
   <img src = "https://www.wework.com/ideas/wp-content/uploads/sites/4/2017/06/Web_150DPI-20190927_10th_Floor_Conference_Room_2_v1-1120x630.jpg" width="100%" alt = "company"/>
   <main>
+    
   <div className="container mt-5 p-4 bg-light">
       <h1 class="display-3  fw-bold">Ariadne Maps</h1>
       <p class = 'fs-4 fw-light lh-lg pt-4'><b>Ariadne Maps</b> is a high tech company that provides detailed indoor analytics and customer analytics with its cutting edge artificial intelligence approach. With this approach, it enables indoor and outdoor localization in many industries such as transportation, malls as well as retailers and airports. We make use of advanced artificial intelligence algorithms for precise and anonymous tracking of passengers and customers, to help companies optimize their infrastructure for e.g., minimizing congestion, having a better targeted advertising and marketing while maximizing satisfaction and experience of consumers. <br/> <br/>
 
 Ariadne Maps is based in Munich, Germany and has been operating for years. With our rapid growth, we vision to enable physical businesses to leverage the data they have been exposed through the whole time. In this vision, our strong team, advisors, investors and partners give us the confidence to advance, expand and succeed.</p>
   </div>
+  
+
+
   <div className="container justify-content-between col-xxl-8 px-4 py-5 mb-5">
+    
     <h2>European Union</h2>
-    <div className="row g-5 py-5">
-      <div className="col-md-3 col-sm-10">
+    
+    <div className="row py-5">
+      <div className="col-md-3 ">
         <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/European-Union.png' width = '100%'/>
       </div>
-      <div className="col-md-8 offset-1">
+      <div className="col-md-8 ">
         <h5>Ariadne Maps is a European company, proudly supported by European Union.</h5>
       </div>
     </div>
+
+
     <h2>EIT Digital</h2>
+    
     <div className="row">
       <div className="col-md-3 col-sm-10">
         <img src = 'https://ariadnemaps.com/wp-content/uploads/2020/05/logo-eitdigital.jpg' width = '100%'/>
       </div>
-      <div className="col-md-8 offset-1">
+      <div className="col-md-8">
         <h5>Ariadne Maps is a European company, proudly supported by European Union.</h5>
       </div>
     </div>
+    
   </div>
+
+
+
     <div className="text-center"> <h1 class="display-3">Ariadne Team</h1>  </div>
+    
   <div className="container mt-5 text-center justify-content-center" id='employeeList'>
     
     <div className="row justify-content-md-around justify-content-sm-center">
@@ -320,6 +334,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
   </div>
+  
   </main>
 </div>;
 }

@@ -1,20 +1,23 @@
 import '../../App.css';
 import React from 'react';
 import './Airport.css';
+import airport from './resources/airport.jpg'
 function Airport() {
   return <div className ="all">
-    <div className = "start">
-     
-        <h1>AIRPORTS</h1>
-        <p>Ariadne Maps helps airports understand and serve their passengers better,
-
-            provide useful services, and do more targeted marketing campaigns</p>
-
-
-
-    </div>
+    <img src = {airport} width="100%" height="500vh"  alt = "transportation"/>
 
     <main>
+    <div className="container mt-4">
+    <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>AIRPORTS</h1>
+    <p style={{fontFamily:'Poppins'}} className='fs-5'>Ariadne Maps helps airports understand and serve their passengers better,
+
+provide useful services, and do more targeted marketing campaigns</p>
+    </div>
+    <div className="text-center mt-5">
+        <h1 className='display-4 fw-bold'>Use Cases</h1>
+      </div>
+
+
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
           <div className="col-md-4">
@@ -75,6 +78,7 @@ Employee supervision, machine/asset tracking, visitor averages comparison over t
           </div>
         </div>
       </div>
+
       <div class="container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
            
             
@@ -89,9 +93,11 @@ Employee supervision, machine/asset tracking, visitor averages comparison over t
             
             
           </div>
+          
       <div class='text-center'>
         <h1>Discover More Industries</h1>
       </div>
+
       <div className="container mt-5 py-5">
 
         <div class="row justify-content-around" >

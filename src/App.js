@@ -58,7 +58,9 @@ function App() {
           
           <Routes>
             <Route exact path = "/"  element = {<Home/>}/>
-          <Route exact path = "/products" element = {<Products/>}/>
+
+
+           <Route exact path = "/products" element = {<Products/>}/>
           <Route exact path = "/industries" element = {<Industries/>}/>
           <Route exact path = "/why-ariadne" element = {<WhyAriadne/>}/>
           <Route exact path = "/company" element = {<Company/>}/>
@@ -80,7 +82,9 @@ function App() {
           <Route exact  path = "/careers" element = {<Career/>}/>
           <Route exact  path = "/contact" element = {<Contact/>}/>
           <Route exact  path = "/privacy" element =  {<Privacy/>}/>
+           
           </Routes>
+          
             <Footer/>
           
           </ScrollToTop>

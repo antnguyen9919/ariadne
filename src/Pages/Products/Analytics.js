@@ -27,15 +27,16 @@ import Usecase from '../../Components/Usecase'
 
 
 function Analytics() {
+  
   return <div>
   <div className="container-fluid bg-dark text-white mt-5 pt-5" >
     <div className="row align-items-center justify-content-between">
-      <div className="col-md-4 align-self-center offset-1 col-sm-10">
+      <div className="col-md-4 align-self-center offset-md-1 col-sm-10">
         <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne <br/> Analytics</h1>
         <p style={{fontFamily:'Poppins'}} className='fs-6'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
         </div>
 
-        <div className="col-md-6 col-sm-12 col-xxl-6 offset-1">
+        <div className="col-md-6 col-sm-12 col-xxl-6 offset-md-1">
           <img src={Laptopwp} alt="" id = 'lap_wp' class = ''/>
           </div>
       </div>

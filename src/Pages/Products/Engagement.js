@@ -14,14 +14,17 @@ function Engagement() {
           <div className="container-fluid bg-dark text-white">
     <div className="row justify-content-around">
       <div className="col-md-5 align-self-center">
-        <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne Analytics</h1>
-        <p style={{fontFamily:'Poppins'}} className='fs-5'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
+        <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne
+Engagement</h1>
+        <p style={{fontFamily:'Poppins'}} className='fs-5'>Engage with your visitors at the right time and the right place. Develop strategies targeted to specific clusters of customers</p>
         </div>
         <div className="col-md-5 align-self-end">
           <img src={phonewp} alt="" class = 'img-fluid' />
           </div>
       </div>
     </div>
+
+
   <main>
   
   <div className="container-fluid  p-5" style = {{backgroundColor: '#f2f2f2'}}>
@@ -45,6 +48,10 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
 
 
         </div>
+
+
+
+        
         <div className="container">
         <div className="row align-items-center justify-content-between m-5 py-5">
           <div className="col-md-6">
@@ -63,6 +70,11 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
             
           </div>
         </div>
+
+
+
+        
+        
         <div class=" container-fluid p-5 mb-5 bg-black text-white text-center font-weight-bold align-items-center">
            
             <div className="row align-items-center justify-content-center">
@@ -102,8 +114,11 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
             </div>
             
           </div>
-          <div className="container text-center m-5 p-3">
+
+          
+          <div className="container text-center p-3">
               <h1 class='mb-5'>With a simple tap</h1>
+              
               <div className="row mt-5 justify-content-between">
                 <div className="col-md-3">
                   <img src={scan} alt="" className='img-fluid'/>
@@ -121,6 +136,13 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
               </div>
 
 
+
+
+
+
+
+
+
               <div class="container-fluid p-5 mt-5 bg-black text-white text-center font-weight-bold align-items-center">
            
             
@@ -136,10 +158,17 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
             
           </div>
 
+
+
+
           <div className="text-center mt-5">
         <h1 className='display-4 fw-bold'>Complementary Solutions</h1>
         <h4>Complement your engagement tools with our solutions below, increase returns on your investments</h4>
       </div>
+
+
+
+
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
         <div className="col-md-4">
@@ -170,6 +199,9 @@ Navigate your visitors and guests for an enhanced experience; show ads and promo
         
         
       </div>
+
+
+      
           <div class = 'text-center'>
             <h1>Discover Use Cases</h1>
           </div>

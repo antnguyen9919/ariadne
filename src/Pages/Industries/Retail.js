@@ -1,10 +1,10 @@
 import '../../App.css';
 import React from 'react';
-import retail from '../../Resources/Photos/Pages/retail.jpg';
+import retail from './resources/retail.jpeg';
 import './Retail.css';
 function Retail() {
   return <div>
-  <img src = {retail} width="100%" height="800vh"  alt = "retail"/>
+  <img src = {retail} width="100%" height="500vh"  alt = "retail"/>
   <main>
 
   <div className="container mt-4">
