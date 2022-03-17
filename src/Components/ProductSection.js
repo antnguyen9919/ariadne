@@ -9,9 +9,9 @@ const ProductSection = () => {
         
     
             
-      <div className="container">
+      <div className="container-fluid">
       <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>Get Started</h1>
-            <p class = 'mt-4 fs-3 px-5 mx-5 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
+            <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
       </div>
         
     <div className="container d-xxl-none my-5">

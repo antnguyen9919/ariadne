@@ -64,10 +64,12 @@ function App() {
           <Route exact path = "/industries" element = {<Industries/>}/>
           <Route exact path = "/why-ariadne" element = {<WhyAriadne/>}/>
           <Route exact path = "/company" element = {<Company/>}/>
+          
           <Route exact path = "/ariadne-analytics" element = {<Analytics/>}/>
           <Route exact path = "/ariadne-mapping" element = {<Mapping/>}/>
           <Route exact path = "/ariadne-navigation" element = {<Navigation/>}/>
           <Route exact path = "/ariadne-engagement" element = {<Engagement/>}/>
+          
           <Route exact path = "/retail-stores" element = {<Retail/>}/>
 
           <Route exact  path = "/shopping-centres" element = {<Mall/>}/>
