@@ -46,7 +46,7 @@ function Home() {
 
     
     {/* Intro section  */}
-  <div className="container-fluid mb-2 align-items-center py-5 shadow-sm mt-4">
+  <div className="container-fluid d-xxl-none mb-2 align-items-center py-5 shadow-sm mt-4">
     
       <div className="row align-items-center" >
         
@@ -88,6 +88,50 @@ function Home() {
       <div className="col-md-2 offset-md-3">
       <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
        <p class = 'fs-5'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
+       
+</button>
+      </div>
+    </div>
+
+    </div>
+
+    <div className="container-fluid d-none d-xxl-block mb-2 align-items-center py-5 shadow-sm mt-4">
+    
+      <div className="row align-items-center" >
+        
+          <div className="row justify-content-center">
+          <div className="col-md-6">
+        <img src={screens} class = 'img-fluid'/>
+        </div>
+        
+          <div className="col-lg-4  text-md-start text-sm-center">
+        
+        <div >
+        <h2 class = 'lh-lg mb-4'>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors' behavior, it consults you on strategies, and provides you with recommendations for the future.
+        </h2>
+        
+        
+      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Footfall (Total and by area)</p>
+      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Dwell Time(Total and by area)</p>
+      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Heatmap (2D and 3D)</p>
+      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Transitions between areas)</p>
+      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      ERP, BI, POS Integration</p>
+        
+        <div>
+        </div>
+
+          </div>
+          </div>
+          
+            </div>
+            
+        </div>
+        
+    <div className="row justify-content-start">
+      <div className="col-md-2 offset-md-3">
+        
+      <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       <p class = 'fs-2'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
        
 </button>
       </div>
@@ -175,8 +219,13 @@ By enabling you to map and localize your products, Ariadne increases your effici
   
 
 {/* text  */}
-<div className="container text-center mb-5">
+<div className="container d-xxl-none text-center mb-5">
 <h1 class='fw-bold mb-4' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
+<p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
+  </div>
+
+  <div className="container d-none d-xxl-block text-center mb-5">
+<h1 class='fw-bold mb-4 display-3' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
 <p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
 

@@ -26,14 +26,15 @@ const Hero2 = () => {
 		
 			
 	</div>
-	<div className = 'container d-none d-xxl-block align-items-end text-light mt-5 pt-3' >
+	<div className = 'container-fluid d-none d-xxl-block align-items-end text-light mt-5 pt-3' >
 		
 		<div className="row align-items-center ">
 				<div className="col-md-4 offset-md-1 col-sm-10">
 					
-				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
-				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
-                        <button type="button" class="hero-button mt-3"><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 display-1 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
+				<p class='my-2 lh-md fs-1 ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
+                        <button type="button" class="hero-button btn-lg mt-3"
+						style ={{backgroundColor:'red'}} ><p class='my-1 mx-3 text-light fs-1    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 					
 				</div>
 				<div className="col-md-7 mt-5">

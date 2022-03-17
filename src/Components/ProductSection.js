@@ -9,8 +9,13 @@ const ProductSection = () => {
         
     
             
-      <div className="container-fluid">
+      <div className="container-fluid d-xxl-none">
       <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>Get Started</h1>
+            <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
+      </div>
+
+      <div className="container-fluid d-none d-xxl-block">
+      <h1 class='fw-bold text-center display-4' style ={{fontFamily:'Poppins'}}>Get Started</h1>
             <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
       </div>
         
@@ -37,17 +42,17 @@ const ProductSection = () => {
     <div className="container-fluid d-none d-xxl-block my-5 px-5 mx-5">
       <div className="row justify-content-around">
         <div className="col-md-3 col-sm-4 m-5">
-          <img src={floor} alt="" className="img-fluid" />
+          <img src={floor} alt=""  width={'90%'}/>
           <h4 class = 'pt-5'>Configuration</h4>
           <p class='fs-4 lead'>Let our team design a project based on your floor plan and industry.</p>
         </div>
         <div className="col-md-3 m-5">
-          <img src={device2} alt="" className="img-fluid" />
+          <img src={device2} alt="" width={'90%'} />
           <h4 class = 'pt-5'>Installation</h4>
           <p class='fs-4 lead'>Simply plug the devices in the predetermined sockets.</p>
         </div>
         <div className="col-md-3 m-5">
-          <img src={screen} alt=""  width='110%' />
+          <img src={screen} alt=""  width='100%' />
           <h4 class = 'pt-5'>The Dashboard</h4>
           <p class='fs-4 lead'>Voila! Now you can make the most out of your existing traffic.</p>
         </div>
