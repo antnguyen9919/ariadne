@@ -144,17 +144,17 @@ function Home() {
     </div>
     
 {/* Vid Carousel  text */}
-    <div className="container text-align-center text-center mt-5 px-5">
-    <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
+    <div className="container text-align-center text-center mt-5 px-5" >
+    <h1 class='fw-bold text-center mt-5' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
     </div>
     <VideoCarousel/>
   
-     <hr />
+     <hr class = 'mt-4'/>
 {/* Ariadne Platform  */}
       <div class = 'text-center px-5 mt-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>The Ariadne Platform</h1> </div>
     
-<div className="container-fluid flex-column">
-    <div className="row align-items-center mt-5 py-2 justify-content-center   p-5 ">
+<div className="container-fluid d-xxl-none flex-column">
+    <div className="row align-items-center mt-5 py-2 justify-content-around   p-5 ">
       <div className="col-md-6  ">
         <h1 class = '  display-xxl-5'>Ariadne Analytics</h1>
         <p class = 'mt-4 fs-5'>Obtain people counting, heatmaps, loyalty rate and more!<br/>
@@ -167,7 +167,7 @@ With Ariadne analytics, you can review your performance in real time.</p>
         </div>
       </div>
       
-      <div className="row align-items-center mt-5 justify-content-center  p-5 " style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center mt-5 justify-content-around  p-5 " style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1 >Ariadne Navigation</h1>
 
@@ -180,7 +180,7 @@ Present promotions in your map to engage and enhance your visitors satisfaction.
         </div>
       </div>
 
-      <div className="row align-items-center mt-5 justify-content-center  p-5 ">
+      <div className="row align-items-center mt-5 justify-content-around  p-5 ">
       <div className="col-md-6">
         <h1>Ariadne Engagement</h1>
         <p class = 'mt-4 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program!
@@ -192,7 +192,7 @@ The opt-in feature enables you to push notifications to your visitors the right 
         </div>
 
       </div>
-      <div className="row align-items-center mt-5 mb-5 justify-content-center  p-5" style = {{backgroundColor: '#f2f2f2'}}>
+      <div className="row align-items-center mt-5 mb-5 justify-content-around  p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="col-md-6">
         <h1>Ariadne Mapping</h1>
         <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
@@ -204,6 +204,63 @@ By enabling you to map and localize your products, Ariadne increases your effici
         </div>
       </div>
   </div>
+  <div className="container-fluid d-none d-xxl-block flex-column">
+    <div className="row align-items-center  mt-5 justify-content-center  p-5 " style = {{
+        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="col-md-6  ">
+        <h1 class = '  display-xxl-5'>Ariadne Analytics</h1>
+        <p class = 'mt-4 fs-5'>Obtain people counting, heatmaps, loyalty rate and more!<br/>
+        <br/>
+
+With Ariadne analytics, you can review your performance in real time.</p>
+        </div>
+      <div className="col-md-4">
+        <img src={h1} alt="" class="img-fluid rounded  shadow" />
+        </div>
+      </div>
+      
+      <div className="row align-items-center  justify-content-center  p-5 " style = {{
+        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="col-md-6">
+        <h1 >Ariadne Navigation</h1>
+
+        <p class = 'mt-4 fs-5'>Navigate your visitors and guests for an enhanced experience!
+<br/> <br/>
+Present promotions in your map to engage and enhance your visitors satisfaction.</p>
+        </div>
+      <div className="col-md-4">
+        <img src={h2} alt="" class="img-fluid rounded  shadow"  />
+        </div>
+      </div>
+
+      <div className="row align-items-center  justify-content-center  p-5 " style = {{
+        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="col-md-6">
+        <h1>Ariadne Engagement</h1>
+        <p class = 'mt-4 fs-5'>Ariadne enables your visitors to opt-in to your loyalty program!
+        <br/> <br/>
+The opt-in feature enables you to push notifications to your visitors the right moment.</p>
+        </div>
+      <div className="col-md-4">
+        <img src={h3} alt=""class="img-fluid rounded shadow"  />
+        </div>
+
+      </div>
+      <div className="row align-items-center  mb-5 justify-content-center  p-5" style = {{
+        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="col-md-6">
+        <h1>Ariadne Mapping</h1>
+        <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
+        <br/> <br/>
+By enabling you to map and localize your products, Ariadne increases your efficiency.</p>
+        </div>
+      <div className="col-md-4">
+        <img src={h4} alt="" class="img-fluid rounded  shadow" />
+        </div>
+      </div>
+  </div>
+
+
   {/* end  */}
 
       

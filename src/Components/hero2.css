@@ -1,14 +1,9 @@
-.hero-button{
-    background-color:rgb(241, 1, 1);
+#hero-xxl-button{
+    background-color:#D11C21;
     border:none;
-    /* padding:5px 20px; */
-    color:#fff;
-    font-weight: bold;
-    
+
 }
-.hero-button:hover{
-    background-color:rgb(211, 1, 1);
-}
-.hero-button:active{
+
+#hero-xxl-button:hover{
     background-color:red;
 }

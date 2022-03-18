@@ -2,6 +2,7 @@ import React from 'react'
 // import Wall2 from '../Resources/Videos/Wall2.mp4';
 import Hero2vid from '../Resources/Videos/Hero2vid.mp4'
 // import WPPGIF from '../Resources/Photos/WPPGIF.gif';
+import './hero2.css'
 const Hero2 = () => {
   return (
     
@@ -15,7 +16,8 @@ const Hero2 = () => {
 				<h1 style ={{fontFamily:'Poppins',fontSize:'43px'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
 				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
                         {/* <button type="button" class="hero-button mt-3" style={{backgroundColor:'red'}}><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button> */}
-						<button type="button" class="btn btn-outline-danger btn-lg border-radius-sm" style = {{backgroundColor:'red', borderRadius:'0px', color:'#fff'}}>Let's Talk</button>
+						<button id='hero-xxl-button' type="button" class=" mt-3"
+						><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 					
 				</div>
 
@@ -33,8 +35,8 @@ const Hero2 = () => {
 					
 				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 display-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
 				<p class='my-2 lh-md fs-5 ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
-                        <button type="button" class="hero-button btn-lg mt-3"
-						style ={{backgroundColor:'red'}} ><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+                        <button id='hero-xxl-button' type="button" class=" mt-3"
+						><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 					
 				</div>
 				<div className="col-md-7 mt-5" style = {{pointerEvents: 'none'}}>

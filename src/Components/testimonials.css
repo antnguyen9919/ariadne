@@ -2,11 +2,38 @@
     
     
     
-    min-height: 70vh;
+    min-height: 50vh;
     
     width: 100%;
     
   }
+  @media screen and (max-width: 1400px) {
+    .testimonials{
+    
+    
+    
+      min-height: 60vh;
+      
+      width: 100%;
+      
+    }
+    
+  }
+
+
+  @media screen and (max-width: 760px) {
+    .testimonials{
+    
+    
+    
+      min-height: 70vh;
+      
+      width: 100%;
+      
+    }
+    
+  }
+  
 
 
  

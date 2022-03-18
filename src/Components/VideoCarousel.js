@@ -1,17 +1,25 @@
 import "./vidCarousel.css";
 import { useState } from "react";
 import Slider from "react-slick";
-import vid0 from './ResComp/vid0.png'
-import vid1 from './ResComp/vid1.png'
-import vid2 from './ResComp/vid2.png'
-import vid3 from './ResComp/vid3.png'
+
+// import vid0 from './ResComp/vid0.png'
+// import vid1 from './ResComp/vid1.png'
+// import vid2 from './ResComp/vid2.png'
+// import vid3 from './ResComp/vid3.png'
+
+import Weko from './ResComp/Weko.png'
+import Marien from './ResComp/Marien.png'
+import Explainer from './ResComp/Explainer.png'
+import Praktiker from './ResComp/Praktiker.png'
+
+
 import video0 from '../Resources/Videos/VidCaro/video0.mp4'
 import video1 from '../Resources/Videos/VidCaro/video1.mp4'
 import video2 from '../Resources/Videos/VidCaro/video2.mp4'
 import video3 from '../Resources/Videos/VidCaro/video3.mp4'
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import ReactPlayer from 'react-player'
-const images = [vid0,vid1,vid2,vid3];
+const images = [Marien,Praktiker,Weko,Explainer];
 
 
 
@@ -89,7 +97,7 @@ function VideoCarousel({click}) {
 
 
   return (
-    <div className="container-lg my-5 p-5 " id = 'vids-carousel'>
+    <div className="container-lg my-5 p-3 pb-5 " id = 'vids-carousel'>
       <Slider {...settings}> 
       
         {images.map((img, idx) => (

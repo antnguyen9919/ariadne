@@ -3,6 +3,7 @@ import './Footer.css';
 import  Button from './Button';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
+import './hero2.css'
 
 
 function Footer() {
@@ -55,7 +56,8 @@ function Footer() {
       <div>
     
     
-      <button type="button" class="btn btn-outline-danger btn-lg border-radius-sm" style = {{backgroundColor:'red', borderRadius:'0px', color:'#fff'}}>Let's Talk</button>
+      <button id='hero-xxl-button' type="button" class="mb-2"
+						><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 
       </div>
       <div className="para">

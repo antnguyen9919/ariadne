@@ -4,11 +4,12 @@
 
 
 #vids-carousel .slide img {
-  width: 20rem;
+  width: 24rem;
   margin: 0 auto;
-  height: 15rem;
+  height: 24*0.56rem;
   
 }
+
 
 #vids-carousel .slide {
   transform: scale(0.8);
@@ -17,13 +18,14 @@
 }
 
 #vids-carousel .activeSlide {
-  transform: scale(1.3);
+  transform: scale(1.0);
   
   opacity: 1;
 }
 
+
 #vids-carousel .arrow {
-  background-color: #fff;
+  background:transparent;
   position: absolute;
   cursor: pointer;
   z-index: 10;
@@ -48,10 +50,11 @@
   top: 50%;
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:1500px){
   #vids-carousel .slide img {
-    width: 8rem;
-    margin: 0 auto;
+    width: 20rem;
+  margin: 0 auto;
+  height: 20*0.56rem;
   }
   
   #vids-carousel.slide {
@@ -67,7 +70,7 @@
   }
   
   #vids-carousel .arrow {
-    background-color: #fff;
+    background:transparent;
     position: absolute;
     cursor: pointer;
     z-index: 10;
@@ -77,9 +80,7 @@
     transition: color 300ms;
   }
   
-  #vids-carousel .arrow svg:hover {
-    color: #68edff;
-  }
+  
   
   #vids-carousel .next {
     right: 0%;
