@@ -31,10 +31,10 @@ const Hero2 = () => {
 		<div className="row align-items-center ">
 				<div className="col-md-4 offset-md-1 col-sm-10">
 					
-				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 display-1 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
-				<p class='my-2 lh-md fs-1 ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
+				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 display-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
+				<p class='my-2 lh-md fs-5 ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
                         <button type="button" class="hero-button btn-lg mt-3"
-						style ={{backgroundColor:'red'}} ><p class='my-1 mx-3 text-light fs-1    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+						style ={{backgroundColor:'red'}} ><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 					
 				</div>
 				<div className="col-md-7 mt-5" style = {{pointerEvents: 'none'}}>

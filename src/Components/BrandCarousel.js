@@ -21,7 +21,7 @@ export default class BrandCarousel extends Component {
         accessibility: false,
         arrows:false,  
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
       speed: 3000,
@@ -64,43 +64,43 @@ export default class BrandCarousel extends Component {
         
         <Slider {...settings}>
           <div>
-            <img src={s1} alt="" width = '150vw' height='70vh'/>
+            <img src={s1} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s2} alt="" width = '150vw' height='70vh'/>
+          <img src={s2} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s3} alt="" width = '150vw' height='70vh'/>
+          <img src={s3} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s4} alt="" width = '150vw' height='70vh'/>
+          <img src={s4} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s5} alt="" width = '150vw' height='70vh'/>
+          <img src={s5} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s6} alt="" width = '150vw' height='70vh'/>
+          <img src={s6} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s7} alt="" width = '150vw' height='70vh'/>
+          <img src={s7} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s8} alt="" width = '150vw' height='70vh'/>
+          <img src={s8} alt="" width = '140vw' height='60vh'/>
           </div>
           <div>
-          <img src={s9} alt="" width = '150vw' height='70vh'/>
+          <img src={s9} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s10} alt="" width = '150vw' height='70vh'/>
+          <img src={s10} alt="" width = '140vw' height='60vh'/>
           </div>
           <div>
-          <img src={s11} alt="" width = '150vw' height='70vh'/>
+          <img src={s11} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s12} alt="" width = '150vw' height='70vh'/>
+          <img src={s12} alt="" width = '140vw' height='70vh'/>
           </div>
           <div>
-          <img src={s13} alt="" width = '150vw' height='70vh'/>
+          <img src={s13} alt="" width = '140vw' height='70vh'/>
           </div>
         </Slider>
       </div>

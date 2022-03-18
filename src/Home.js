@@ -11,6 +11,10 @@ import h1 from './Resources/Photos/h1.gif';
 import h2 from './Resources/Photos/h2.gif';
 import h3 from './Resources/Photos/h3.gif';
 import h4 from './Resources/Photos/h4.gif';
+// enlarge 
+import eAnalytics from './Resources/Photos/enlarge/eAnalytics.png'
+import CRM from './Resources/Photos/enlarge/CRM.png'
+import ERP from './Resources/Photos/enlarge/ERP.png'
 
 import ProductSection from './Components/ProductSection';
 
@@ -39,7 +43,7 @@ function Home() {
 
     <BrandCarousel/>
   
-    <div class = 'container text-align-center text-center mt-5 px-5'> 
+    <div class = 'container text-align-center text-center mt-5 px-5 mb-5'> 
     <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and<br/> multiply your returns!</h1>
 
     </div>
@@ -52,7 +56,7 @@ function Home() {
         
           <div className="row justify-content-center">
           <div className="col-md-6">
-        <img src={screens} class = 'img-fluid'/>
+        <img src={screens} class = 'img-fluid' alt = {screens}/>
         </div>
         
           <div className="col-lg-4  text-md-start text-sm-center">
@@ -97,25 +101,25 @@ function Home() {
 
     <div className="container-fluid d-none d-xxl-block mb-2 align-items-center py-5 shadow-sm mt-4">
     
-      <div className="row align-items-center" >
+      <div className="row align-items-around" >
         
-          <div className="row justify-content-center">
-          <div className="col-md-6">
-        <img src={screens} class = 'img-fluid'/>
+          <div className="row justify-content-around">
+          <div className="col-md-6 offset-1">
+        <img src={screens} class = 'img-fluid' alt = {screens}/>
         </div>
         
           <div className="col-lg-4  text-md-start text-sm-center">
         
         <div >
-        <h2 class = 'lh-lg mb-4'>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors' behavior, it consults you on strategies, and provides you with recommendations for the future.
-        </h2>
+        <p class = 'lh-lg mb-5 fs-4' >Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors' behavior, it consults you on strategies, and provides you with recommendations for the future.
+        </p>
         
         
-      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Footfall (Total and by area)</p>
-      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Dwell Time(Total and by area)</p>
-      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Heatmap (2D and 3D)</p>
-      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Transitions between areas)</p>
-      <p className='fs-3'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      ERP, BI, POS Integration</p>
+      <p className='fs-5'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Footfall (Total and by area)</p>
+      <p className='fs-5'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Dwell Time(Total and by area)</p>
+      <p className='fs-5'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Heatmap (2D and 3D)</p>
+      <p className='fs-5'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Transitions between areas)</p>
+      <p className='fs-5'><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      ERP, BI, POS Integration</p>
         
         <div>
         </div>
@@ -131,7 +135,7 @@ function Home() {
       <div className="col-md-2 offset-md-3">
         
       <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-       <p class = 'fs-2'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
+       <p class = 'fs-3'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
        
 </button>
       </div>
@@ -229,45 +233,58 @@ By enabling you to map and localize your products, Ariadne increases your effici
 <p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
 
-<iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' ></iframe>
+<iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' title = 'calendly' ></iframe>
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h3 class = 'ms-auto'>Omnichannel Solution</h3> 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <div className="container">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+ 
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+    <div class="carousel-item active justify-content-center">
+      <img src={eAnalytics} alt= {eAnalytics} class = 'shadow mb-4' width='70%' height='auto' style = {{display:'block',margin:'auto'}}/>
+          <div class = 'text-center'>
+          <h5>Ariadne Analytics </h5>
+        <p>People Counting, Dwell Time, Heat Map, Alerts, Transitions…</p>
+          </div>
+        
+      
+    </div>
+    <div class="carousel-item justify-content-center text-center">
+      <img src={CRM}   alt= {CRM} width='70%' class = 'shadow mb-4' height='auto' style = {{display:'block',margin:'auto'}}/>
+      <div class = 'text-center'>
+          <h5>CRM Optin Tool</h5>
+        <p>Customers opt-in and you can see the contact info store by store</p>
+          </div>
+      
     </div>
     <div class="carousel-item">
-      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.nichepursuits.com/wp-content/uploads/2021/11/Screenshot-2021-11-30-at-13.00.06.png" class="d-block w-100" alt="..."/>
+      <img src={ERP}  alt={ERP}  width='70%' class = 'shadow mb-4' height='auto' style = {{display:'block',margin:'auto'}}/>
+      <div class = 'text-center'>
+          <h5>ERP Data Integration</h5>
+        <p>Measure the conversion rate of each product</p>
+          </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
       </div>
 </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        
-      </div>
+      
     </div>
   </div>
 </div>

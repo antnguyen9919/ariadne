@@ -15,7 +15,7 @@ const ProductSection = () => {
       </div>
 
       <div className="container-fluid d-none d-xxl-block">
-      <h1 class='fw-bold text-center display-4' style ={{fontFamily:'Poppins'}}>Get Started</h1>
+      <h1 class='fw-bold text-center display-5' style ={{fontFamily:'Poppins'}}>Get Started</h1>
             <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
       </div>
         

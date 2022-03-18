@@ -9,7 +9,7 @@ import video0 from '../Resources/Videos/VidCaro/video0.mp4'
 import video1 from '../Resources/Videos/VidCaro/video1.mp4'
 import video2 from '../Resources/Videos/VidCaro/video2.mp4'
 import video3 from '../Resources/Videos/VidCaro/video3.mp4'
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import ReactPlayer from 'react-player'
 const images = [vid0,vid1,vid2,vid3];
 
@@ -52,7 +52,7 @@ function VideoCarousel({click}) {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaArrowRight />
+        <FaAngleRight />
       </div>
     );
   };
@@ -60,18 +60,26 @@ function VideoCarousel({click}) {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft />
+        <FaAngleLeft />
       </div>
     );
   };
 
   const [imageIndex, setImageIndex] = useState(0);
 
-  const settings = {
+  var settings = {
     infinite: true,
     lazyLoad: true,
     speed: 300,
     slidesToShow: 3,
+    responsive:[
+      {breakpoint: 1000,
+        settings:{
+          slidesToShow:1,
+        }
+      }
+    ]
+    ,
     centerMode: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
@@ -79,8 +87,9 @@ function VideoCarousel({click}) {
     beforeChange: (current, next) => setImageIndex(next),
   };
 
+
   return (
-    <div className="container my-5 p-5 " id = 'vids-carousel'>
+    <div className="container-lg my-5 p-5 " id = 'vids-carousel'>
       <Slider {...settings}> 
       
         {images.map((img, idx) => (
