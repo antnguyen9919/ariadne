@@ -1,7 +1,7 @@
 import React from 'react'
 // import Wall2 from '../Resources/Videos/Wall2.mp4';
 import Hero2vid from '../Resources/Videos/Hero2vid.mp4'
-import WPPGIF from '../Resources/Photos/WPPGIF.gif';
+// import WPPGIF from '../Resources/Photos/WPPGIF.gif';
 const Hero2 = () => {
   return (
     
@@ -20,7 +20,7 @@ const Hero2 = () => {
 				</div>
 
 				<div className="col-md-7 mt-5">
-				<video src = {Hero2vid} class="d-block mx-lg-auto" autoPlay muted loop type = "videos/mp4" style = {{width: '103%'}}/>
+				<video src = {Hero2vid} class="d-block mx-lg-auto" disablepictureinpicture   autoPlay oncontextmenu='return false'  playsinline muted looptype = "videos/mp4" style = {{width: '103%', pointerEvents: "none"}}/>
 				</div>
 			</div>
 		
@@ -37,9 +37,9 @@ const Hero2 = () => {
 						style ={{backgroundColor:'red'}} ><p class='my-1 mx-3 text-light fs-1    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 					
 				</div>
-				<div className="col-md-7 mt-5">
-				<video src = {Hero2vid} class="d-block mx-lg-auto" autoPlay muted loop type = "videos/mp4" style = {{width: '100%'}}/>
-				</div>
+				<div className="col-md-7 mt-5" style = {{pointerEvents: 'none'}}>
+				<video src = {Hero2vid} class="d-block mx-lg-auto" disablepictureinpicture   autoPlay oncontextmenu='return false'  playsinline muted loop type = "videos/mp4" style = {{width: '100%', pointerEvents: "none" }}/>
+				</div>	
 			</div>
 		
 			
